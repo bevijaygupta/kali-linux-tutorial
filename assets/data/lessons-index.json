@@ -1,0 +1,1522 @@
+[
+  {
+    "number": 1,
+    "chapter": 1,
+    "title": "Chapter 1: Why Use Kali Linux? Kali vs Ubuntu for Ethical Hacking",
+    "module": "Module 1: Getting Started with Kali Linux",
+    "description": "Learn what Kali Linux is, where it came from, how it differs from Ubuntu, and who should use it. Chapter 1 of the free Kali Linux course by EINITIAL24.",
+    "tags": [
+      "kali linux",
+      "ubuntu",
+      "penetration testing",
+      "beginner",
+      "distribution"
+    ],
+    "url": "/lessons/lesson-001/",
+    "video_url": "https://www.youtube.com/watch?v=vItgAHdJ2x8",
+    "status": "published",
+    "duration": "2:18",
+    "published_date": "2026-08-13",
+    "text": "Why Use Kali Linux? Kali vs Ubuntu for Ethical Hacking Why Use Kali Linux? Kali vs Ubuntu for Ethical Hacking | Ch. 1 The opening chapter answers the question every beginner asks: why Kali Linux? It explains what Kali is, where it came from, how it differs from Ubuntu, and which built-in security tools make it the standard operating system for penetration testing. It also sets expectations by naming who should use Kali and who should learn Linux fundamentals first. What Kali Linux is and how it relates to BackTrack Linux and Debian Why security professionals choose Kali over a general-purpose distribution How Kali Linux differs from Ubuntu in purpose and default tooling The built-in tools used for penetration testing, forensics and security research Who should use Kali and who should wait until they have Linux basics Real-world use cases: penetration testing, vulnerability assessment, digital forensics and security research Kali Linux is a tool collection, not a magic button Kali versus Ubuntu"
+  },
+  {
+    "number": 2,
+    "chapter": 2,
+    "title": "Chapter 2: Linux Is NOT Unix? Unix vs Linux Explained for Beginners",
+    "module": "Module 1: Getting Started with Kali Linux",
+    "description": "Unix vs Linux explained for beginners: history, licensing, technical differences, and where Kali Linux fits. Chapter 2 of the EINITIAL24 Kali course.",
+    "tags": [
+      "unix",
+      "linux history",
+      "kernel",
+      "debian",
+      "fundamentals"
+    ],
+    "url": "/lessons/lesson-002/",
+    "video_url": "https://www.youtube.com/watch?v=vu_88fi41Ic",
+    "status": "published",
+    "duration": "2:06",
+    "published_date": "2026-08-15",
+    "text": "Linux Is NOT Unix? Unix vs Linux Explained for Beginners Linux Is NOT Unix? Unix vs Linux Explained for Beginners | Ch. 2 Chapter 2 clears up one of the most common beginner confusions: Linux is not Unix, but it is Unix-like. The lesson walks through the history of Unix at Bell Labs, the creation of the Linux kernel in 1991, the licensing and technical differences between the two, and where distributions such as Debian, Ubuntu and Kali fit in. What Unix is and how it started at Bell Labs in 1969 What Linux is and how it relates to the Unix design philosophy The key technical and licensing differences between Unix and Linux How Debian, Ubuntu and Kali Linux fit into the Linux distribution family Why Unix-like systems dominate servers, cloud infrastructure and security work Common myths and misconceptions about Unix and Linux Unix-like, not Unix Why the distinction matters for security work"
+  },
+  {
+    "number": 3,
+    "chapter": 3,
+    "title": "Chapter 3: How to Download Kali Linux Safely (Avoid Fake ISOs)",
+    "module": "Module 1: Getting Started with Kali Linux",
+    "description": "Download Kali Linux safely from the official site, choose the right image type, and verify the SHA256 checksum. Chapter 3 of the free Kali Linux tutorial series.",
+    "tags": [
+      "kali linux download",
+      "iso",
+      "sha256",
+      "virtual machine",
+      "installation"
+    ],
+    "url": "/lessons/lesson-003/",
+    "video_url": "https://www.youtube.com/watch?v=j-O6TM0ZJ_M",
+    "status": "published",
+    "duration": "3:14",
+    "published_date": "2026-08-17",
+    "text": "How to Download Kali Linux Safely (Avoid Fake ISOs) How to Download Kali Linux Safely (Avoid Fake ISOs) | Ch. 3 Downloading the wrong ISO is a real risk: fake Kali images can contain malware before you run your first command. Chapter 3 shows the official Kali download page, explains Installer, Live, Network Installer and pre-built Virtual Machine images, and demonstrates verifying the SHA256 checksum of a download. Why unofficial Kali downloads are dangerous The official Kali Linux download page and how to recognise it The difference between Installer, Live, Network Installer and Virtual Machine images How to choose an image for a virtual machine versus bare-metal hardware How to verify a download with its SHA256 checksum Common beginner mistakes with mirrors, versions and file types Choose the image that matches your plan Checksum verification"
+  },
+  {
+    "number": 4,
+    "chapter": 4,
+    "title": "Chapter 4: How to Install VirtualBox (Windows, Mac, Linux) + Best Settings",
+    "module": "Module 1: Getting Started with Kali Linux",
+    "description": "Set up VirtualBox for Kali Linux: installation on Windows, macOS and Linux, Extension Pack, RAM and CPU settings, plus NAT vs Bridged vs Host-Only networking.",
+    "tags": [
+      "virtualbox",
+      "virtual machine",
+      "lab setup",
+      "networking modes",
+      "kali linux installation"
+    ],
+    "url": "/lessons/lesson-004/",
+    "video_url": "https://www.youtube.com/watch?v=eaO-bY_8ShU",
+    "status": "published",
+    "duration": "7:10",
+    "published_date": "2026-08-19",
+    "text": "How to Install VirtualBox (Windows, Mac, Linux) + Best Settings How to Install VirtualBox (Windows, Mac, Linux) + Best Settings | Ch. 4 A virtual machine lets you practise offensive security without risking your main computer. Chapter 4 installs VirtualBox on Windows, macOS and Linux, adds the Extension Pack, and walks through the settings that matter: memory, processor cores, display, and the difference between NAT, Bridged and Host-Only networking. Why a virtual machine is the right place to run Kali Linux as a beginner How to download and install VirtualBox from the official site How to install the VirtualBox Extension Pack Which memory, CPU and display settings to check before starting a VM NAT, Bridged and Host-Only network modes and when to use each Common installation errors and how to fix them Virtual machine networking Plan resources before you start"
+  },
+  {
+    "number": 5,
+    "chapter": 5,
+    "title": "Chapter 5: Linux Terminal for Beginners: Don't Be Afraid of It",
+    "module": "Module 2: Linux Fundamentals for Ethical Hackers",
+    "description": "Learn the Linux terminal from scratch: terminal vs shell vs command line, reading the prompt, navigating Kali Linux, and beginner shortcuts that save time.",
+    "tags": [
+      "linux terminal",
+      "bash",
+      "command line",
+      "prompt",
+      "beginner"
+    ],
+    "url": "/lessons/lesson-005/",
+    "video_url": "https://www.youtube.com/watch?v=eQdOi9Uy7fQ",
+    "status": "published",
+    "duration": "4:14",
+    "published_date": "2026-08-21",
+    "text": "Linux Terminal for Beginners: Don't Be Afraid of It Linux Terminal for Beginners: Don't Be Afraid of It | Kali Ch. 5 Chapter 5 removes the fear of the terminal. It separates three terms beginners often mix up — terminal, shell and command line — shows how to open and navigate a terminal in Kali Linux, explains how to read the prompt, and introduces shortcuts that make command-line work faster. Why ethical hackers work from the terminal The difference between terminal, shell and command line How to open and navigate a terminal in Kali Linux How to read a shell prompt and understand your current location Keyboard shortcuts that speed up command entry How to practise safely in a virtual machine without fear of breaking your host Terminal, shell, command line Read the prompt"
+  },
+  {
+    "number": 6,
+    "chapter": 6,
+    "title": "Chapter 6: 22 Essential Linux Commands for Beginners (Kali Linux)",
+    "module": "Module 2: Linux Fundamentals for Ethical Hackers",
+    "description": "Learn 22 essential Linux commands for Kali Linux: navigation, files, search, permissions and system information, with examples you can run in a safe VM.",
+    "tags": [
+      "linux commands",
+      "terminal basics",
+      "bash",
+      "file management",
+      "cheatsheet"
+    ],
+    "url": "/lessons/lesson-006/",
+    "video_url": "https://www.youtube.com/watch?v=65OxGc4ML88",
+    "status": "published",
+    "duration": "2:55",
+    "published_date": "2026-08-23",
+    "text": "22 Essential Linux Commands for Beginners (Kali Linux) 22 Essential Linux Commands for Beginners (Kali Linux) | Ch. 6 Every Kali tool is launched from a shell, so Chapter 6 builds the command vocabulary the rest of the course depends on. It groups 22 essential commands by task — navigation, file creation and deletion, copying and viewing, searching, permissions, and system information — with examples you can run in your own VM. Navigate the file system with pwd, ls and cd Create and remove directories and files with mkdir, rmdir, touch and rm Copy, move and read files with cp, mv, cat and nano Search file contents and the file system with grep and find Read text with less and more Understand permissions with chmod and chown Inspect the system with whoami, uname, uptime, df and du Commands are small and composable Permissions are part of daily work"
+  },
+  {
+    "number": 7,
+    "chapter": 7,
+    "title": "Chapter 7: Linux ls Command Explained: ls -l, ls -a, ls -lh (Beginners)",
+    "module": "Module 2: Linux Fundamentals for Ethical Hackers",
+    "description": "Master the Linux ls command: long listings, hidden files, human-readable sizes and the everyday commands cd, pwd, clear and history. Kali Linux chapter 7.",
+    "tags": [
+      "ls command",
+      "linux file system",
+      "hidden files",
+      "permissions",
+      "beginner"
+    ],
+    "url": "/lessons/lesson-007/",
+    "video_url": "https://www.youtube.com/watch?v=HESJ5fGGXaU",
+    "status": "published",
+    "duration": "6:15",
+    "published_date": "2026-08-25",
+    "text": "Linux ls Command Explained: ls -l, ls -a, ls -lh (Beginners) Linux ls Command Explained: ls -l, ls -a, ls -lh (Beginners) | Ch. 7 Chapter 7 takes the most-used Linux command and explains it properly. You see the basic listing, then the meaning of ls -l, ls -a, ls -la and ls -lh, followed by the everyday companions cd, pwd, clear and history. The lesson finishes with common beginner mistakes and how to avoid them. What ls does and when to use each common flag How to read the long listing produced by ls -l How hidden files work and why ls -a shows them The practical difference between ls -la and ls -lh How cd, pwd, clear and history fit into a daily workflow How to combine flags and avoid common mistakes Reading ls -l Hidden files are a convention"
+  },
+  {
+    "number": 8,
+    "chapter": 8,
+    "title": "Chapter 8: Linux cd Command Explained: cd .., cd ~, cd - (Beginners)",
+    "module": "Module 2: Linux Fundamentals for Ethical Hackers",
+    "description": "Learn the Linux cd command: absolute and relative paths, cd .., cd ~, cd - and touch, with practical examples for Kali Linux beginners.",
+    "tags": [
+      "cd command",
+      "paths",
+      "navigation",
+      "touch",
+      "linux basics"
+    ],
+    "url": "/lessons/lesson-008/",
+    "video_url": "https://www.youtube.com/watch?v=hHhNXrtmMXw",
+    "status": "published",
+    "duration": "4:03",
+    "published_date": "2026-08-27",
+    "text": "Linux cd Command Explained: cd .., cd ~, cd - (Beginners) Linux cd Command Explained: cd .., cd ~, cd - (Beginners) | Ch. 8 Getting lost in the file system is the classic beginner problem, and cd is the fix. Chapter 8 explains absolute versus relative paths, the shortcuts cd .., cd ~ and cd -, and how to create files instantly with touch. A short recap of mkdir, rmdir and rm connects navigation to file management. How cd moves between directories The difference between absolute and relative paths The shortcuts cd .., cd ~ and cd - How to create empty files with touch How mkdir, rmdir and rm complement navigation Common path mistakes and how to recover from them Absolute versus relative paths Special directory names"
+  },
+  {
+    "number": 9,
+    "chapter": 9,
+    "title": "Chapter 9: Linux rm Command: How to Delete Files Safely (rm -rf Explained)",
+    "module": "Module 2: Linux Fundamentals for Ethical Hackers",
+    "description": "Understand Linux deletion: mkdir, rm, rmdir, rm -r, rm -f and rm -rf, plus the rm -i safety prompt. Learn why Linux has no recycle bin.",
+    "tags": [
+      "rm command",
+      "file deletion",
+      "rmdir",
+      "linux safety",
+      "mkdir"
+    ],
+    "url": "/lessons/lesson-009/",
+    "video_url": "https://www.youtube.com/watch?v=XqMQ-0Ac4KQ",
+    "status": "published",
+    "duration": "3:18",
+    "published_date": "2026-08-29",
+    "text": "Linux rm Command: How to Delete Files Safely (rm -rf Explained) Linux rm Command: How to Delete Files Safely (rm -rf Explained) Chapter 9 is a safety lesson disguised as a file-management lesson. It shows mkdir and rm, explains what the -r, -f and -rf options really do, demonstrates rm -i as a confirmation prompt, and warns about the classic mistake of deleting the wrong directory. clear closes the lesson. How to create single and nested directories with mkdir How to delete files with rm and directories with rmdir What rm -r, rm -f and rm -rf actually do How rm -i adds a confirmation prompt before deletion How to clean the terminal with clear Which mistakes cause irreversible data loss There is no recycle bin Recursive and forced"
+  },
+  {
+    "number": 10,
+    "chapter": 10,
+    "title": "Chapter 10: Linux cp Command: How to Copy Files and Folders (cp -r Explained)",
+    "module": "Module 2: Linux Fundamentals for Ethical Hackers",
+    "description": "Learn how to copy files and folders in Linux with cp, cp -r and cp -v, then read them with cat, less, head and tail. Beginner-friendly Kali Linux guide.",
+    "tags": [
+      "cp command",
+      "cat",
+      "less",
+      "head",
+      "tail",
+      "file management"
+    ],
+    "url": "/lessons/lesson-010/",
+    "video_url": "https://www.youtube.com/watch?v=2H7RJarIEz0",
+    "status": "published",
+    "duration": "3:27",
+    "published_date": "2026-08-31",
+    "text": "Linux cp Command: How to Copy Files and Folders (cp -r Explained) Linux cp Command: How to Copy Files and Folders (cp -r Explained) Chapter 10 covers copying and reading files. You see cp for single files, cp -r for directories, and cp -v for visible progress, then cat for short files and less, head and tail for longer ones. It also reinforces checking your location with pwd before running a command. How to copy files and directories with cp What the -r and -v options do How to view a whole short file with cat How to page through long files with less How to read the beginning and end of a file with head and tail Why checking pwd first prevents copy mistakes Copying directories requires -r Reading files without an editor"
+  },
+  {
+    "number": 11,
+    "chapter": 11,
+    "title": "Chapter 11: How to Find Files in Linux Fast: locate, find, updatedb",
+    "module": "Module 2: Linux Fundamentals for Ethical Hackers",
+    "description": "Learn how to find files in Linux with locate and find, refresh the database with updatedb, and move or rename files with mv. Kali Linux chapter 11.",
+    "tags": [
+      "locate",
+      "find",
+      "updatedb",
+      "mv",
+      "file search"
+    ],
+    "url": "/lessons/lesson-011/",
+    "video_url": "https://www.youtube.com/watch?v=w4DLetDLEbQ",
+    "status": "published",
+    "duration": "2:18",
+    "published_date": "2026-09-02",
+    "text": "How to Find Files in Linux Fast: locate, find, updatedb How to Find Files in Linux Fast: locate, find, updatedb | Ch. 11 Chapter 11 solves the lost-file problem. It shows locate for fast name searches, explains why updatedb keeps that database accurate, and introduces find for searches that need more control. The lesson closes with mv, including moving and renaming files and how mv differs from cp. How to find files by name with locate Why the locate database can be stale and how updatedb fixes it How find searches the live file system with more control When to choose locate and when to choose find How to move files and directories with mv How to rename files and why mv differs from cp Database search versus live search mv moves and renames"
+  },
+  {
+    "number": 12,
+    "chapter": 12,
+    "title": "Chapter 12: Linux sort Command Explained: sort -n, -r, -k, -u (Beginners)",
+    "module": "Module 2: Linux Fundamentals for Ethical Hackers",
+    "description": "Fix the classic '10 before 2' problem and learn Linux sort: numeric sorting with -n, reverse with -r, columns with -k, duplicates with -u and pipes.",
+    "tags": [
+      "sort command",
+      "pipes",
+      "text processing",
+      "uniq",
+      "linux"
+    ],
+    "url": "/lessons/lesson-012/",
+    "video_url": "https://www.youtube.com/watch?v=SbitksHGNTw",
+    "status": "published",
+    "duration": "1:33",
+    "published_date": "2026-09-04",
+    "text": "Linux sort Command Explained: sort -n, -r, -k, -u (Beginners) Linux sort Command Explained: sort -n, -r, -k, -u (Beginners) | Ch. 12 Why does sort put 10 before 2? Chapter 12 answers that question and turns the confusion into a practical lesson on text processing. It covers alphabetical sorting, numeric sorting with -n, reverse order with -r, column selection with -k, duplicate removal with -u, and combining sort with other commands through pipes. Why default sort is lexicographic rather than numeric How to sort text alphabetically with sort How to sort numbers correctly with sort -n How to reverse output with -r How to sort by a specific column with -k How to remove duplicate lines with -u and combine commands with pipes Lexicographic versus numeric order Pipes make small tools powerful"
+  },
+  {
+    "number": 13,
+    "chapter": 13,
+    "title": "Chapter 13: How to Zip and Unzip Files in Linux (zip -r, unzip -d)",
+    "module": "Module 2: Linux Fundamentals for Ethical Hackers",
+    "description": "Create and extract archives in Linux: zip, zip -r, unzip, unzip -l and unzip -d, plus installing zip and unzip on Kali Linux.",
+    "tags": [
+      "zip",
+      "unzip",
+      "archives",
+      "compression",
+      "linux"
+    ],
+    "url": "/lessons/lesson-013/",
+    "video_url": "https://www.youtube.com/watch?v=rS3XcxS8OX4",
+    "status": "published",
+    "duration": "2:41",
+    "published_date": "2026-09-06",
+    "text": "How to Zip and Unzip Files in Linux (zip -r, unzip -d) How to Zip and Unzip Files in Linux (zip -r, unzip -d) | Ch. 13 Chapter 13 handles archives entirely from the terminal. It shows how to zip single and multiple files, compress a whole directory with zip -r, inspect an archive with unzip -l, extract into a chosen directory with unzip -d, and install zip or unzip when they are missing. How to compress one or more files with zip How to archive a directory recursively with zip -r How to extract archives with unzip How to list archive contents without extracting How to extract to a specific directory with unzip -d How to install zip and unzip if they are missing Archive versus compression Check before extracting"
+  },
+  {
+    "number": 14,
+    "chapter": 14,
+    "title": "Chapter 14: Linux history Command: View, Reuse and Clear (+ whereis)",
+    "module": "Module 2: Linux Fundamentals for Ethical Hackers",
+    "description": "Learn Linux command history: view past commands, reuse them with !! and !n, clear with history -c, and locate programs with whereis and which.",
+    "tags": [
+      "history command",
+      "whereis",
+      "which",
+      "bash",
+      "linux"
+    ],
+    "url": "/lessons/lesson-014/",
+    "video_url": "https://www.youtube.com/watch?v=p3g_HEZIoQg",
+    "status": "published",
+    "duration": "2:16",
+    "published_date": "2026-09-08",
+    "text": "Linux history Command: View, Reuse and Clear (+ whereis) Linux history Command: View, Reuse and Clear (+ whereis) | Ch. 14 Linux remembers the commands you type, and Chapter 14 shows how to use that record. It covers viewing history, re-running commands with !! and history numbers, clearing the list with history -c, and finding where a program lives with whereis. It also compares whereis, which and locate. How to view your shell command history How to re-run the last command or a specific numbered command What history -c clears and what it does not How whereis locates a program's binary, source and manual files The difference between whereis, which and locate When each of these commands is genuinely useful History is convenience and evidence Three different search tools"
+  },
+  {
+    "number": 15,
+    "chapter": 15,
+    "title": "Chapter 15: How to Create a User in Linux: adduser, passwd, su Explained",
+    "module": "Module 2: Linux Fundamentals for Ethical Hackers",
+    "description": "Create and manage Linux users: adduser vs useradd, passwd, su vs su -, and why sudo and least privilege matter. Chapter 15 of the Kali Linux course.",
+    "tags": [
+      "adduser",
+      "useradd",
+      "sudo",
+      "su",
+      "linux users"
+    ],
+    "url": "/lessons/lesson-015/",
+    "video_url": "https://www.youtube.com/watch?v=RG2tk_CjAvg",
+    "status": "published",
+    "duration": "4:53",
+    "published_date": "2026-09-10",
+    "text": "How to Create a User in Linux: adduser, passwd, su Explained How to Create a User in Linux: adduser, passwd, su Explained | Ch. 15 Chapter 15 introduces user accounts, the backbone of Linux access control. It demonstrates creating a user with adduser, contrasts adduser with the lower-level useradd, sets and changes passwords with passwd, switches users with su, and explains when to use su versus sudo. Root access and its risks close the lesson. How to create a user account with adduser The difference between adduser and useradd How to set and change passwords with passwd How su works and how su - differs from su When to use su and when to use sudo Why root access requires care and least privilege adduser versus useradd su versus sudo"
+  },
+  {
+    "number": 16,
+    "chapter": 16,
+    "title": "Chapter 16: chmod Explained: Linux File Permissions (755, 777, +x)",
+    "module": "Module 2: Linux Fundamentals for Ethical Hackers",
+    "description": "Understand Linux file permissions and chmod: read the ls -l string, calculate 755 and 644, use symbolic modes, make scripts executable and avoid chmod 777.",
+    "tags": [
+      "chmod",
+      "file permissions",
+      "755",
+      "linux security",
+      "octal"
+    ],
+    "url": "/lessons/lesson-016/",
+    "video_url": "https://www.youtube.com/watch?v=_AEq-fLBN_Q",
+    "status": "published",
+    "duration": "3:27",
+    "published_date": "2026-09-12",
+    "text": "chmod Explained: Linux File Permissions (755, 777, +x) chmod Explained: Linux File Permissions (755, 777, +x) | Ch. 16 Chapter 16 explains the permission denied error from the ground up. It shows how to read the permission string in ls -l, what read, write and execute mean for files and directories, how numeric modes such as 755 and 644 are calculated, how symbolic modes work, how to make a script executable, and why chmod 777 is a bad habit. exit closes the session. How to read the ten-character permission string What read, write and execute mean for files and directories How octal permissions such as 755 and 644 are built How numeric and symbolic chmod modes differ How to make a script executable Why chmod 777 is dangerous and how exit ends a session The permission triad Octal arithmetic"
+  },
+  {
+    "number": 17,
+    "chapter": 17,
+    "title": "Chapter 17: chmod u+x, g-w, o=r Explained: Symbolic Permissions in Linux",
+    "module": "Module 2: Linux Fundamentals for Ethical Hackers",
+    "description": "Read permission strings like -rwxr-xr-- and change them with chmod u+x, g-w, o=r, = and combined symbolic modes. Clear examples for Kali Linux beginners.",
+    "tags": [
+      "chmod",
+      "symbolic permissions",
+      "u+x",
+      "g-w",
+      "linux"
+    ],
+    "url": "/lessons/lesson-017/",
+    "video_url": "https://www.youtube.com/watch?v=YXyQa6XBP-g",
+    "status": "published",
+    "duration": "5:26",
+    "published_date": "2026-09-14",
+    "text": "chmod u+x, g-w, o=r Explained: Symbolic Permissions in Linux chmod u+x, g-w, o=r Explained: Symbolic Permissions in Linux | Ch. 17 Chapter 17 goes deeper into symbolic permissions. Starting from a string like -rwxr-xr--, it explains the user, group and others triads, then shows how to add, remove and set permissions with +, - and =, including combined changes such as u+x,g-w. Before-and-after ls -l output makes the effect visible. How to read a permission string character by character What u, g, o and a mean in symbolic mode How to add permissions with + How to remove permissions with - How to set exact permissions with = How to combine several changes in one chmod command Symbolic mode is relative Equals replaces the triad"
+  },
+  {
+    "number": 18,
+    "chapter": 18,
+    "title": "Chapter 18: Permission Denied in Linux? How to Fix File & Folder Permissions",
+    "module": "Module 2: Linux Fundamentals for Ethical Hackers",
+    "description": "Fix 'permission denied' in Linux with practical chmod examples: executable scripts, restricted files, recursive changes and group-shared folders.",
+    "tags": [
+      "permission denied",
+      "chmod -R",
+      "file permissions",
+      "troubleshooting",
+      "groups"
+    ],
+    "url": "/lessons/lesson-018/",
+    "video_url": "https://www.youtube.com/watch?v=zwvF5yFNEcQ",
+    "status": "published",
+    "duration": "3:19",
+    "published_date": "2026-09-16",
+    "text": "Permission Denied in Linux? How to Fix File & Folder Permissions Permission Denied in Linux? How to Fix File & Folder Permissions | Ch 18 Chapter 18 turns permission theory into troubleshooting. Four worked examples show how to make a script executable, restrict a sensitive file, change an entire folder with chmod -R, and share a folder with a group. It then walks through diagnosing permission denied errors and verifying every change with ls -l. How to grant read, write and execute permissions on files How to change permissions recursively with chmod -R How to make a script executable and run it How to restrict a sensitive file to its owner How to share a folder with a group using ownership and permissions How to diagnose the cause of a permission denied error Directories need execute Recursive changes propagate"
+  },
+  {
+    "number": 19,
+    "chapter": 19,
+    "title": "Chapter 19: Linux Terminal Shortcuts: Ctrl+R, Ctrl+C, Tab and More (Beginners)",
+    "module": "Module 2: Linux Fundamentals for Ethical Hackers",
+    "description": "Speed up Linux terminal work with Tab completion, Ctrl+R history search, line editing shortcuts, Ctrl+C and command repetition. Beginner-friendly guide.",
+    "tags": [
+      "terminal shortcuts",
+      "ctrl+r",
+      "bash",
+      "productivity",
+      "linux"
+    ],
+    "url": "/lessons/lesson-019/",
+    "video_url": "https://www.youtube.com/watch?v=YYY8cSohOvY",
+    "status": "published",
+    "duration": "4:16",
+    "published_date": "2026-09-18",
+    "text": "Linux Terminal Shortcuts: Ctrl+R, Ctrl+C, Tab and More (Beginners) Linux Terminal Shortcuts: Ctrl+R, Ctrl+C, Tab and More (Beginners) Ch 19 Chapter 19 is a productivity chapter. It covers Tab completion, the arrow keys, Ctrl+R history search, Ctrl+A and Ctrl+E for line navigation, Ctrl+U and Ctrl+K for deleting text, Ctrl+L to clear the screen, Ctrl+C to stop a running command, and !! and !n to repeat commands. How to auto-complete commands and filenames with Tab How to reuse earlier commands with the arrow keys How to search command history with Ctrl+R How to jump to the start or end of a line How to delete text quickly with Ctrl+U and Ctrl+K How to stop a stuck command with Ctrl+C Readline shortcuts are universal Ctrl+C sends an interrupt"
+  },
+  {
+    "number": 20,
+    "chapter": 20,
+    "title": "Chapter 20: Is Kali Linux Anonymous? Tor vs VPN vs Proxy Explained",
+    "module": "Module 3: Networking, Anonymity & Traffic Routing",
+    "description": "Does Kali Linux make you anonymous? Learn how IP addresses, DNS leaks and browser fingerprints expose you, and how Tor, VPNs and proxies differ.",
+    "tags": [
+      "anonymity",
+      "privacy",
+      "tor",
+      "vpn",
+      "proxy",
+      "networking"
+    ],
+    "url": "/lessons/lesson-020/",
+    "video_url": "https://www.youtube.com/watch?v=1Ae1TCmry1w",
+    "status": "published",
+    "duration": "1:23",
+    "published_date": "2026-09-20",
+    "text": "Is Kali Linux Anonymous? Tor vs VPN vs Proxy Explained Is Kali Linux Anonymous? Tor vs VPN vs Proxy Explained | Ch. 20 Chapter 20 opens the networking section with a question beginners often get wrong: does Kali Linux make you anonymous? It explains what anonymity actually means, how your IP address, DNS requests and browser fingerprint can expose you, and how anonymity differs from privacy and security. VPNs, proxies and Tor are introduced at a high level. What anonymity means in cybersecurity Why security researchers and penetration testers care about it How IP addresses, DNS requests and browser fingerprints reveal information The difference between anonymity, privacy and security How VPNs, proxies and Tor differ at a high level The legal and ethical boundaries of anonymity tooling Kali is not an anonymity system Anonymity, privacy, security"
+  },
+  {
+    "number": 21,
+    "chapter": 21,
+    "title": "Chapter 21: Proxy Server Explained: How It Hides Your IP (And What It Can't)",
+    "module": "Module 3: Networking, Anonymity & Traffic Routing",
+    "description": "What is a proxy server and how does it hide your IP? Compare HTTP, HTTPS and SOCKS proxies, forward vs reverse proxies, and the limits of proxy anonymity.",
+    "tags": [
+      "proxy server",
+      "http proxy",
+      "socks",
+      "networking",
+      "anonymity"
+    ],
+    "url": "/lessons/lesson-021/",
+    "video_url": "https://www.youtube.com/watch?v=5LzgmNjSrJ4",
+    "status": "published",
+    "duration": "3:17",
+    "published_date": "2026-09-22",
+    "text": "Proxy Server Explained: How It Hides Your IP (And What It Can't) Proxy Server Explained: How It Hides Your IP (And What It Can't) ch 21 Chapter 21 explains the proxy server: what it is, how requests flow through it, and why a website sees the proxy's address instead of yours. It covers HTTP, HTTPS and SOCKS proxies, the difference between forward and reverse proxies, common real-world uses, and the limits of using a proxy for anonymity. What a proxy is and how a request travels through it How a proxy server changes the IP address a website sees The difference between HTTP, HTTPS and SOCKS proxies Forward proxy versus reverse proxy Where proxies are used in real networks What a proxy cannot protect you from Forward and reverse proxies A proxy is not anonymity by itself"
+  },
+  {
+    "number": 22,
+    "chapter": 22,
+    "title": "Chapter 22: AnonSurf on Kali Linux: Route Your Traffic Through Tor (Setup)",
+    "module": "Module 3: Networking, Anonymity & Traffic Routing",
+    "description": "Install and use AnonSurf on Kali Linux: git clone, read the installer, start and stop Tor routing, and verify your public IP actually changed.",
+    "tags": [
+      "anonsurf",
+      "tor",
+      "git clone",
+      "kali linux",
+      "anonymity"
+    ],
+    "url": "/lessons/lesson-022/",
+    "video_url": "https://www.youtube.com/watch?v=J8TvrvYhRV8",
+    "status": "published",
+    "duration": "13:12",
+    "published_date": "2026-09-24",
+    "text": "AnonSurf on Kali Linux: Route Your Traffic Through Tor (Setup) AnonSurf on Kali Linux: Route Your Traffic Through Tor (Setup) Ch 22 Chapter 22 is the first hands-on anonymity exercise. AnonSurf becomes the vehicle for learning git clone: install Git, download the tool from its GitHub repository, read the README before running an installer, then start, stop and check the service and confirm whether your visible IP changed. What git clone does and how to download a tool from GitHub How to install Git on Kali Linux if it is missing What AnonSurf is and how it routes traffic through Tor How to install, start, stop and check AnonSurf How to verify whether your visible IP address changed What AnonSurf cannot protect you from Read before you run Verify the change"
+  },
+  {
+    "number": 23,
+    "chapter": 23,
+    "title": "Chapter 23: What Is a VPN? How It Works vs Proxy vs Tor (Beginners)",
+    "module": "Module 3: Networking, Anonymity & Traffic Routing",
+    "description": "Learn how a VPN works: the encrypted tunnel, how websites see the VPN server's IP, OpenVPN vs WireGuard vs IPsec, and what a VPN cannot protect.",
+    "tags": [
+      "vpn",
+      "openvpn",
+      "wireguard",
+      "privacy",
+      "networking"
+    ],
+    "url": "/lessons/lesson-023/",
+    "video_url": "https://www.youtube.com/watch?v=P-2pcECu1PQ",
+    "status": "published",
+    "duration": "2:31",
+    "published_date": "2026-09-26",
+    "text": "What Is a VPN? How It Works vs Proxy vs Tor (Beginners) What Is a VPN? How It Works vs Proxy vs Tor (Beginners) | Ch. 23 Chapter 23 explains what a VPN actually does. It covers the encrypted tunnel between your device and the VPN server, why websites see the server's IP, how a VPN compares with a proxy, Tor and AnonSurf, the roles of OpenVPN, WireGuard and IPsec, and the protections a VPN does not provide. What a virtual private network is How a VPN encrypts traffic and changes the IP address destinations see How VPNs compare with proxies, Tor and AnonSurf What OpenVPN, WireGuard and IPsec are at a high level What a VPN does not protect against Why VPN trust depends on the provider The encrypted tunnel Protocol choices"
+  },
+  {
+    "number": 24,
+    "chapter": 24,
+    "title": "Chapter 24: How to Use OpenVPN on Kali Linux (.ovpn Setup, Step by Step)",
+    "module": "Module 3: Networking, Anonymity & Traffic Routing",
+    "description": "Connect Kali Linux to a VPN with OpenVPN: install the client, inspect a .ovpn profile, connect, verify your IP and DNS, disconnect safely and fix errors.",
+    "tags": [
+      "openvpn",
+      "ovpn",
+      "vpn setup",
+      "kali linux",
+      "dns leak"
+    ],
+    "url": "/lessons/lesson-024/",
+    "video_url": "https://www.youtube.com/watch?v=zVvuqhfmqdg",
+    "status": "published",
+    "duration": "7:46",
+    "published_date": "2026-09-28",
+    "text": "How to Use OpenVPN on Kali Linux (.ovpn Setup, Step by Step) How to Use OpenVPN on Kali Linux (.ovpn Setup, Step by Step) Ch 24 Chapter 24 connects Kali to a VPN from the terminal. It shows what you need before starting, how to install OpenVPN, how to inspect a .ovpn configuration file, connect, verify your IP and DNS, troubleshoot common errors, and disconnect or switch servers. No VPN provider is recommended. What to check before choosing a VPN service How to install OpenVPN on Kali Linux How a .ovpn configuration file is structured How to connect and disconnect from the terminal How to verify your public IP and check for DNS leaks How to diagnose common OpenVPN connection errors What is inside a .ovpn file Verify the tunnel"
+  },
+  {
+    "number": 25,
+    "chapter": 25,
+    "title": "Chapter 25: Is the Dark Web Illegal? How Tor Really Works (Beginners)",
+    "module": "Module 3: Networking, Anonymity & Traffic Routing",
+    "description": "Understand Tor without the myths: surface web vs deep web vs dark web, onion routing, .onion services, and the legal and safety facts beginners need.",
+    "tags": [
+      "tor",
+      "dark web",
+      "onion routing",
+      "privacy",
+      "anonymity"
+    ],
+    "url": "/lessons/lesson-025/",
+    "video_url": "https://www.youtube.com/watch?v=FIyJYpZCX3s",
+    "status": "published",
+    "duration": "6:49",
+    "published_date": "2026-09-30",
+    "text": "Is the Dark Web Illegal? How Tor Really Works (Beginners) Is the Dark Web Illegal? How Tor Really Works (Beginners) | Ch. 25 Chapter 25 separates Tor facts from dark-web myths. It defines the surface web, deep web and dark web, explains what Tor is, how onion routing passes traffic through relays, what .onion services are, and how Tor compares with a VPN or proxy. Legal and safety considerations close the lesson without linking to any hidden site. What Tor is and how traffic passes through several relays The difference between the surface web, deep web and dark web What .onion services are at a high level How Tor compares with a VPN and a proxy Common myths about Tor and the dark web Legal and safety considerations when using Tor Three layers of the web Onion routing in one sentence"
+  },
+  {
+    "number": 26,
+    "chapter": 26,
+    "title": "Chapter 26: How to Host a .onion Website on Tor (XAMPP + Kali Linux Lab)",
+    "module": "Module 3: Networking, Anonymity & Traffic Routing",
+    "description": "Host a harmless .onion test site in a lab: install XAMPP, run Apache, configure a Tor hidden service, find the address and test it in Tor Browser.",
+    "tags": [
+      "tor hidden service",
+      "onion site",
+      "xampp",
+      "apache",
+      "linux"
+    ],
+    "url": "/lessons/lesson-026/",
+    "video_url": "https://www.youtube.com/watch?v=XmYzpTdNgd4",
+    "status": "published",
+    "duration": "7:48",
+    "published_date": "2026-10-02",
+    "text": "How to Host a .onion Website on Tor (XAMPP + Kali Linux Lab) How to Host a .onion Website on Tor (XAMPP + Kali Linux Lab) Ch 26 Chapter 26 builds a harmless website and then publishes it as a Tor hidden service. It explains domains and servers, installs XAMPP, starts Apache, creates a test page, configures Tor to expose that local site as a .onion address, and tests it in Tor Browser. No real dark-web links are shared. What domains and servers do How to install XAMPP and start Apache on Kali How to host a basic page on localhost How a Tor hidden service maps a local port to a .onion address How to test the service in Tor Browser How to avoid leaking identifying information through the service From localhost to .onion Operational hygiene"
+  },
+  {
+    "number": 27,
+    "chapter": 27,
+    "title": "Chapter 27: How Tor Works: Why No One Can See Both Who You Are and Where You Go",
+    "module": "Module 3: Networking, Anonymity & Traffic Routing",
+    "description": "A plain-language explanation of onion routing: how Tor wraps traffic in layers, what entry, middle and exit relays can see, and where Tor's limits are.",
+    "tags": [
+      "onion routing",
+      "tor relays",
+      "exit node",
+      "encryption",
+      "privacy"
+    ],
+    "url": "/lessons/lesson-027/",
+    "video_url": "https://www.youtube.com/watch?v=XOTSgWn1BgI",
+    "status": "published",
+    "duration": "3:41",
+    "published_date": "2026-10-04",
+    "text": "How Tor Works: Why No One Can See Both Who You Are and Where You Go How Tor Works: Why No One Can See Both Who You Are and Where You Go Ch. 27 Chapter 27 explains onion routing step by step. It shows how traffic is wrapped in layers of encryption, what entry, middle and exit relays can each see, how .onion services differ from ordinary Tor browsing, and where Tor's practical and theoretical limits lie. No dark-web links are included. The problem Tor was designed to solve How a request travels through three relays Why each relay knows only its neighbours in the circuit How layered encryption works at a high level What an exit relay can see and why HTTPS still matters How hidden services differ from normal Tor browsing Where Tor's practical limits are Who sees what Limits remain"
+  },
+  {
+    "number": 28,
+    "chapter": 28,
+    "title": "Chapter 28: Proxychains in Kali Linux: Route Any Tool Through Tor (Setup)",
+    "module": "Module 3: Networking, Anonymity & Traffic Routing",
+    "description": "Configure Proxychains to send tool traffic through Tor: edit proxychains4.conf, choose a chain mode, test the circuit, and understand Nmap limitations.",
+    "tags": [
+      "proxychains",
+      "tor",
+      "socks",
+      "nmap",
+      "anonymity"
+    ],
+    "url": "/lessons/lesson-028/",
+    "video_url": "https://www.youtube.com/watch?v=WZmyECCsUI8",
+    "status": "published",
+    "duration": "2:01",
+    "published_date": "2026-10-06",
+    "text": "Proxychains in Kali Linux: Route Any Tool Through Tor (Setup) Proxychains in Kali Linux: Route Any Tool Through Tor (Setup) Ch. 28 Chapter 28 routes individual tools through Tor with Proxychains. It explains how the wrapper intercepts connections, where the configuration file lives, how strict, dynamic and random chain modes differ, how to point Proxychains at Tor, how to run Nmap through it, and how to fix common errors. What Proxychains is and how traffic flows through its chain Where the configuration file is and which lines matter How strict, dynamic and random chain modes differ How to point Proxychains at a local Tor SOCKS proxy How to run a tool such as Nmap through the chain How to troubleshoot common Proxychains errors A wrapper, not a tunnel Chain modes"
+  },
+  {
+    "number": 29,
+    "chapter": 29,
+    "title": "Chapter 29: Tor + Proxychains in Kali Linux: Do It Right (Step by Step)",
+    "module": "Module 3: Networking, Anonymity & Traffic Routing",
+    "description": "Combine Tor and Proxychains correctly: start services in order, verify traffic uses an exit node, avoid silent bypasses and troubleshoot common failures.",
+    "tags": [
+      "tor",
+      "proxychains",
+      "leak test",
+      "kali linux",
+      "anonymity"
+    ],
+    "url": "/lessons/lesson-029/",
+    "video_url": "https://www.youtube.com/watch?v=mnnzd1hLSgs",
+    "status": "published",
+    "duration": "9:03",
+    "published_date": "2026-10-08",
+    "text": "Tor + Proxychains in Kali Linux: Do It Right (Step by Step) Tor + Proxychains in Kali Linux: Do It Right (Step by Step) | Ch. 29 Chapter 29 combines the previous two lessons into a complete Tor plus Proxychains workflow. It demonstrates the correct order to start services, the configuration that keeps tools inside the Tor circuit, how to confirm traffic leaves through an exit node rather than your real address, and the common mistakes that silently break the chain. How Tor and Proxychains fit together in practice The correct order for starting Tor and testing the chain How to verify that traffic really uses a Tor exit node Which configuration mistakes silently bypass Tor How to recover when the chain stops working Why wrapping a tool is not the same as system-wide anonymity Order matters Leak checks"
+  },
+  {
+    "number": 30,
+    "chapter": 30,
+    "title": "Chapter 30: Change Your MAC Address in Kali Linux (macchanger Tutorial)",
+    "module": "Module 3: Networking, Anonymity & Traffic Routing",
+    "description": "Learn MAC address spoofing in Kali Linux with macchanger: what a MAC address is, random and custom addresses, restoring the original, and legal limits.",
+    "tags": [
+      "macchanger",
+      "mac address",
+      "spoofing",
+      "privacy",
+      "networking"
+    ],
+    "url": "/lessons/lesson-030/",
+    "video_url": "https://www.youtube.com/watch?v=3X9r_SBoBe8",
+    "status": "published",
+    "duration": "5:18",
+    "published_date": "2026-10-10",
+    "text": "Change Your MAC Address in Kali Linux (macchanger Tutorial) Change Your MAC Address in Kali Linux (macchanger Tutorial) | Ch. 30 Chapter 30 introduces MAC address spoofing with macchanger. It explains what a MAC address is, how it differs from an IP address, why it can be used to track a device on a local network, and demonstrates setting a random or custom address and restoring the original. The privacy and authorized-testing context is made explicit. What a MAC address is and how it differs from an IP address Why MAC addresses can be used for tracking or access control How to change to a random MAC with macchanger How to set a specific MAC address How to restore the original hardware address The legal and ethical limits of MAC spoofing Layer 2 identity Temporary and reversible"
+  },
+  {
+    "number": 31,
+    "chapter": 31,
+    "title": "Chapter 31: Macchanger Commands Explained: Every Option in Kali Linux",
+    "module": "Module 3: Networking, Anonymity & Traffic Routing",
+    "description": "A complete macchanger reference for Kali Linux: show, random, same-vendor, custom, restore and troubleshoot the interface-is-up error.",
+    "tags": [
+      "macchanger",
+      "mac spoofing",
+      "vendor prefix",
+      "commands",
+      "kali linux"
+    ],
+    "url": "/lessons/lesson-031/",
+    "video_url": "https://www.youtube.com/watch?v=lHyh7-Y_rq4",
+    "status": "published",
+    "duration": "5:24",
+    "published_date": "2026-10-12",
+    "text": "Macchanger Commands Explained: Every Option in Kali Linux Macchanger Commands Explained: Every Option in Kali Linux | Ch. 31 Chapter 31 is the complete macchanger reference. It demonstrates checking the current address, setting a random address, keeping the same vendor, setting a custom value, restoring the original, and fixing the common interface-is-up error. It is designed so you stop copying a single command from memory. How to display the current and permanent MAC address How to set a fully random MAC address How to generate a random address that keeps the same vendor prefix How to set a specific custom MAC address How to restore the permanent hardware address How to fix interface-state errors Vendor prefixes State before change"
+  },
+  {
+    "number": 32,
+    "chapter": 32,
+    "title": "Chapter 32: What Is Footprinting? First Step of Ethical Hacking Explained",
+    "module": "Module 4: Reconnaissance & Network Scanning",
+    "description": "Footprinting explained: passive vs active reconnaissance, what information is collected, where it comes from, and how it feeds scanning and enumeration.",
+    "tags": [
+      "footprinting",
+      "osint",
+      "reconnaissance",
+      "ethical hacking",
+      "methodology"
+    ],
+    "url": "/lessons/lesson-032/",
+    "video_url": "https://www.youtube.com/watch?v=25nmzEE0-EQ",
+    "status": "published",
+    "duration": "10:05",
+    "published_date": "2026-10-14",
+    "text": "What Is Footprinting? First Step of Ethical Hacking Explained What Is Footprinting? First Step of Ethical Hacking Explained | Ch. 32 Chapter 32 begins the ethical hacking methodology with footprinting, the information-gathering phase that happens before any active testing. It separates passive from active footprinting, shows what kinds of information are collected, and explains where that information comes from and why it shapes every later phase. What footprinting is and where it fits in a penetration test The difference between passive and active footprinting What information is collected about an organization Which public sources reveal domain, infrastructure and people data How footprinting feeds scanning, enumeration and exploitation Why scope and authorization must be defined first Passive first Scope is a technical control"
+  },
+  {
+    "number": 33,
+    "chapter": 33,
+    "title": "Chapter 33: DNS Enumeration in Kali Linux: dig, nslookup & dnsenum",
+    "module": "Module 4: Reconnaissance & Network Scanning",
+    "description": "Learn DNS enumeration with dig and nslookup: read A, AAAA, MX, NS and TXT records, map a domain's infrastructure and understand reconnaissance scope.",
+    "tags": [
+      "dns enumeration",
+      "dig",
+      "nslookup",
+      "dns records",
+      "recon"
+    ],
+    "url": "/lessons/lesson-033/",
+    "video_url": "https://www.youtube.com/watch?v=j9-xvVNglAk",
+    "status": "published",
+    "duration": "5:07",
+    "published_date": "2026-10-16",
+    "text": "DNS Enumeration in Kali Linux: dig, nslookup & dnsenum DNS Enumeration in Kali Linux: dig, nslookup & dnsenum | Ch. 33 Chapter 33 moves from footprinting concepts to DNS reconnaissance. It explains what DNS enumeration is, which records matter during an assessment, and how to query them manually with dig and nslookup before moving to automated Kali tools. Subdomains, mail servers and name servers are the focus. What DNS enumeration is and why it matters in reconnaissance Which DNS record types reveal useful infrastructure details How to query records with dig How to use nslookup for basic lookups How subdomains, MX and NS records expand the attack surface How to stay inside an authorized scope while enumerating DNS is a map of the organization Manual before automated"
+  },
+  {
+    "number": 34,
+    "chapter": 34,
+    "title": "Chapter 34: Dnsenum Tutorial: Find Subdomains Automatically in Kali Linux",
+    "module": "Module 4: Reconnaissance & Network Scanning",
+    "description": "Use Dnsenum in Kali Linux to automate DNS enumeration: run it against an authorized domain, read the output, and find subdomains with wordlists.",
+    "tags": [
+      "dnsenum",
+      "subdomains",
+      "dns",
+      "reconnaissance",
+      "wordlist"
+    ],
+    "url": "/lessons/lesson-034/",
+    "video_url": "https://www.youtube.com/watch?v=RbPKaALMkVw",
+    "status": "published",
+    "duration": "3:29",
+    "published_date": "2026-10-18",
+    "text": "Dnsenum Tutorial: Find Subdomains Automatically in Kali Linux Dnsenum Tutorial: Find Subdomains Automatically in Kali Linux | Ch. 34 Chapter 34 automates the manual DNS work from the previous lesson with Dnsenum. It shows how to run the tool against a domain, how it uses wordlists to find subdomains, how to read the output, and how to combine it with other reconnaissance data. How Dnsenum automates DNS enumeration How to run Dnsenum against an authorized domain How subdomain discovery uses wordlists How to read name server, mail and host records in the output How to combine Dnsenum results with manual dig queries Why noisy enumeration needs rate and scope control Automation accelerates repetition Validate findings"
+  },
+  {
+    "number": 35,
+    "chapter": 35,
+    "title": "Chapter 35: DNSmap Tutorial: Find Subdomains with Wordlists in Kali Linux",
+    "module": "Module 4: Reconnaissance & Network Scanning",
+    "description": "Learn DNSmap in Kali Linux: wordlist-driven subdomain discovery, custom wordlists, reading results, and how it differs from Dnsenum.",
+    "tags": [
+      "dnsmap",
+      "subdomain brute force",
+      "wordlists",
+      "dns",
+      "recon"
+    ],
+    "url": "/lessons/lesson-035/",
+    "video_url": "https://www.youtube.com/watch?v=goZ5Og_4QqY",
+    "status": "published",
+    "duration": "2:53",
+    "published_date": "2026-10-20",
+    "text": "DNSmap Tutorial: Find Subdomains with Wordlists in Kali Linux DNSmap Tutorial: Find Subdomains with Wordlists in Kali Linux | Ch. 35 Chapter 35 adds DNSmap to the enumeration toolkit. It explains how wordlist-driven subdomain discovery works, runs DNSmap against a test domain, compares it with Dnsenum, and shows how to read the output. The wordlist concept carries forward to password attacks later in the course. How DNSmap uses wordlists to enumerate subdomains How to run DNSmap against an authorized domain How to read discovered hostnames and addresses How DNSmap differs from Dnsenum Why wordlist quality affects results How to confirm discovered hosts Brute force by name Wordlists are reusable assets"
+  },
+  {
+    "number": 36,
+    "chapter": 36,
+    "title": "Chapter 36: DNStracer Tutorial: Trace DNS Resolution in Kali Linux",
+    "module": "Module 4: Reconnaissance & Network Scanning",
+    "description": "Trace DNS resolution with DNStracer: follow a query from root to TLD to authoritative servers, read the delegation path, and use it during recon.",
+    "tags": [
+      "dnstracer",
+      "dns delegation",
+      "root servers",
+      "reconnaissance"
+    ],
+    "url": "/lessons/lesson-036/",
+    "video_url": "https://www.youtube.com/watch?v=THD5_woIT5w",
+    "status": "published",
+    "duration": "2:25",
+    "published_date": "2026-10-22",
+    "text": "DNStracer Tutorial: Trace DNS Resolution in Kali Linux DNStracer Tutorial: Trace DNS Resolution in Kali Linux | Ch. 36 Chapter 36 covers DNStracer, which follows a DNS query from the root servers through the TLD to the authoritative name server. It explains how to read that path, why it is useful during reconnaissance, and how it complements the subdomain tools from the previous two chapters. What DNStracer does differently from subdomain discovery tools How a DNS query travels from root to authoritative servers How to run DNStracer against a domain How to read the delegation path in the output When tracing DNS is useful during reconnaissance How DNStracer fits with Dnsenum and DNSmap Delegation is a chain Reconnaissance context"
+  },
+  {
+    "number": 37,
+    "chapter": 37,
+    "title": "Chapter 37: Nmap for Beginners: Check Your Network First (ifconfig, route -n)",
+    "module": "Module 4: Reconnaissance & Network Scanning",
+    "description": "Before scanning with Nmap, learn your own network: ip a and ifconfig for addresses, route -n for the gateway, then a safe first host-discovery scan in your lab.",
+    "tags": [
+      "nmap",
+      "ifconfig",
+      "ip a",
+      "routing table",
+      "network scanning"
+    ],
+    "url": "/lessons/lesson-037/",
+    "video_url": "https://www.youtube.com/watch?v=pUCnYyi3mUk",
+    "status": "published",
+    "duration": "7:19",
+    "published_date": "2026-10-24",
+    "text": "Nmap for Beginners: Check Your Network First (ifconfig, route -n) Nmap for Beginners: Check Your Network First (ifconfig, route -n) Ch. 37 Chapter 37 prepares you to scan by first understanding your own network. It shows how to find your IP and MAC address with ifconfig and the modern ip a command, how to read the routing table and default gateway with route -n, what Nmap is, and how to run a first scan against your own lab network. Why understanding your own network comes before scanning How to find interface addresses with ifconfig and ip a How to read a routing table and identify the default gateway What Nmap does and why it is central to reconnaissance How to run a basic host-discovery scan in a lab Which scanning mistakes cause confusion or scope violations Know your starting point Host discovery before port scanning"
+  },
+  {
+    "number": 38,
+    "chapter": 38,
+    "title": "Chapter 38: Nmap Scan Types Explained: -sS vs -sT vs -sU (Kali Linux Lab)",
+    "module": "Module 4: Reconnaissance & Network Scanning",
+    "description": "Learn Nmap scanning: basic syntax, host ranges, -sS vs -sT vs -sU, port selection, -sV service detection, -O OS detection and saving output.",
+    "tags": [
+      "nmap",
+      "port scanning",
+      "syn scan",
+      "service detection",
+      "kali linux"
+    ],
+    "url": "/lessons/lesson-038/",
+    "video_url": "https://www.youtube.com/watch?v=uk3SFjGhjfs",
+    "status": "published",
+    "duration": "4:29",
+    "published_date": "2026-10-26",
+    "text": "Nmap Scan Types Explained: -sS vs -sT vs -sU (Kali Linux Lab) Nmap Scan Types Explained: -sS vs -sT vs -sU (Kali Linux Lab) Ch. 38 Chapter 38 teaches the core Nmap workflow. It covers basic syntax, scanning a single host and a range, the -sS, -sT and -sU scan types, selecting ports, service and version detection with -sV, OS detection with -O, saving output to a file, and reading the results. How to write a basic Nmap command for one host How to scan a network range responsibly The difference between SYN, TCP connect and UDP scans How to scan specific ports versus the full range How service and version detection work with -sV How to use -O and save results to a file Scan types reflect different packets Ports and services"
+  },
+  {
+    "number": 39,
+    "chapter": 39,
+    "title": "Chapter 39: Nmap Scans Explained: ACK, FIN, Xmas, -A and NSE (Kali Lab)",
+    "module": "Module 4: Reconnaissance & Network Scanning",
+    "description": "Go deeper with Nmap: ACK, FIN and Xmas scans, -T0 to -T5 timing, the -A aggressive scan, output formats -oN -oX -oG -oA, and NSE basics.",
+    "tags": [
+      "nmap",
+      "nse",
+      "ack scan",
+      "timing templates",
+      "output formats"
+    ],
+    "url": "/lessons/lesson-039/",
+    "video_url": "https://www.youtube.com/watch?v=uXIrK1nSRcg",
+    "status": "published",
+    "duration": "3:35",
+    "published_date": "2026-10-28",
+    "text": "Nmap Scans Explained: ACK, FIN, Xmas, -A and NSE (Kali Lab) Nmap Scans Explained: ACK, FIN, Xmas, -A and NSE (Kali Lab) Ch. 39 Chapter 39 looks under the hood of Nmap. It explains what the tool sends and how port states are decided, then demonstrates ACK, FIN and Xmas scans, timing templates -T0 through -T5, the aggressive -A option, output formats -oN, -oX, -oG and -oA, and the first steps with the Nmap Scripting Engine. What Nmap sends and how it decides a port is open, closed or filtered What ACK, FIN and Xmas scans are used for How timing options -T0 to -T5 affect speed and visibility What the aggressive -A scan combines How to save output in normal, XML, grepable and combined formats How to run a basic NSE script Port states are inferences Timing changes noise"
+  },
+  {
+    "number": 40,
+    "chapter": 40,
+    "title": "Chapter 40: Searchsploit Tutorial: Find Exploits for Nmap Results (Kali Lab)",
+    "module": "Module 4: Reconnaissance & Network Scanning",
+    "description": "Use Searchsploit to turn Nmap service versions into vulnerability research: search Exploit-DB, filter results, inspect entries, update the database and stay legal.",
+    "tags": [
+      "searchsploit",
+      "exploit-db",
+      "vulnerability research",
+      "nmap",
+      "pentesting"
+    ],
+    "url": "/lessons/lesson-040/",
+    "video_url": "https://www.youtube.com/watch?v=ZKRKqxHaXcQ",
+    "status": "published",
+    "duration": "4:23",
+    "published_date": "2026-10-30",
+    "text": "Searchsploit Tutorial: Find Exploits for Nmap Results (Kali Lab) Searchsploit Tutorial: Find Exploits for Nmap Results (Kali Lab) Ch. 40 Chapter 40 connects scanning to vulnerability research. After Nmap reveals a service and version, Searchsploit searches the local Exploit-DB archive for documented issues in that software. The lesson covers searching by name and version, reading results, filtering, viewing and copying an entry, updating the database, and where this fits in a penetration test. What Searchsploit and Exploit-DB are How to search by software name and version How to read and filter search results How to view an exploit entry and copy it to a working directory How to update the local Exploit-DB archive Why a public exploit match is not proof of exploitability Offline research Validate before exploiting"
+  },
+  {
+    "number": 41,
+    "chapter": 41,
+    "title": "Chapter 41: WhatWeb, Whois and Dirb in Kali Linux: Recon a Website (Lab)",
+    "module": "Module 4: Reconnaissance & Network Scanning",
+    "description": "Profile a website before testing: WhatWeb technology fingerprinting, Whois domain details and Dirb content discovery, with responsible-use guidance.",
+    "tags": [
+      "whatweb",
+      "whois",
+      "dirb",
+      "website recon",
+      "content discovery"
+    ],
+    "url": "/lessons/lesson-041/",
+    "video_url": "https://www.youtube.com/watch?v=KXsgH_AdMtM",
+    "status": "published",
+    "duration": "5:46",
+    "published_date": "2026-11-01",
+    "text": "WhatWeb, Whois and Dirb in Kali Linux: Recon a Website (Lab) WhatWeb, Whois and Dirb in Kali Linux: Recon a Website (Lab) Ch. 41 Chapter 41 profiles a website before testing it. It explains website footprinting, then uses WhatWeb to identify technologies, Whois to read domain registration details and Dirb to discover directories and files. The lesson closes by showing how the three tools answer different questions about the same target. What website footprinting is and why it precedes testing How WhatWeb identifies CMS, frameworks and server technologies How Whois reveals registration and ownership details How Dirb performs content discovery with wordlists How to read and cross-check results from each tool Why discovered paths require authorization before access Three layers of website recon Content discovery is noisy"
+  },
+  {
+    "number": 42,
+    "chapter": 42,
+    "title": "Chapter 42: Nikto Tutorial: Scan a Web Server for Vulnerabilities (Kali Lab)",
+    "module": "Module 5: Web Application & Vulnerability Analysis",
+    "description": "Learn Nikto web server scanning: how vulnerability analysis differs from exploitation, port and SSL options, reading results and prioritising real findings.",
+    "tags": [
+      "nikto",
+      "vulnerability scanning",
+      "web security",
+      "triage",
+      "kali"
+    ],
+    "url": "/lessons/lesson-042/",
+    "video_url": "https://www.youtube.com/watch?v=hDShYE3ItWw",
+    "status": "published",
+    "duration": "10:18",
+    "published_date": "2026-11-03",
+    "text": "Nikto Tutorial: Scan a Web Server for Vulnerabilities (Kali Lab) Nikto Tutorial: Scan a Web Server for Vulnerabilities (Kali Lab) Ch. 42 Chapter 42 introduces vulnerability analysis with Nikto. It explains how scanning differs from exploitation, runs Nikto against an owned test site, demonstrates options for ports, SSL and output files, and then focuses on reading results, recognising false positives and prioritising findings. What a Nikto scan can and cannot tell you How vulnerability analysis differs from exploitation How to run a first Nikto scan against a lab site How to select ports, enable SSL checks and save output How to separate real findings from false positives How to prioritise remediation work Scanning is not exploitation Triage beats volume"
+  },
+  {
+    "number": 43,
+    "chapter": 43,
+    "title": "Chapter 43: Cross-Site Scripting (XSS) for Beginners: How It Works and How to Stop It",
+    "module": "Module 5: Web Application & Vulnerability Analysis",
+    "description": "Understand XSS: reflected, stored and DOM-based cross-site scripting, real impact, safe lab testing, and how developers prevent it with encoding and CSP.",
+    "tags": [
+      "xss",
+      "cross-site scripting",
+      "web security",
+      "owasp",
+      "defence"
+    ],
+    "url": "/lessons/lesson-043/",
+    "video_url": "https://www.youtube.com/watch?v=bWGfs1CRx0c",
+    "status": "published",
+    "duration": "3:50",
+    "published_date": "2026-11-05",
+    "text": "Cross-Site Scripting (XSS) for Beginners: How It Works and How to Stop It Cross-Site Scripting (XSS) for Beginners: How It Works and How to Stop It Ch. 43 Chapter 43 explains cross-site scripting without turning the lesson into a payload dump. It covers why the browser trusts the page, the difference between reflected, stored and DOM-based XSS, real impact such as session theft and page defacement, a safe practice-app demonstration, and the defences developers use. What cross-site scripting is and why it happens The difference between reflected, stored and DOM-based XSS What an attacker can achieve with script execution in a browser How to test for XSS safely in an owned lab application How output encoding, input handling and CSP reduce risk Why XSS is a developer problem as much as a tester's finding Three delivery patterns Defence is contextual encoding"
+  },
+  {
+    "number": 44,
+    "chapter": 44,
+    "title": "Chapter 44: RedHawk Tutorial: All-in-One Website Recon Tool (Kali Lab)",
+    "module": "Module 5: Web Application & Vulnerability Analysis",
+    "description": "Use RedHawk for website reconnaissance: install with git clone, review the source, run server, Whois, geo-IP and CMS checks, and compare it with dedicated tools.",
+    "tags": [
+      "redhawk",
+      "website recon",
+      "git clone",
+      "cms detection",
+      "kali"
+    ],
+    "url": "/lessons/lesson-044/",
+    "video_url": "https://www.youtube.com/watch?v=LLeM61KmYgU",
+    "status": "published",
+    "duration": "13:38",
+    "published_date": "2026-11-07",
+    "text": "RedHawk Tutorial: All-in-One Website Recon Tool (Kali Lab) RedHawk Tutorial: All-in-One Website Recon Tool (Kali Lab) Ch. 44 Chapter 44 introduces RedHawk, a script that bundles several website reconnaissance checks. It shows how to install it with git clone, read the README and script before running it, execute it against an owned test site, interpret the server, Whois, geo-IP and CMS modules, and compare the results with separate tools. What RedHawk bundles into one reconnaissance workflow How to install a GitHub-hosted tool with git clone Why reading the README and source before running matters How to interpret server, Whois, geo-IP and CMS output What the built-in basic vulnerability checks can and cannot confirm When separate tools give better control than an all-in-one script Convenience versus transparency Third-party code risk"
+  },
+  {
+    "number": 45,
+    "chapter": 45,
+    "title": "Chapter 45: Linux Security Audit with Lynis: Find Weak Spots in Your System",
+    "module": "Module 5: Web Application & Vulnerability Analysis",
+    "description": "Audit your Linux system: review users, sudo, permissions, services, ports and updates, then run Lynis and interpret the report to prioritise hardening.",
+    "tags": [
+      "lynis",
+      "security audit",
+      "hardening",
+      "linux security",
+      "defence"
+    ],
+    "url": "/lessons/lesson-045/",
+    "video_url": "https://www.youtube.com/watch?v=kyLK_BoQTj4",
+    "status": "published",
+    "duration": "8:25",
+    "published_date": "2026-11-09",
+    "text": "Linux Security Audit with Lynis: Find Weak Spots in Your System Linux Security Audit with Lynis: Find Weak Spots in Your System Ch. 45 Chapter 45 switches to defence with a Linux security audit. It walks through the areas worth checking — users, groups and sudo, file permissions, running services and open ports, packages and updates — shows built-in commands for each, then demonstrates Lynis as an automated auditing tool and how to read its report. What a Linux security audit evaluates How to review users, groups and sudo privileges How to find weak file permissions How to list running services and open ports How to check package and update status How to run Lynis and interpret its findings Attack surface begins locally Automation needs interpretation"
+  },
+  {
+    "number": 46,
+    "chapter": 46,
+    "title": "Chapter 46: SQLMap Tutorial: Test SQL Injection in a Safe Lab (DVWA + Kali)",
+    "module": "Module 5: Web Application & Vulnerability Analysis",
+    "description": "Learn SQL injection with SQLMap in a DVWA lab: how detection works, reading output, enumerating databases, real-world impact and developer defences.",
+    "tags": [
+      "sqlmap",
+      "sql injection",
+      "dvwa",
+      "web security",
+      "lab"
+    ],
+    "url": "/lessons/lesson-046/",
+    "video_url": "https://www.youtube.com/watch?v=LDEIGs4vxNo",
+    "status": "published",
+    "duration": "9:15",
+    "published_date": "2026-11-11",
+    "text": "SQLMap Tutorial: Test SQL Injection in a Safe Lab (DVWA + Kali) SQLMap Tutorial: Test SQL Injection in a Safe Lab (DVWA + Kali) Ch. 46 Chapter 46 is a complete SQL injection lab. It explains what SQL injection is, why it happens, sets up DVWA as a practice target, runs a first SQLMap test, shows how to read the results and the real impact, and finishes with the developer defences that actually prevent it. What SQL injection is and why it happens How SQLMap detects an injectable parameter How to set up DVWA as a safe practice target How to read SQLMap's output and enumerate databases What real-world impact SQL injection can have How parameterised queries and least privilege prevent it Data becomes code SQLMap automates confirmation and extraction"
+  },
+  {
+    "number": 47,
+    "chapter": 47,
+    "title": "Chapter 47: jSQL Injection Tutorial (GUI-Based SQL Injection Tool)",
+    "module": "Module 5: Web Application & Vulnerability Analysis",
+    "description": "Use jSQL Injection to test SQL injection visually: interface tour, database and table enumeration, data extraction in a lab, and how it compares with SQLMap.",
+    "tags": [
+      "jsql injection",
+      "sql injection",
+      "gui tools",
+      "web security",
+      "kali"
+    ],
+    "url": "/lessons/lesson-047/",
+    "video_url": "https://www.youtube.com/watch?v=DBz53iix1hk",
+    "status": "published",
+    "duration": "6:30",
+    "published_date": "2026-11-13",
+    "text": "jSQL Injection Tutorial (GUI-Based SQL Injection Tool) jSQL Injection Tutorial (GUI-Based SQL Injection Tool) | Kali Linux Course Chapter 47 #kali #linux Chapter 47 continues the SQL injection section with jSQL Injection, a graphical Java-based tool. It compares jSQL with SQLMap, tours the interface, tests a lab URL, enumerates databases, tables and columns visually, extracts data, and discusses when a GUI is more practical than a command-line workflow. What jSQL Injection is and how it differs from SQLMap How to launch and navigate the jSQL interface How to test a lab URL for SQL injection using the GUI How to enumerate databases, tables and columns visually How to extract data through the interface in a lab The trade-offs between GUI and command-line SQL injection tools Same technique, different interface Visual tools still need methodology"
+  },
+  {
+    "number": 48,
+    "chapter": 48,
+    "title": "Chapter 48: sqlsus Tutorial: MySQL Injection & Exploitation Tool",
+    "module": "Module 5: Web Application & Vulnerability Analysis",
+    "description": "Explore sqlsus, a MySQL-focused SQL injection tool: configuration, interactive shell, data extraction, and how it compares with SQLMap and jSQL Injection.",
+    "tags": [
+      "sqlsus",
+      "mysql injection",
+      "sql injection",
+      "kali linux",
+      "web security"
+    ],
+    "url": "/lessons/lesson-048/",
+    "video_url": "https://www.youtube.com/watch?v=pIQGwyGizmU",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "sqlsus Tutorial: MySQL Injection & Exploitation Tool sqlsus Tutorial: MySQL Injection & Exploitation Tool | Kali Linux Course Chapter 48 #kali #linux Chapter 48 completes the SQL injection tool trio with sqlsus, a MySQL-focused interactive tool. It explains how sqlsus differs from SQLMap and jSQL, how to start it with a target configuration, how its interactive shell enumerates and extracts data, and when a MySQL-specific workflow is useful. What sqlsus is and how it differs from SQLMap and jSQL Why sqlsus focuses on MySQL injection scenarios How a sqlsus target configuration is structured How the interactive shell enumerates databases and tables How data extraction works in the tool When to choose sqlsus over the alternatives Three approaches to the same vulnerability class Configuration-driven testing"
+  },
+  {
+    "number": 49,
+    "chapter": 49,
+    "title": "Chapter 49: What is a Password Attack? Types Explained",
+    "module": "Module 6: Password Attacks & Hash Cracking",
+    "description": "Learn password attack types: brute force, dictionary, rainbow table and credential stuffing, online vs offline attacks, hashing and why wordlists matter.",
+    "tags": [
+      "password attacks",
+      "brute force",
+      "credential stuffing",
+      "hashing",
+      "wordlists"
+    ],
+    "url": "/lessons/lesson-049/",
+    "video_url": "https://www.youtube.com/watch?v=TLaYDNJRGfI",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "What is a Password Attack? Types Explained What is a Password Attack? Types Explained | Kali Linux Course Chapter 49 | 2026 #kali #linux Chapter 49 opens the password attack section with vocabulary and threat modelling. It defines password attacks, explains why credentials remain a weak point, compares brute force, dictionary, rainbow table and credential stuffing, separates online from offline attacks, introduces hashing and wordlists, and previews the tools used in the following chapters. What a password attack is and why credentials remain a common target How brute force, dictionary, rainbow table and credential stuffing differ The difference between online and offline password attacks Why passwords are stored as hashes and why attackers target them Why wordlists are central to most password attacks Which tools the following chapters will demonstrate Online versus offline Why passwords still matter"
+  },
+  {
+    "number": 50,
+    "chapter": 50,
+    "title": "Chapter 50: What is Hashing? Explained for Beginners",
+    "module": "Module 6: Password Attacks & Hash Cracking",
+    "description": "Hashing explained: how hashes differ from encryption, MD5 vs SHA-1 vs SHA-256 vs bcrypt, why passwords are hashed, rainbow tables, brute force and salting.",
+    "tags": [
+      "hashing",
+      "md5",
+      "sha256",
+      "bcrypt",
+      "salting"
+    ],
+    "url": "/lessons/lesson-050/",
+    "video_url": "https://www.youtube.com/watch?v=19ngb64RHyo",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "What is Hashing? Explained for Beginners What is Hashing? Explained for Beginners | Kali Linux Course Chapter 50 | 2026 #kali #linux Chapter 50 explains hashing before any cracking tool appears. It defines a hash, distinguishes hashing from encryption, compares MD5, SHA-1, SHA-256 and bcrypt, explains why passwords are stored as hashes, what makes a hash one-way, how rainbow tables and brute force attempt to match hashes, and how salting changes the economics of cracking. What a hash function is and how hashing works The difference between hashing and encryption MD5, SHA-1, SHA-256 and bcrypt at a high level Why systems store password hashes instead of plaintext Why a hash is one-way and why that matters How rainbow tables and brute force work against hashes How salting strengthens password storage Hashing is not encryption Salts and slow hashes"
+  },
+  {
+    "number": 51,
+    "chapter": 51,
+    "title": "Chapter 51: Hash-Identifier Tutorial: Find Out What Hash Type You Have",
+    "module": "Module 6: Password Attacks & Hash Cracking",
+    "description": "Use Hash-Identifier to identify MD5, SHA and bcrypt hashes: why format matters, how to read candidate results, and how the type selects your cracking method.",
+    "tags": [
+      "hash-identifier",
+      "hash types",
+      "password cracking",
+      "kali linux"
+    ],
+    "url": "/lessons/lesson-051/",
+    "video_url": "https://www.youtube.com/watch?v=W-nM0Sac7T4",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "Hash-Identifier Tutorial: Find Out What Hash Type You Have Hash-Identifier Tutorial: Find Out What Hash Type You Have | Kali Linux Course Chapter 51 #kali Chapter 51 begins the hands-on cracking workflow with Hash-Identifier. It explains why identifying the hash type is the essential first step, runs the tool against sample hashes, interprets the candidate types it returns, discusses look-alike formats, and links the result to the cracking tool and mode you choose next. Why hash identification comes before cracking How Hash-Identifier compares a hash against known formats How to run the tool on a sample hash How to interpret candidate types and confidence Why similar-looking hashes cause misidentification How hash type determines the cracking tool and options Format, length and context A guess is not a verification"
+  },
+  {
+    "number": 52,
+    "chapter": 52,
+    "title": "Chapter 52: Password & Hash Cracking Tutorial (Hands-On)",
+    "module": "Module 6: Password Attacks & Hash Cracking",
+    "description": "Follow the complete password cracking workflow: choose a wordlist, crack a lab hash, read output, verify the result and troubleshoot failed attempts.",
+    "tags": [
+      "password cracking",
+      "john the ripper",
+      "wordlists",
+      "hashing",
+      "workflow"
+    ],
+    "url": "/lessons/lesson-052/",
+    "video_url": "https://www.youtube.com/watch?v=50QIorx_D8Y",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "Password & Hash Cracking Tutorial (Hands-On) Password & Hash Cracking Tutorial (Hands-On) | Kali Linux Course Chapter 52 #kali #linux Chapter 52 is the practical bridge between theory and tools. It walks through the complete password cracking workflow, cracks a hashed password with a wordlist, contrasts online login attacks with offline hash attacks, shows how to read tool output, explains why wordlist quality and hash type determine success, and troubleshoots failures. The end-to-end password and hash cracking workflow How to crack a lab hash with a wordlist The practical difference between online and offline attacks How to read cracking tool output and find recovered passwords Why wordlist quality and hash type control success Why a hash may fail to crack and how to troubleshoot The pipeline Success is probabilistic"
+  },
+  {
+    "number": 53,
+    "chapter": 53,
+    "title": "Chapter 53: CEWL Tutorial: Build Custom Wordlists from Websites",
+    "module": "Module 6: Password Attacks & Hash Cracking",
+    "description": "Build targeted wordlists with CEWL: crawl a site, set depth and minimum length, collect metadata, save the list and use it with John or Hydra.",
+    "tags": [
+      "cewl",
+      "wordlists",
+      "osint",
+      "password attacks",
+      "kali linux"
+    ],
+    "url": "/lessons/lesson-053/",
+    "video_url": "https://www.youtube.com/watch?v=ZgEsEUhymIY",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "CEWL Tutorial: Build Custom Wordlists from Websites CEWL Tutorial: Build Custom Wordlists from Websites | Kali Linux Course Chapter 53 #kali #linux Chapter 53 turns wordlists into a targeted tool with CEWL. It explains why custom lists beat generic ones, how CEWL crawls a website to collect words, basic syntax, minimum word length and crawl depth, metadata collection for author and email terms, saving output, and combining the result with John the Ripper or Hydra. Why target-specific wordlists can outperform generic lists How CEWL crawls a website and extracts words Basic CEWL syntax and key options How to control word length and crawl depth How to include metadata such as author and email terms How to save and reuse the generated list Words people remember Passive collection"
+  },
+  {
+    "number": 54,
+    "chapter": 54,
+    "title": "Chapter 54: Crunch Tutorial: Generate Wordlists with Custom Patterns",
+    "module": "Module 6: Password Attacks & Hash Cracking",
+    "description": "Generate wordlists with Crunch: length ranges, custom character sets, pattern-based generation, size estimation and when to use it instead of CEWL.",
+    "tags": [
+      "crunch",
+      "wordlist generator",
+      "brute force",
+      "patterns",
+      "password attacks"
+    ],
+    "url": "/lessons/lesson-054/",
+    "video_url": "https://www.youtube.com/watch?v=f7_vraU60ok",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "Crunch Tutorial: Generate Wordlists with Custom Patterns Crunch Tutorial: Generate Wordlists with Custom Patterns | Kali Linux Course Chapter 54 #kali #linux Chapter 54 introduces Crunch, the pattern-based wordlist generator. It contrasts Crunch with CEWL's scraping approach, shows how to set minimum and maximum length, define character sets, use patterns based on partial knowledge, save output, estimate list size and storage, and decide between Crunch, CEWL and pre-built lists. What Crunch is and how it differs from CEWL How to set minimum and maximum password length How to define custom character sets How to use patterns for partially known passwords How to save generated lists and estimate their size When to use Crunch, CEWL or a pre-built wordlist Combinatorial growth Patterns encode intelligence"
+  },
+  {
+    "number": 55,
+    "chapter": 55,
+    "title": "Chapter 55: How to Crack Passwords Offline Using John the Ripper",
+    "module": "Module 6: Password Attacks & Hash Cracking",
+    "description": "Learn John the Ripper: wordlist, single and incremental modes, --show, and cracking ZIP archive hashes with zip2john in an isolated lab.",
+    "tags": [
+      "john the ripper",
+      "password cracking",
+      "hashcat alternative",
+      "zip2john",
+      "offline"
+    ],
+    "url": "/lessons/lesson-055/",
+    "video_url": "https://www.youtube.com/watch?v=_GVkPiGqwAA",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "How to Crack Passwords Offline Using John the Ripper How to Crack Passwords Offline Using John the Ripper | Chapter 55 | 2026 #kali #linux Chapter 55 puts the password section together with John the Ripper. It explains why John is a standard offline cracking tool, contrasts offline and online attacks, demonstrates basic syntax and wordlist usage, explains single, wordlist and incremental modes, shows --show for recovered passwords, and cracks a password-protected file format as well as a hash. What John the Ripper is and why it is used offline Why offline cracking is usually faster than online guessing Basic John syntax and wordlist attacks The difference between single, wordlist and incremental modes How to display recovered passwords with --show How to extract and crack password-protected file hashes Modes encode assumptions Cracking files uses the same pipeline"
+  },
+  {
+    "number": 56,
+    "chapter": 56,
+    "title": "Chapter 56: How to Extract & Crack SAM and Shadow File Hashes",
+    "module": "Module 6: Password Attacks & Hash Cracking",
+    "description": "Understand Windows SAM and Linux /etc/shadow, extract hashes with authorization, combine passwd and shadow with unshadow, and crack lab credentials with John.",
+    "tags": [
+      "sam file",
+      "etc shadow",
+      "unshadow",
+      "credential storage",
+      "john"
+    ],
+    "url": "/lessons/lesson-056/",
+    "video_url": "https://www.youtube.com/watch?v=jVNJR0UlaYw",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "How to Extract & Crack SAM and Shadow File Hashes How to Extract & Crack SAM and Shadow File Hashes | Kali Linux Course Chapter 56 #kali #linux Chapter 56 applies cracking skills to operating system credential stores. It explains where Windows keeps hashes in the SAM file and Linux in /etc/shadow, how each is structured, how to extract hashes with proper authorization, how unshadow combines passwd and shadow for John, and how the formats differ. Where Windows stores password hashes and how SAM is structured Where Linux stores password hashes in /etc/shadow How to extract hashes with proper authorization How to combine /etc/passwd and /etc/shadow with unshadow How to crack the combined file with John the Ripper How Windows and Linux hash formats differ Shadow files exist for a reason Windows SAM"
+  },
+  {
+    "number": 57,
+    "chapter": 57,
+    "title": "Chapter 57: How to Crack RAR & ZIP File Passwords",
+    "module": "Module 6: Password Attacks & Hash Cracking",
+    "description": "Recover archive passwords in a lab: extract hashes with zip2john, rar2john and pdf2john, crack them with John and a wordlist, and choose better wordlists.",
+    "tags": [
+      "zip2john",
+      "rar2john",
+      "pdf2john",
+      "archive password",
+      "john the ripper"
+    ],
+    "url": "/lessons/lesson-057/",
+    "video_url": "https://www.youtube.com/watch?v=7oOgtGbFIjE",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "How to Crack RAR & ZIP File Passwords How to Crack RAR & ZIP File Passwords | Kali Linux Course Chapter 57 | 2026 #kali #linux Chapter 57 applies the extract-then-crack workflow to archives and documents. It explains why protected files need a different approach, extracts hashes from ZIP and RAR files with zip2john and rar2john, cracks them with John and a wordlist, extends the method to PDFs with pdf2john, and discusses choosing a context-aware wordlist. Why password-protected files require hash extraction first How to extract a ZIP hash with zip2john How to extract a RAR hash with rar2john How to crack the hash with John and a wordlist How the same approach applies to PDFs and other formats How file context guides wordlist selection Verification without decryption Context narrows the search"
+  },
+  {
+    "number": 58,
+    "chapter": 58,
+    "title": "Chapter 58: THC Hydra Tutorial for Beginners (Online Password Attacks)",
+    "module": "Module 6: Password Attacks & Hash Cracking",
+    "description": "Learn THC Hydra: online vs offline attacks, SSH and web form syntax, wordlists, reading results, and why lockouts make online guessing different.",
+    "tags": [
+      "hydra",
+      "online password attacks",
+      "ssh",
+      "brute force",
+      "kali linux"
+    ],
+    "url": "/lessons/lesson-058/",
+    "video_url": "https://www.youtube.com/watch?v=X4uoTblwOoo",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "THC Hydra Tutorial for Beginners (Online Password Attacks) THC Hydra Tutorial for Beginners (Online Password Attacks) | Kali Linux Course Chapter 58 #kali Chapter 58 switches from offline cracking to online guessing with THC Hydra. It recaps the online versus offline distinction, explains which services Hydra supports, covers basic syntax, demonstrates SSH and web form attacks, shows how to use wordlists, how to read successful-login output, and why lockouts and rate limits change the economics. How online attacks differ from offline cracking Which services and protocols Hydra can test Basic Hydra syntax and command structure How to test an SSH login in a lab How to test a web login form in a lab How lockouts, rate limits and logging affect online attacks Every attempt is visible Form attacks depend on request shape"
+  },
+  {
+    "number": 59,
+    "chapter": 59,
+    "title": "Chapter 59: Medusa Tutorial: Online Password Brute Forcing",
+    "module": "Module 6: Password Attacks & Hash Cracking",
+    "description": "Use Medusa for online password testing: syntax, SSH and FTP modules, parallel testing trade-offs, and how it compares with THC Hydra.",
+    "tags": [
+      "medusa",
+      "hydra",
+      "online attacks",
+      "brute force",
+      "ssh"
+    ],
+    "url": "/lessons/lesson-059/",
+    "video_url": "https://www.youtube.com/watch?v=nJenicTtxxo",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "Medusa Tutorial: Online Password Brute Forcing Medusa Tutorial: Online Password Brute Forcing | Kali Linux Course Chapter 59 #kali #linux Chapter 59 introduces Medusa as a parallel alternative to Hydra. It compares the two tools, explains Medusa's syntax, demonstrates SSH and other service modules, shows how to supply username and password lists, discusses its parallel testing model, and helps you choose between Medusa and Hydra for a given service. What Medusa is and how it compares with Hydra Basic Medusa syntax and module structure How to test SSH credentials in a lab How to target other supported services such as FTP and Telnet How parallel testing affects speed and reliability When to choose Medusa or Hydra Parallelism is a trade-off Module-driven design"
+  },
+  {
+    "number": 60,
+    "chapter": 60,
+    "title": "Chapter 60: What is Sniffing and Spoofing in Ethical Hacking?",
+    "module": "Module 7: Sniffing, Spoofing & Traffic Analysis",
+    "description": "Sniffing and spoofing explained: passive vs active capture, ARP, IP, MAC and DNS spoofing, why unencrypted traffic is vulnerable, and the tools used next.",
+    "tags": [
+      "sniffing",
+      "spoofing",
+      "network security",
+      "wireshark",
+      "ettercap"
+    ],
+    "url": "/lessons/lesson-060/",
+    "video_url": "https://www.youtube.com/watch?v=Fe-iMEAjFg4",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "What is Sniffing and Spoofing in Ethical Hacking? What is Sniffing and Spoofing in Ethical Hacking? | Chapter 60 | 2026 #kali  #linux Chapter 60 opens the network attack section by distinguishing two related techniques. It defines sniffing as capturing traffic and spoofing as impersonating an identity, compares passive and active sniffing, lists ARP, IP, MAC and DNS spoofing, explains why unencrypted traffic is vulnerable, and previews Wireshark and Ettercap. What network sniffing is and what it captures What spoofing is and how it fakes identity on a network The difference between sniffing and spoofing Passive versus active sniffing Common spoofing types: ARP, IP, MAC and DNS Why encryption changes the impact of sniffing Capture and impersonation Switches changed the game"
+  },
+  {
+    "number": 61,
+    "chapter": 61,
+    "title": "Chapter 61: How to Use Wireshark for Network Sniffing",
+    "module": "Module 7: Sniffing, Spoofing & Traffic Analysis",
+    "description": "Wireshark for beginners: choose an interface, capture traffic, navigate packet panes, use display filters, follow TCP streams and save evidence.",
+    "tags": [
+      "wireshark",
+      "packet capture",
+      "display filters",
+      "tcp stream",
+      "network analysis"
+    ],
+    "url": "/lessons/lesson-061/",
+    "video_url": "https://www.youtube.com/watch?v=zHtmAq79a8U",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "How to Use Wireshark for Network Sniffing How to Use Wireshark for Network Sniffing | Chapter 61 | 2026 #kali #linux #cybersecurity Chapter 61 turns the sniffing concept into a practical Wireshark skill. It explains why Wireshark is the standard protocol analyser, how to choose an interface and start a capture, how the packet list, details and bytes panes relate, how display filters isolate traffic, how to follow a TCP stream, and how to recognise unencrypted data and save captures. What Wireshark is and why it is the standard packet analyser How to select an interface and start a capture How to navigate the packet list, details and bytes panes How to write display filters by address, protocol and port How to follow a TCP stream How to identify plaintext data and export captures Packets, frames and streams Display filters are applied after capture"
+  },
+  {
+    "number": 62,
+    "chapter": 62,
+    "title": "Chapter 62: How to Capture Network Packets Using Wireshark (Practical Guide)",
+    "module": "Module 7: Sniffing, Spoofing & Traffic Analysis",
+    "description": "Capture packets efficiently with Wireshark: capture vs display filters, wired and wireless interfaces, HTTP traffic, login analysis, and saving pcap files.",
+    "tags": [
+      "wireshark",
+      "capture filters",
+      "pcap",
+      "http",
+      "network analysis"
+    ],
+    "url": "/lessons/lesson-062/",
+    "video_url": "https://www.youtube.com/watch?v=gNQjzCrzdEo",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "How to Capture Network Packets Using Wireshark (Practical Guide) How to Capture Network Packets Using Wireshark (Practical Guide) | Chapter 62 | 2026 #kali #linux Chapter 62 goes deeper into capturing packets efficiently. It contrasts capture filters with display filters, covers wired and wireless interfaces, shows how to reduce noise before capture starts, demonstrates HTTP and login traffic capture, explains stopping, saving and reopening .pcap files, and offers practical tips for manageable captures. Capture filters versus display filters How to capture on wired and wireless interfaces How to use capture filters to reduce noise How to capture HTTP traffic and spot plaintext data How to observe a login exchange on an unencrypted lab service How to save, reopen and share .pcap files Filter early to save space Plaintext has a signature"
+  },
+  {
+    "number": 63,
+    "chapter": 63,
+    "title": "Chapter 63: How Wireshark Captures Packets From Another Machine (Remote Sniffing Explained)",
+    "module": "Module 7: Sniffing, Spoofing & Traffic Analysis",
+    "description": "How analysts capture traffic from another machine: SPAN ports, ARP spoofing and MITM concepts, SSH remote capture with tcpdump, and legal authorization.",
+    "tags": [
+      "remote sniffing",
+      "span port",
+      "arp spoofing",
+      "tcpdump",
+      "wireshark"
+    ],
+    "url": "/lessons/lesson-063/",
+    "video_url": "https://www.youtube.com/watch?v=DHz3H-QmRFc",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "How Wireshark Captures Packets From Another Machine (Remote Sniffing Explained) How Wireshark Captures Packets From Another Machine (Remote Sniffing Explained) | Chapter 63 | 2026 Chapter 63 explains why Wireshark cannot see another machine's traffic by default and the legitimate ways to capture it. It covers switched-network behaviour, SPAN and port mirroring, ARP spoofing as a man-in-the-middle technique, tools such as arpspoof and Ettercap, remote capture over SSH with tcpdump, and gateway capture. Authorization is a recurring theme. Why switched networks limit what Wireshark can see How port mirroring and SPAN ports provide authorized remote capture How ARP spoofing redirects traffic for interception How arpspoof and Ettercap support man-in-the-middle capture How to pipe remote capture over SSH with tcpdump Why capture on a gateway or router sees more traffic What authorized access actually requires Mirroring is the clean method ARP spoofing is intrusive"
+  },
+  {
+    "number": 64,
+    "chapter": 64,
+    "title": "Chapter 64: What Is a Spoofing Attack? ARP, DNS & IP Spoofing Explained",
+    "module": "Module 7: Sniffing, Spoofing & Traffic Analysis",
+    "description": "Learn how spoofing works: ARP cache poisoning, IP source forgery, DNS spoofing and MAC spoofing, plus the defences that detect or prevent each attack.",
+    "tags": [
+      "spoofing",
+      "arp",
+      "dns",
+      "ip spoofing",
+      "defence"
+    ],
+    "url": "/lessons/lesson-064/",
+    "video_url": "https://www.youtube.com/watch?v=trrcZ7WopA8",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "What Is a Spoofing Attack? ARP, DNS & IP Spoofing Explained What Is a Spoofing Attack? ARP, DNS & IP Spoofing Explained | Kali Linux Chapter 64 | 2026 #kali Chapter 64 builds the conceptual foundation for the spoofing labs. It defines spoofing as impersonating a trusted identity, then explains ARP cache poisoning, IP source forgery, DNS spoofing and cache poisoning, MAC spoofing and the idea of spoofing beyond the network layer. It closes with defences and legal boundaries. What spoofing means at the network and identity level How ARP spoofing poisons local caches and redirects LAN traffic How IP spoofing forges source addresses How DNS spoofing and cache poisoning redirect name resolution How MAC spoofing changes a device's link-layer identity How dynamic ARP inspection, DNSSEC and filtering defend against spoofing Trust in unauthenticated protocols Defence in depth"
+  },
+  {
+    "number": 65,
+    "chapter": 65,
+    "title": "Chapter 65: DNS Spoofing Attack Explained & Demonstrated",
+    "module": "Module 7: Sniffing, Spoofing & Traffic Analysis",
+    "description": "DNS spoofing explained: how forged answers redirect victims, a lab demonstration with Ettercap and dnsspoof, combined ARP MITM, impact and defences.",
+    "tags": [
+      "dns spoofing",
+      "ettercap",
+      "dnsspoof",
+      "mitm",
+      "lab"
+    ],
+    "url": "/lessons/lesson-065/",
+    "video_url": "https://www.youtube.com/watch?v=l5SIiQYixms",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "DNS Spoofing Attack Explained & Demonstrated DNS Spoofing Attack Explained & Demonstrated | Kali Linux Chapter 65 | 2026 #kali #linux Chapter 65 demonstrates DNS spoofing in an isolated lab. It reviews normal DNS resolution, explains how spoofed responses redirect a victim, sets up a spoofing demonstration with Ettercap or dnsspoof, combines DNS spoofing with ARP spoofing for a full man-in-the-middle path, and discusses real-world impact and defences. How normal DNS resolution works What DNS spoofing and cache poisoning change How a victim is redirected to a fake site How to build a DNS spoofing demonstration in a lab How DNS and ARP spoofing combine into a man-in-the-middle chain How DNSSEC, static entries and detection reduce risk The race to answer first Why HTTPS still matters"
+  },
+  {
+    "number": 66,
+    "chapter": 66,
+    "title": "Chapter 66: How to Configure Ettercap on Kali Linux (Step-by-Step Setup)",
+    "module": "Module 7: Sniffing, Spoofing & Traffic Analysis",
+    "description": "Configure Ettercap for lab work: GUI vs console mode, interface selection, etter.conf settings, DNS spoof plugin, etter.dns and common errors.",
+    "tags": [
+      "ettercap",
+      "mitm",
+      "dns spoof plugin",
+      "kali linux",
+      "configuration"
+    ],
+    "url": "/lessons/lesson-066/",
+    "video_url": "https://www.youtube.com/watch?v=dCalbGP1n9E",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "How to Configure Ettercap on Kali Linux (Step-by-Step Setup) How to Configure Ettercap on Kali Linux (Step-by-Step Setup) | Chapter 66 | 2026 #kali #linux Chapter 66 is a setup chapter for Ettercap. It explains what Ettercap does in a penetration test, compares graphical and console modes, sets the correct interface, edits etter.conf for privilege and iptables settings, enables the DNS spoof plugin, configures etter.dns, chooses unified or bridged sniffing, and fixes common configuration errors. What Ettercap is and where it fits in a test When to use the GUI versus console mode How to select the correct network interface How to review etter.conf and its privilege settings How to enable and configure the DNS spoof plugin How to troubleshoot interface, permission and plugin errors Plugins and configuration Privilege and interface choices"
+  },
+  {
+    "number": 67,
+    "chapter": 67,
+    "title": "Chapter 67: WiFi Hacking Basics: Important Terms Explained Before You Start",
+    "module": "Module 8: Wireless Network Security",
+    "description": "Wireless security terms explained: SSID vs BSSID, access points, channels, WEP to WPA3, the four-way handshake, monitor mode, injection and PMKID.",
+    "tags": [
+      "wifi security",
+      "wpa2",
+      "ssid",
+      "monitor mode",
+      "wireless"
+    ],
+    "url": "/lessons/lesson-067/",
+    "video_url": "https://www.youtube.com/watch?v=A918W7YceA0",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "WiFi Hacking Basics: Important Terms Explained Before You Start WiFi Hacking Basics: Important Terms Explained Before You Start | Kali Linux Chapter 67 | 2026 Chapter 67 opens the wireless section with terminology rather than tools. It defines SSID and BSSID, access points and stations, channels and frequency bands, WEP through WPA3, the four-way handshake, monitor versus managed mode, packet injection, deauthentication frames, PMKID, and basic wireless defences. The difference between SSID and BSSID Access points versus client stations How channels and the 2.4 GHz and 5 GHz bands differ What changed from WEP to WPA, WPA2 and WPA3 What the four-way handshake is and why capturing it matters Why monitor mode and packet injection depend on adapter support What PMKID, hidden networks and MAC filtering do Wireless is a shared medium Handshake capture is not cracking"
+  },
+  {
+    "number": 68,
+    "chapter": 68,
+    "title": "Chapter 68: How to Hack WEP WiFi Networks Using Aircrack-ng (Step-by-Step)",
+    "module": "Module 8: Wireless Network Security",
+    "description": "Learn the WEP attack workflow in a lab: monitor mode with airmon-ng, capture with airodump-ng, injection with aireplay-ng, and cracking with aircrack-ng.",
+    "tags": [
+      "wep",
+      "aircrack-ng",
+      "airmon-ng",
+      "wireless lab",
+      "wifi cracking"
+    ],
+    "url": "/lessons/lesson-068/",
+    "video_url": "https://www.youtube.com/watch?v=wzB3Wo0qYqg",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "How to Hack WEP WiFi Networks Using Aircrack-ng (Step-by-Step) How to Hack WEP WiFi Networks Using Aircrack-ng (Step-by-Step) | Kali Linux Chapter 68 | 2026 Chapter 68 demonstrates the classic WEP attack with Aircrack-ng in a lab. It reviews why WEP is broken, puts the adapter into monitor mode with airmon-ng, scans for WEP networks with airodump-ng, collects IVs, uses fake authentication and injection with aireplay-ng, cracks the key, and verifies it. The demo uses the presenter's own router. Why WEP is fundamentally insecure How to enable monitor mode with airmon-ng How to scan for networks with airodump-ng How IV collection and packet injection accelerate a WEP attack How to crack a WEP key with aircrack-ng Why WEP was deprecated and replaced A design flaw, not a weak password Monitor mode and injection"
+  },
+  {
+    "number": 69,
+    "chapter": 69,
+    "title": "Chapter 69: How to Crack WPA/WPA2 WiFi Passwords Using Aircrack-ng",
+    "module": "Module 8: Wireless Network Security",
+    "description": "WPA2 handshake capture and offline cracking in a lab: airodump-ng, deauth, verifying the handshake, aircrack-ng with a wordlist and passphrase defence.",
+    "tags": [
+      "wpa2",
+      "aircrack-ng",
+      "handshake",
+      "deauth",
+      "wireless security"
+    ],
+    "url": "/lessons/lesson-069/",
+    "video_url": "https://www.youtube.com/watch?v=3W8kNPdodBY",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "How to Crack WPA/WPA2 WiFi Passwords Using Aircrack-ng How to Crack WPA/WPA2 WiFi Passwords Using Aircrack-ng | Kali Linux Chapter 69 | 2026 #kali #linux Chapter 69 moves to WPA/WPA2, the far more common wireless security standard. It explains why the attack is different, demonstrates monitor mode and target scanning, captures the four-way handshake, uses a deauthentication frame to speed it up, verifies the capture, and runs an offline wordlist attack with aircrack-ng. Wordlist quality is central. Why WPA/WPA2 resists the WEP approach How to scan targets with airodump-ng How to capture a four-way handshake How a deauthentication attack forces a reconnect How to verify a valid handshake capture How to run an offline wordlist attack with aircrack-ng Why passphrase strength determines the outcome The handshake is the material Dictionary attacks depend on the passphrase"
+  },
+  {
+    "number": 70,
+    "chapter": 70,
+    "title": "Chapter 70: Fern WiFi Cracker Tutorial — GUI-Based WEP/WPA2 Attacks",
+    "module": "Module 8: Wireless Network Security",
+    "description": "Use Fern WiFi Cracker in a lab: interface selection, monitor mode, network scanning, automated WEP and WPA/WPA2 tests, and GUI vs Aircrack-ng trade-offs.",
+    "tags": [
+      "fern wifi cracker",
+      "wifi",
+      "gui tools",
+      "aircrack-ng",
+      "kali"
+    ],
+    "url": "/lessons/lesson-070/",
+    "video_url": "https://www.youtube.com/watch?v=DLEFrF1MqMg",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "Fern WiFi Cracker Tutorial — GUI-Based WEP/WPA2 Attacks Fern WiFi Cracker Tutorial — GUI-Based WEP/WPA2 Attacks | Kali Linux Course Chapter 70 #kali #linux Chapter 70 repeats the wireless workflow through a GUI. It explains that Fern WiFi Cracker automates Aircrack-ng components, shows how to select an interface, switch to monitor mode inside the app, scan networks, run automated WEP and wordlist-based WPA/WPA2 attacks, use session management, and compares the GUI with the manual command-line process. What Fern WiFi Cracker is and how it relates to Aircrack-ng How to select the correct wireless interface How to enable monitor mode from the GUI How to scan for WEP and WPA/WPA2 networks How to run automated WEP and WPA/WPA2 tests How the GUI compares with the manual workflow A front end, not a different attack Automation hides assumptions"
+  },
+  {
+    "number": 71,
+    "chapter": 71,
+    "title": "Chapter 71: What Is Metasploit? Beginner's Guide to the Metasploit Framework",
+    "module": "Module 9: Exploitation, Honeypots & Advanced Topics",
+    "description": "Metasploit for beginners: exploits, payloads, auxiliary and post modules, msfconsole navigation, search, show options and setting targets safely in a lab.",
+    "tags": [
+      "metasploit",
+      "msfconsole",
+      "payloads",
+      "exploitation",
+      "metasploitable"
+    ],
+    "url": "/lessons/lesson-071/",
+    "video_url": "https://www.youtube.com/watch?v=A7OY-M808Q4",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "What Is Metasploit? Beginner's Guide to the Metasploit Framework What Is Metasploit? Beginner's Guide to the Metasploit Framework | Kali Linux Chapter 71 | 2026 Chapter 71 opens the exploitation section with the Metasploit Framework. It explains why Metasploit is central to professional testing, describes exploits, payloads, auxiliary and post modules, tours msfconsole, explains the exploit-payload relationship, and demonstrates search, show options, set and set payload. Metasploitable is introduced as a safe practice target. What Metasploit is and where it fits in a penetration test The core module types: exploits, payloads, auxiliary and post How to launch and navigate msfconsole How the exploit and payload relationship works How to search for modules and inspect their options How to set parameters and payloads for a module Exploit plus payload A framework, not a target list"
+  },
+  {
+    "number": 72,
+    "chapter": 72,
+    "title": "Chapter 72: How to Exploit a Buffer Overflow Vulnerability with Metasploit",
+    "module": "Module 9: Exploitation, Honeypots & Advanced Topics",
+    "description": "Understand buffer overflows and run a Metasploit exploit in an isolated lab: Nmap service discovery, module configuration, payloads, sessions and mitigations.",
+    "tags": [
+      "buffer overflow",
+      "metasploit",
+      "exploitation",
+      "reverse shell",
+      "lab"
+    ],
+    "url": "/lessons/lesson-072/",
+    "video_url": "https://www.youtube.com/watch?v=EI7H-8slvNY",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "How to Exploit a Buffer Overflow Vulnerability with Metasploit How to Exploit a Buffer Overflow Vulnerability with Metasploit | Kali Linux Course Chapter 72 #kali Chapter 72 runs a first real exploit. It explains buffer overflows conceptually, sets up an intentionally vulnerable lab target, uses Nmap to identify the service, searches Metasploit for a matching module, configures the target and payload, launches the exploit, obtains a session, and performs basic post-exploitation checks. Modern mitigations close the lesson. What a buffer overflow is at a conceptual level Why overwriting memory can redirect program execution How to identify a vulnerable service with Nmap How to find and configure a matching Metasploit module How to select a payload and launch the exploit in a lab How to confirm access and explore a session How ASLR, DEP and patching make exploitation harder Memory corruption Mitigations raise the bar"
+  },
+  {
+    "number": 73,
+    "chapter": 73,
+    "title": "Chapter 73: Honeypots Explained — How Security Teams Trap Attackers",
+    "module": "Module 9: Exploitation, Honeypots & Advanced Topics",
+    "description": "What is a honeypot? Low- vs high-interaction designs, honeypot types, why organizations deploy them, monitoring attacker activity, and legal containment.",
+    "tags": [
+      "honeypot",
+      "defensive security",
+      "threat detection",
+      "blue team",
+      "lab"
+    ],
+    "url": "/lessons/lesson-073/",
+    "video_url": "https://www.youtube.com/watch?v=Osn6y7fB-hQ",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "Honeypots Explained — How Security Teams Trap Attackers Honeypots Explained — How Security Teams Trap Attackers | Kali Linux Course Chapter 73 #kali #linux Chapter 73 shifts to defence with honeypots. It defines a honeypot as a decoy system, compares low- and high-interaction designs, lists server, client, malware and network honeypots, explains why organizations deploy them, demonstrates a basic setup, covers monitoring and analysis, and discusses the legal and ethical issues of running one. What a honeypot is and how it differs from production systems Low-interaction versus high-interaction trade-offs Common honeypot types and their purposes Why organizations deploy honeypots How to monitor and analyse activity against a honeypot The legal and ethical responsibilities of operating one Deception as detection Containment is essential"
+  },
+  {
+    "number": 74,
+    "chapter": 74,
+    "title": "Chapter 74: Pentbox Tutorial — Setting Up a Honeypot with Pentbox",
+    "module": "Module 9: Exploitation, Honeypots & Advanced Topics",
+    "description": "Set up a Pentbox honeypot in an isolated lab: install Ruby dependencies, navigate the menu, configure logging, test connections and review captured activity.",
+    "tags": [
+      "pentbox",
+      "honeypot",
+      "ruby",
+      "detection",
+      "kali linux"
+    ],
+    "url": "/lessons/lesson-074/",
+    "video_url": "https://www.youtube.com/watch?v=u5Ql6VZbBeY",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "Pentbox Tutorial — Setting Up a Honeypot with Pentbox Pentbox Tutorial — Setting Up a Honeypot with Pentbox | Kali Linux Course Chapter 74 #kali #linux Chapter 74 puts honeypot theory into practice with Pentbox. It introduces the toolkit, shows how to download and install it with its Ruby dependencies, navigates the menu interface, configures the built-in honeypot, tests it from another machine, reviews logged activity, and briefly explores other modules such as the port scanner and password generator. What Pentbox is and which utilities it bundles How to install Pentbox and its Ruby dependencies How to navigate the menu-driven interface How to configure and start the honeypot module How to test the honeypot and observe logged connections Which other Pentbox modules are useful in a small lab Small tools, clear signals Ruby runtime dependency"
+  },
+  {
+    "number": 75,
+    "chapter": 75,
+    "title": "Chapter 75: Browser Exploitation Attack Using Metasploit (BeEF Framework Demo)",
+    "module": "Module 9: Exploitation, Honeypots & Advanced Topics",
+    "description": "Learn browser exploitation in a lab: BeEF setup and browser hooking, Metasploit browser modules, payload delivery, and the defences that stop this attack class.",
+    "tags": [
+      "beef",
+      "browser exploitation",
+      "metasploit",
+      "client-side",
+      "lab"
+    ],
+    "url": "/lessons/lesson-075/",
+    "video_url": "https://www.youtube.com/watch?v=1i_UAS_4Yho",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "Browser Exploitation Attack Using Metasploit (BeEF Framework Demo) Browser Exploitation Attack Using Metasploit (BeEF Framework Demo) | Kali Linux Chapter 75 | 2026 Chapter 75 returns to offense with browser exploitation. It distinguishes browser attacks from network exploits, lists vectors such as outdated plugins, malicious scripts and drive-by downloads, sets up BeEF in a lab, hooks a test browser, uses Metasploit against an outdated browser, delivers a payload, and explains why updates, script blockers and awareness defeat most of these attacks. What browser exploitation is and how it differs from network exploitation Common browser attack vectors How to set up BeEF and hook a test browser in a lab What a hooked browser reveals to an attacker How Metasploit browser exploit modules are used in a lab Why updates, script blockers and user awareness are the main defences The browser is the target BeEF demonstrates client-side risk"
+  },
+  {
+    "number": 76,
+    "chapter": 76,
+    "title": "Chapter 76: How to Perform an Attack Using BeEF (Hooked Browser Modules Explained)",
+    "module": "Module 9: Exploitation, Honeypots & Advanced Topics",
+    "description": "Explore BeEF command modules: social engineering, browser information gathering, persistence, chaining with Metasploit, and defences like CSP and script blockers.",
+    "tags": [
+      "beef",
+      "browser modules",
+      "social engineering",
+      "csp",
+      "client-side security"
+    ],
+    "url": "/lessons/lesson-076/",
+    "video_url": "https://www.youtube.com/watch?v=5YDDl6DDV3M",
+    "status": "scheduled",
+    "duration": null,
+    "published_date": null,
+    "text": "How to Perform an Attack Using BeEF (Hooked Browser Modules Explained) How to Perform an Attack Using BeEF (Hooked Browser Modules Explained) | Kali Linux Chapter 76 The final chapter goes deeper into BeEF command modules. It recaps hooking a browser, tours the control panel and hooked-browser details, demonstrates social-engineering, information-gathering and persistence modules, chains a BeEF module with a Metasploit exploit, reviews session logs, and explains the defences: script blockers, CSP headers and updated browsers. How to navigate the BeEF control panel and browser details How social-engineering modules manipulate what a user sees What information modules reveal about a hooked browser How persistence modules survive page navigation How a BeEF module can be chained with a Metasploit exploit How CSP, script blockers and updates defend against client-side attacks Page context is the limit Chaining increases impact"
+  }
+]

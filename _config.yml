@@ -1,0 +1,85 @@
+# Jekyll configuration for GitHub Pages.
+# Change the repository name and baseurl in one place if you fork this project.
+title: "Kali Linux Tutorials"
+tagline: "Free Kali Linux course notes for authorized security learning"
+description: "A complete Kali Linux learning resource: 76 chapter notes, practical labs, official documentation links and a safe study roadmap for the EINITIAL24 ACADEMY course."
+url: "https://bevijaygupta.github.io"
+baseurl: "/kali-linux-tutorial"
+repository: "bevijaygupta/kali-linux-tutorial"
+repository_url: "https://github.com/bevijaygupta/kali-linux-tutorial"
+
+brand_name: "EINITIAL24 Academy"
+brand_url: "https://einitial24.com/"
+youtube_url: "https://www.youtube.com/@EINITIAL24"
+playlist_url: "https://www.youtube.com/playlist?list=PLYDHfwsEk0RY"
+playlist_id: "PLYDHfwsEk0RY"
+author: "EINITIAL24 Academy"
+lang: "en"
+image: "https://bevijaygupta.github.io/kali-linux-tutorial/assets/images/social-preview.png"
+logo: "/assets/images/logo.svg"
+
+twitter:
+  card: "summary_large_image"
+  username: ""
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+feed:
+  path: "feed.xml"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  auto_ids: true
+  toc_levels: 2..3
+
+permalink: pretty
+timezone: UTC
+
+defaults:
+  - scope:
+      path: "docs"
+      type: pages
+    values:
+      layout: doc
+  - scope:
+      path: "resources"
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: "lessons"
+      type: pages
+    values:
+      layout: lesson
+
+exclude:
+  - README.md
+  - LICENSE
+  - CONTRIBUTING.md
+  - CODE_OF_CONDUCT.md
+  - SECURITY.md
+  - CHANGELOG.md
+  - requirements.txt
+  - package.json
+  - package-lock.json
+  - node_modules
+  - vendor
+  - scripts
+  - templates
+  - data
+  - .github
+  - .env.example
+  - .gitignore
+  - .opencode
+  - Gemfile
+  - Gemfile.lock
+
+include:
+  - .well-known
+
+sass:
+  style: compressed

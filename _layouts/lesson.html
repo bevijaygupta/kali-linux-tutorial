@@ -1,0 +1,57 @@
+---
+layout: default
+---
+{% include breadcrumbs.html section="Lessons" section_url="/lessons/" current=page.title %}
+
+{%- assign progress = page.lesson_number | times: 100.0 | divided_by: page.total_lessons -%}
+<div class="reading-progress" aria-hidden="true"><span data-reading-progress></span></div>
+
+<div class="container lesson-shell">
+  <article class="prose lesson-content" id="lesson-content">
+    {{ content }}
+  </article>
+
+  <aside class="lesson-aside">
+    <div class="toc-card">
+      <h2>On this page</h2>
+      <nav data-toc></nav>
+    </div>
+    <div class="lesson-progress-card">
+      <p class="aside-cta-title">Course progress</p>
+      <div class="progress-track" role="img" aria-label="Lesson {{ page.lesson_number }} of {{ page.total_lessons }}">
+        <span style="width: {{ progress }}%"></span>
+      </div>
+      <p class="progress-label">Lesson {{ page.lesson_number }} of {{ page.total_lessons }}</p>
+      <a class="button button-secondary button-block" href="{{ '/lessons/' | relative_url }}">All lessons</a>
+    </div>
+    <div class="aside-cta">
+      <p class="aside-cta-title">Watch on YouTube</p>
+      <p>Video content belongs to EINITIAL24 ACADEMY and stays on YouTube.</p>
+      <a class="button button-primary button-block" href="{{ site.playlist_url }}" target="_blank" rel="noopener noreferrer">Open the playlist</a>
+    </div>
+  </aside>
+</div>
+
+{%- assign prev_num = page.lesson_number | minus: 1 -%}
+{%- assign next_num = page.lesson_number | plus: 1 -%}
+{%- assign prev_pad = prev_num | prepend: "00" | slice: -3, 3 -%}
+{%- assign next_pad = next_num | prepend: "00" | slice: -3, 3 -%}
+<nav class="container lesson-pager" aria-label="Lesson navigation">
+  {%- if prev_num >= 1 %}
+  <a class="pager-link pager-prev" href="{{ '/lessons/lesson-' | append: prev_pad | append: '/' | relative_url }}">
+    <span class="pager-label">Previous lesson</span>
+    <span class="pager-title">Chapter {{ prev_num }}</span>
+  </a>
+  {%- else %}<span></span>{%- endif %}
+  {%- if next_num <= page.total_lessons %}
+  <a class="pager-link pager-next" href="{{ '/lessons/lesson-' | append: next_pad | append: '/' | relative_url }}">
+    <span class="pager-label">Next lesson</span>
+    <span class="pager-title">Chapter {{ next_num }}</span>
+  </a>
+  {%- else %}
+  <a class="pager-link pager-next" href="{{ '/lessons/' | relative_url }}">
+    <span class="pager-label">Course complete</span>
+    <span class="pager-title">Back to all lessons</span>
+  </a>
+  {%- endif %}
+</nav>

@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{% include breadcrumbs.html section="Documentation" section_url="/docs/" current=page.title %}
+
+<div class="container doc-shell">
+  <aside class="doc-sidebar" aria-label="Documentation navigation">
+    {% include docs-nav.html %}
+    <div class="aside-cta">
+      <p class="aside-cta-title">Ready to practice?</p>
+      <p>Set up an isolated lab before running any command.</p>
+      <a class="button button-primary button-block" href="{{ '/resources/lab-checklist/' | relative_url }}">Open lab checklist</a>
+    </div>
+  </aside>
+
+  <article class="prose doc-content">
+    <header class="page-head">
+      {%- if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
+      <h1>{{ page.title }}</h1>
+      {%- if page.description %}<p class="page-lede">{{ page.description }}</p>{% endif %}
+    </header>
+    {{ content }}
+  </article>
+
+  <aside class="doc-toc" aria-label="On this page">
+    <div class="toc-card">
+      <h2>On this page</h2>
+      <nav data-toc></nav>
+    </div>
+  </aside>
+</div>

@@ -1,0 +1,189 @@
+{%- comment -%}
+Structured data. Only verified metadata is published:
+  * VideoObject is emitted for published lessons only.
+  * Scheduled lessons never receive uploadDate, duration or VideoObject.
+  * No aggregateRating, review or engagement claims are invented.
+{%- endcomment -%}
+{%- assign canonical = page.url | absolute_url -%}
+{%- if page.url == "/" or page.url == "/index.html" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ site.url }}{{ site.baseurl }}/#organization",
+      "name": {{ site.brand_name | jsonify }},
+      "url": {{ site.brand_url | jsonify }},
+      "logo": {
+        "@type": "ImageObject",
+        "url": {{ site.logo | absolute_url | jsonify }}
+      },
+      "sameAs": [
+        {{ site.youtube_url | jsonify }},
+        {{ site.repository_url | jsonify }}
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}{{ site.baseurl }}/#website",
+      "url": {{ site.url | append: site.baseurl | append: "/" | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "inLanguage": "en",
+      "publisher": { "@id": "{{ site.url }}{{ site.baseurl }}/#organization" }
+    },
+    {
+      "@type": "Course",
+      "name": "Kali Linux Complete Course",
+      "description": "A free, chapter-by-chapter Kali Linux course covering installation, Linux fundamentals, networking, reconnaissance, vulnerability analysis, password attacks, wireless security and web application security. Practice is authorized-lab only.",
+      "url": {{ site.playlist_url | jsonify }},
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "provider": { "@id": "{{ site.url }}{{ site.baseurl }}/#organization" }
+    }
+  ]
+}
+</script>
+{%- else -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": {{ site.url | append: site.baseurl | append: "/" | jsonify }}
+    }
+    {%- if page.layout == "lesson" -%}
+    ,{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Lessons",
+      "item": {{ "/lessons/" | absolute_url | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ page.title | jsonify }},
+      "item": {{ canonical | jsonify }}
+    }
+    {%- elsif page.collection == "docs" or page.path contains "docs/" -%}
+    ,{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Documentation",
+      "item": {{ "/docs/" | absolute_url | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ page.title | jsonify }},
+      "item": {{ canonical | jsonify }}
+    }
+    {%- elsif page.path contains "resources/" -%}
+    ,{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Resources",
+      "item": {{ "/resources/" | absolute_url | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ page.title | jsonify }},
+      "item": {{ canonical | jsonify }}
+    }
+    {%- else -%}
+    ,{
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ page.title | jsonify }},
+      "item": {{ canonical | jsonify }}
+    }
+    {%- endif -%}
+  ]
+}
+</script>
+{%- if page.layout == "lesson" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "url": {{ canonical | jsonify }},
+  "mainEntityOfPage": {{ canonical | jsonify }},
+  "inLanguage": "en",
+  "datePublished": {{ page.last_updated | default: "2026-11-14" | jsonify }},
+  "dateModified": {{ page.last_updated | default: "2026-11-14" | jsonify }},
+  "author": {
+    "@type": "Organization",
+    "name": {{ site.brand_name | jsonify }},
+    "url": {{ site.brand_url | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.brand_name | jsonify }},
+    "url": {{ site.brand_url | jsonify }}
+  },
+  "isPartOf": {
+    "@type": "Course",
+    "name": "Kali Linux Complete Course",
+    "url": {{ site.playlist_url | jsonify }}
+  }
+}
+</script>
+{%- if page.status == "published" and page.video_id and page.published_date -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "thumbnailUrl": [{{ page.thumbnail_url | jsonify }}],
+  "uploadDate": {{ page.published_date | jsonify }},
+  "duration": {{ page.duration_iso | jsonify }},
+  "embedUrl": {{ "https://www.youtube-nocookie.com/embed/" | append: page.video_id | jsonify }},
+  "url": {{ page.video_url | jsonify }},
+  "isPartOf": {
+    "@type": "CreativeWorkSeries",
+    "name": "Kali Linux Complete Course",
+    "url": {{ site.playlist_url | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "EINITIAL24 ACADEMY",
+    "url": {{ site.youtube_url | jsonify }}
+  }
+}
+</script>
+{%- endif -%}
+{%- elsif page.layout == "doc" or page.path contains "resources/" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "url": {{ canonical | jsonify }},
+  "mainEntityOfPage": {{ canonical | jsonify }},
+  "inLanguage": "en",
+  "datePublished": {{ page.date | default: "2026-11-14" | date: "%Y-%m-%d" | jsonify }},
+  "dateModified": {{ page.last_modified | default: page.date | default: "2026-11-14" | date: "%Y-%m-%d" | jsonify }},
+  "author": {
+    "@type": "Organization",
+    "name": {{ site.brand_name | jsonify }},
+    "url": {{ site.brand_url | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.brand_name | jsonify }},
+    "url": {{ site.brand_url | jsonify }}
+  }
+}
+</script>
+{%- endif -%}
+{%- endif -%}

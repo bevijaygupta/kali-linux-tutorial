@@ -1,0 +1,29 @@
+{%- comment -%}
+Shared <head> for every page. jekyll-seo-tag emits the title, description,
+canonical URL, Open Graph and Twitter card tags. JSON-LD is emitted separately
+by _includes/schema.html so it can be tailored per page type.
+{%- endcomment -%}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b0b0c">
+<meta name="color-scheme" content="dark light">
+{%- if page.noindex %}
+<meta name="robots" content="noindex, follow">
+{%- endif %}
+<link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ '/assets/images/logo-192.png' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+{% seo %}
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.dataset.theme = saved || (prefersDark ? 'dark' : 'light');
+    } catch (error) {
+      document.documentElement.dataset.theme = 'dark';
+    }
+  })();
+</script>
+{% include schema.html %}

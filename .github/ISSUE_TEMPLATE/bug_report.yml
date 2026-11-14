@@ -1,0 +1,87 @@
+name: Bug report
+description: Report a broken page, link, generator or validation problem
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the course companion. Do not include real credentials, personal data or private network details.
+
+        If this is a security issue, leaked secret or safety problem, use the private route in SECURITY.md instead of this public form.
+
+  - type: input
+    id: location
+    attributes:
+      label: Where is the problem?
+      description: Page URL, file path, workflow name or command.
+      placeholder: "https://... or lessons/lesson-012.md or .github/workflows/validate.yml"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      description: Describe the correct behaviour or content.
+      placeholder: "The link should open the official Nmap manual."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+      description: Include the exact error text, command output or a screenshot description.
+      placeholder: "The link returns 404 and the validator does not catch it."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Keep it safe. Do not target third-party systems.
+      placeholder: |
+        1. Run `python scripts/validate_links.py`
+        2. Open ...
+        3. See ...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      multiple: true
+      options:
+        - Lesson page
+        - Documentation page
+        - Resource page
+        - Jekyll site or CSS
+        - Python generator
+        - GitHub Actions
+        - Playlist metadata
+        - Accessibility
+        - Other
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python version, browser or Jekyll version if relevant.
+      placeholder: "Windows 11, Python 3.11.9, Chrome 140"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I have not included real credentials, personal data or private target details.
+          required: true
+        - label: This is not a security vulnerability or leaked secret (those go through SECURITY.md).
+          required: true
+        - label: I have checked that a similar issue is not already open.
+          required: false

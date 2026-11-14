@@ -1,0 +1,15 @@
+{%- comment -%}
+Breadcrumb trail. Parameters: section, section_url, current.
+The visible trail is paired with BreadcrumbList JSON-LD in _includes/schema.html.
+{%- endcomment -%}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol>
+    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+    {%- if include.section and include.section_url %}
+    <li><a href="{{ include.section_url | relative_url }}">{{ include.section }}</a></li>
+    {%- endif %}
+    {%- if include.current %}
+    <li><span aria-current="page">{{ include.current }}</span></li>
+    {%- endif %}
+  </ol>
+</nav>

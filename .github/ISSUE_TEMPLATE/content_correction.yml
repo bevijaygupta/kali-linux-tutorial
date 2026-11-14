@@ -1,0 +1,69 @@
+name: Content correction
+description: Suggest a factual, safety or clarity correction to a lesson or guide
+title: "[Content]: "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for corrections with a verifiable source. Do not submit transcripts, copied descriptions or instructions aimed at real third-party systems.
+
+  - type: input
+    id: page
+    attributes:
+      label: Page or file
+      description: Lesson, docs page, resource or data file.
+      placeholder: "lessons/lesson-038.md or docs/reconnaissance.md"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text or command
+      description: Quote the smallest relevant passage.
+      placeholder: "The current sentence says ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed correction
+      description: Provide the replacement text and explain why it is more accurate or safer.
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Primary source
+      description: Official documentation, standard, vendor advisory or reproducible lab result.
+      placeholder: "https://nmap.org/book/man.html"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type of correction
+      options:
+        - Factual error
+        - Outdated command or option
+        - Broken or outdated link
+        - Safety or legal warning
+        - Clarity or accessibility
+        - Typo or formatting
+        - Other
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I have provided a primary source or a safe lab reproduction.
+          required: true
+        - label: I have not included a transcript, full video description or third-party private data.
+          required: true
+        - label: This correction does not encourage unauthorized access or harm.
+          required: true

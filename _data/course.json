@@ -1,0 +1,116 @@
+{
+  "total": 76,
+  "published": 47,
+  "scheduled": 29,
+  "last_checked": "2026-11-14",
+  "modules": [
+    {
+      "number": 1,
+      "name": "Module 1: Getting Started with Kali Linux",
+      "blurb": "Why Kali exists, how to verify the ISO, and how to run it safely in VirtualBox or VMware.",
+      "start": 1,
+      "end": 4,
+      "count": 4,
+      "published": 4,
+      "scheduled": 0,
+      "first_lesson": 1,
+      "url": "/lessons/lesson-001/"
+    },
+    {
+      "number": 2,
+      "name": "Module 2: Linux Fundamentals for Ethical Hackers",
+      "blurb": "The terminal, file operations, permissions, users and the shortcuts that make Linux work.",
+      "start": 5,
+      "end": 19,
+      "count": 15,
+      "published": 15,
+      "scheduled": 0,
+      "first_lesson": 5,
+      "url": "/lessons/lesson-005/"
+    },
+    {
+      "number": 3,
+      "name": "Module 3: Networking, Anonymity & Traffic Routing",
+      "blurb": "IP addresses, ports, DNS, Tor, VPNs, proxies and MAC addresses — with honest limits.",
+      "start": 20,
+      "end": 31,
+      "count": 12,
+      "published": 12,
+      "scheduled": 0,
+      "first_lesson": 20,
+      "url": "/lessons/lesson-020/"
+    },
+    {
+      "number": 4,
+      "name": "Module 4: Reconnaissance & Network Scanning",
+      "blurb": "Footprinting, OSINT, DNS enumeration and Nmap scanning against your own lab network.",
+      "start": 32,
+      "end": 41,
+      "count": 10,
+      "published": 10,
+      "scheduled": 0,
+      "first_lesson": 32,
+      "url": "/lessons/lesson-032/"
+    },
+    {
+      "number": 5,
+      "name": "Module 5: Web Application & Vulnerability Analysis",
+      "blurb": "Nikto, Searchsploit, Lynis and web reconnaissance, then SQL injection tools in a safe lab.",
+      "start": 42,
+      "end": 48,
+      "count": 7,
+      "published": 6,
+      "scheduled": 1,
+      "first_lesson": 42,
+      "url": "/lessons/lesson-042/"
+    },
+    {
+      "number": 6,
+      "name": "Module 6: Password Attacks & Hash Cracking",
+      "blurb": "Hashing, wordlists, offline cracking and online password attacks — plus how to defend.",
+      "start": 49,
+      "end": 59,
+      "count": 11,
+      "published": 0,
+      "scheduled": 11,
+      "first_lesson": 49,
+      "url": "/lessons/lesson-049/"
+    },
+    {
+      "number": 7,
+      "name": "Module 7: Sniffing, Spoofing & Traffic Analysis",
+      "blurb": "Packet capture, ARP and DNS spoofing, and how to read traffic without breaking a network.",
+      "start": 60,
+      "end": 66,
+      "count": 7,
+      "published": 0,
+      "scheduled": 7,
+      "first_lesson": 60,
+      "url": "/lessons/lesson-060/"
+    },
+    {
+      "number": 8,
+      "name": "Module 8: Wireless Network Security",
+      "blurb": "Wi-Fi terminology, WEP and WPA/WPA2 testing, and practical wireless defense.",
+      "start": 67,
+      "end": 70,
+      "count": 4,
+      "published": 0,
+      "scheduled": 4,
+      "first_lesson": 67,
+      "url": "/lessons/lesson-067/"
+    },
+    {
+      "number": 9,
+      "name": "Module 9: Exploitation, Honeypots & Advanced Topics",
+      "blurb": "Metasploit, buffer overflows, honeypots and browser exploitation concepts.",
+      "start": 71,
+      "end": 76,
+      "count": 6,
+      "published": 0,
+      "scheduled": 6,
+      "first_lesson": 71,
+      "url": "/lessons/lesson-071/"
+    }
+  ]
+}

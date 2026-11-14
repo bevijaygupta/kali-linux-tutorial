@@ -1,0 +1,40 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="" width="32" height="32">
+        <span class="brand-text"><strong>Kali Linux Tutorials</strong><small>by EINITIAL24 Academy</small></span>
+      </a>
+      <p>Free chapter notes, safe lab guidance and official documentation for the Kali Linux Complete Course. Videos stay on YouTube; this site adds written study material.</p>
+      <p class="footer-legal">Educational use only. Test only systems you own or have written permission to test. Unauthorized access is illegal.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Course links">
+      <h2>Course</h2>
+      <a href="{{ '/lessons/' | relative_url }}">All {{ site.data.course.total }} lessons</a>
+      <a href="{{ '/docs/study-roadmap/' | relative_url }}">Study roadmap</a>
+      <a href="{{ '/resources/lab-checklist/' | relative_url }}">Lab checklist</a>
+      <a href="{{ '/resources/cheat-sheet/' | relative_url }}">Command cheat sheet</a>
+      <a href="{{ site.playlist_url }}" target="_blank" rel="noopener noreferrer">YouTube playlist</a>
+    </nav>
+    <nav class="footer-nav" aria-label="Project links">
+      <h2>Project</h2>
+      <a href="{{ '/docs/' | relative_url }}">Documentation</a>
+      <a href="{{ '/resources/' | relative_url }}">Resources</a>
+      <a href="{{ site.repository_url }}" rel="noopener">Source repository</a>
+      <a href="{{ site.repository_url }}/blob/main/CONTRIBUTING.md" rel="noopener">Contributing</a>
+      <a href="{{ site.repository_url }}/blob/main/SECURITY.md" rel="noopener">Security policy</a>
+      <a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a>
+    </nav>
+    <div class="footer-brand-links">
+      <h2>EINITIAL24 Academy</h2>
+      <a href="{{ site.brand_url }}" rel="noopener">einitial24.com</a>
+      <a href="{{ site.youtube_url }}" rel="noopener">YouTube channel</a>
+      <a href="{{ site.playlist_url }}" rel="noopener">Kali Linux course</a>
+      <p class="footer-note">Not affiliated with OffSec or Kali Linux. Kali Linux is a trademark of OffSec. Video titles, descriptions and thumbnails belong to their respective owner.</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span data-current-year>2026</span> EINITIAL24 Academy. Written content licensed CC BY 4.0; code licensed MIT.</p>
+    <p><a href="{{ site.repository_url }}/blob/main/LICENSE" rel="noopener">License</a> · <a href="{{ '/llms.txt' | relative_url }}">llms.txt</a> · <a href="{{ '/robots.txt' | relative_url }}">robots.txt</a></p>
+  </div>
+</footer>

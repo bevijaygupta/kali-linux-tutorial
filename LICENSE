@@ -1,0 +1,81 @@
+Kali Linux Tutorials — licensing
+================================
+
+Copyright © 2026 EINITIAL24 Academy.
+
+This repository uses two licences. The licence depends on what you are reusing.
+
+1. Code — MIT License
+----------------------
+
+The following are licensed under the MIT License: Python scripts, HTML templates
+and Liquid layouts, CSS, JavaScript, GitHub Actions workflows, JSON schemas and
+other functional source code in this repository.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+2. Written content — CC BY 4.0
+------------------------------
+
+The written educational content is licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0). This includes the lesson
+notes, documentation pages, resource pages, README prose, glossary, checklists
+and the original diagrams and images created for this repository.
+
+You are free to:
+
+  * Share — copy and redistribute the material in any medium or format.
+  * Adapt — remix, transform, and build upon the material for any purpose,
+    even commercially.
+
+Under the following terms:
+
+  * Attribution — You must give appropriate credit, provide a link to the
+    licence, and indicate if changes were made. You may do so in any reasonable
+    manner, but not in any way that suggests the licensor endorses you or your
+    use.
+  * No additional restrictions — You may not apply legal terms or technological
+    measures that legally restrict others from doing anything the licence
+    permits.
+
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution example:
+
+  "Kali Linux Tutorials by EINITIAL24 Academy, licensed CC BY 4.0.
+  Source: https://github.com/bevijaygupta/kali-linux-tutorial.
+  Changes: shortened and updated for a local lab."
+
+3. Excluded material
+--------------------
+
+The licences above do not cover:
+
+  * Video content, audio, thumbnails, channel artwork or other material hosted
+    on YouTube and owned by EINITIAL24 ACADEMY or third parties.
+  * Third-party tool names, logos, documentation excerpts or trademarks.
+  * Any material that is quoted or linked from another source, which remains
+    subject to that source's licence.
+
+Video titles, descriptions and thumbnails are referenced for identification and
+education. They are not re-licensed by this repository, and no video files or
+transcripts are distributed here.
+
+Kali Linux is a trademark of OffSec. This project is an independent study
+companion and is not affiliated with or endorsed by OffSec.

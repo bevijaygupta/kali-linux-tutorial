@@ -1,0 +1,12 @@
+# Python tooling for kali-linux-tutorial
+#
+# The scripts in this repository use only the Python 3.11+ standard library:
+# json, re, pathlib, urllib, argparse, subprocess and datetime.
+#
+# No third-party packages are required to fetch metadata, generate pages,
+# build the search index or validate the repository. This file is intentionally
+# dependency-free so CI and local setup stay reproducible and lightweight.
+#
+# Optional extras, only if you extend the tooling:
+#   Pillow>=10.0     # regenerate the PNG banner and social preview
+#   PyYAML>=6.0      # parse YAML outside Jekyll

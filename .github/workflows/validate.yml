@@ -1,0 +1,55 @@
+name: Validate repository
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Data, links and safety checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python tooling
+        run: python -m pip install -r requirements.txt
+
+      - name: Verify generated lesson pages are current
+        run: python scripts/generate_lesson_pages.py --check
+
+      - name: Verify generated search index and llms.txt are current
+        run: python scripts/generate_content.py --check
+
+      - name: Verify sitemap is current
+        run: python scripts/generate_sitemap.py --check
+
+      - name: Validate data, links, metadata and safety notices
+        run: python scripts/validate_links.py --strict
+
+      - name: Validate JSON files parse
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          for path in sorted(Path(".").rglob("*.json")):
+              if any(part in {".git", "_site", "node_modules"} for part in path.parts):
+                  continue
+              json.loads(path.read_text(encoding="utf-8"))
+              print(f"ok {path}")
+          PY

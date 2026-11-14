@@ -1,0 +1,26 @@
+{
+  "name": "kali-linux-tutorial",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Study companion for the EINITIAL24 Academy Kali Linux Complete Course: lesson notes, safe-lab resources and a Jekyll site.",
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "generate:lessons": "python scripts/generate_lesson_pages.py",
+    "generate:content": "python scripts/generate_content.py",
+    "generate:sitemap": "python scripts/generate_sitemap.py",
+    "generate": "python scripts/update_repository.py --skip-fetch",
+    "fetch": "python scripts/fetch_playlist.py",
+    "validate": "python scripts/validate_links.py",
+    "validate:strict": "python scripts/validate_links.py --strict",
+    "check": "python scripts/generate_lesson_pages.py --check && python scripts/generate_content.py --check && python scripts/generate_sitemap.py --check && python scripts/validate_links.py --strict",
+    "serve": "bundle exec jekyll serve",
+    "build": "bundle exec jekyll build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bevijaygupta/kali-linux-tutorial.git"
+  }
+}

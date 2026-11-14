@@ -1,0 +1,10 @@
+# robots.txt for the Kali Linux Tutorials site
+# The site is a GitHub Pages project site served from /kali-linux-tutorial/.
+
+User-agent: *
+Allow: /
+Disallow: /kali-linux-tutorial/404.html
+
+# The generated sitemap lists every public page. The 404 page is excluded and
+# carries a noindex meta tag.
+Sitemap: https://bevijaygupta.github.io/kali-linux-tutorial/sitemap.xml
