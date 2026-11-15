@@ -13,14 +13,9 @@ brand_url: "https://einitial24.com/"
 youtube_url: "https://www.youtube.com/@EINITIAL24"
 playlist_url: "https://www.youtube.com/playlist?list=PLYDHfwsEk0RY"
 playlist_id: "PLYDHfwsEk0RY"
-author: "EINITIAL24 Academy"
 lang: "en"
 image: "https://bevijaygupta.github.io/kali-linux-tutorial/assets/images/social-preview.png"
 logo: "/assets/images/logo.svg"
-
-twitter:
-  card: "summary_large_image"
-  username: ""
 
 plugins:
   - jekyll-seo-tag
@@ -40,6 +35,10 @@ permalink: pretty
 timezone: UTC
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      image: "https://bevijaygupta.github.io/kali-linux-tutorial/assets/images/social-preview.png"
   - scope:
       path: "docs"
       type: pages
