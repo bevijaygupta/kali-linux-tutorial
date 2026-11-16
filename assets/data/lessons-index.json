@@ -14,9 +14,9 @@
     ],
     "url": "/lessons/lesson-001/",
     "video_url": "https://www.youtube.com/watch?v=vItgAHdJ2x8",
-    "status": "published",
-    "duration": "2:18",
-    "published_date": "2026-08-13",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Why Use Kali Linux? Kali vs Ubuntu for Ethical Hacking Why Use Kali Linux? Kali vs Ubuntu for Ethical Hacking | Ch. 1 The opening chapter answers the question every beginner asks: why Kali Linux? It explains what Kali is, where it came from, how it differs from Ubuntu, and which built-in security tools make it the standard operating system for penetration testing. It also sets expectations by naming who should use Kali and who should learn Linux fundamentals first. What Kali Linux is and how it relates to BackTrack Linux and Debian Why security professionals choose Kali over a general-purpose distribution How Kali Linux differs from Ubuntu in purpose and default tooling The built-in tools used for penetration testing, forensics and security research Who should use Kali and who should wait until they have Linux basics Real-world use cases: penetration testing, vulnerability assessment, digital forensics and security research Kali Linux is a tool collection, not a magic button Kali versus Ubuntu"
   },
   {
@@ -34,9 +34,9 @@
     ],
     "url": "/lessons/lesson-002/",
     "video_url": "https://www.youtube.com/watch?v=vu_88fi41Ic",
-    "status": "published",
-    "duration": "2:06",
-    "published_date": "2026-08-15",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Linux Is NOT Unix? Unix vs Linux Explained for Beginners Linux Is NOT Unix? Unix vs Linux Explained for Beginners | Ch. 2 Chapter 2 clears up one of the most common beginner confusions: Linux is not Unix, but it is Unix-like. The lesson walks through the history of Unix at Bell Labs, the creation of the Linux kernel in 1991, the licensing and technical differences between the two, and where distributions such as Debian, Ubuntu and Kali fit in. What Unix is and how it started at Bell Labs in 1969 What Linux is and how it relates to the Unix design philosophy The key technical and licensing differences between Unix and Linux How Debian, Ubuntu and Kali Linux fit into the Linux distribution family Why Unix-like systems dominate servers, cloud infrastructure and security work Common myths and misconceptions about Unix and Linux Unix-like, not Unix Why the distinction matters for security work"
   },
   {
@@ -54,9 +54,9 @@
     ],
     "url": "/lessons/lesson-003/",
     "video_url": "https://www.youtube.com/watch?v=j-O6TM0ZJ_M",
-    "status": "published",
-    "duration": "3:14",
-    "published_date": "2026-08-17",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "How to Download Kali Linux Safely (Avoid Fake ISOs) How to Download Kali Linux Safely (Avoid Fake ISOs) | Ch. 3 Downloading the wrong ISO is a real risk: fake Kali images can contain malware before you run your first command. Chapter 3 shows the official Kali download page, explains Installer, Live, Network Installer and pre-built Virtual Machine images, and demonstrates verifying the SHA256 checksum of a download. Why unofficial Kali downloads are dangerous The official Kali Linux download page and how to recognise it The difference between Installer, Live, Network Installer and Virtual Machine images How to choose an image for a virtual machine versus bare-metal hardware How to verify a download with its SHA256 checksum Common beginner mistakes with mirrors, versions and file types Choose the image that matches your plan Checksum verification"
   },
   {
@@ -74,9 +74,9 @@
     ],
     "url": "/lessons/lesson-004/",
     "video_url": "https://www.youtube.com/watch?v=eaO-bY_8ShU",
-    "status": "published",
-    "duration": "7:10",
-    "published_date": "2026-08-19",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "How to Install VirtualBox (Windows, Mac, Linux) + Best Settings How to Install VirtualBox (Windows, Mac, Linux) + Best Settings | Ch. 4 A virtual machine lets you practise offensive security without risking your main computer. Chapter 4 installs VirtualBox on Windows, macOS and Linux, adds the Extension Pack, and walks through the settings that matter: memory, processor cores, display, and the difference between NAT, Bridged and Host-Only networking. Why a virtual machine is the right place to run Kali Linux as a beginner How to download and install VirtualBox from the official site How to install the VirtualBox Extension Pack Which memory, CPU and display settings to check before starting a VM NAT, Bridged and Host-Only network modes and when to use each Common installation errors and how to fix them Virtual machine networking Plan resources before you start"
   },
   {
@@ -94,9 +94,9 @@
     ],
     "url": "/lessons/lesson-005/",
     "video_url": "https://www.youtube.com/watch?v=eQdOi9Uy7fQ",
-    "status": "published",
-    "duration": "4:14",
-    "published_date": "2026-08-21",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Linux Terminal for Beginners: Don't Be Afraid of It Linux Terminal for Beginners: Don't Be Afraid of It | Kali Ch. 5 Chapter 5 removes the fear of the terminal. It separates three terms beginners often mix up — terminal, shell and command line — shows how to open and navigate a terminal in Kali Linux, explains how to read the prompt, and introduces shortcuts that make command-line work faster. Why ethical hackers work from the terminal The difference between terminal, shell and command line How to open and navigate a terminal in Kali Linux How to read a shell prompt and understand your current location Keyboard shortcuts that speed up command entry How to practise safely in a virtual machine without fear of breaking your host Terminal, shell, command line Read the prompt"
   },
   {
@@ -114,9 +114,9 @@
     ],
     "url": "/lessons/lesson-006/",
     "video_url": "https://www.youtube.com/watch?v=65OxGc4ML88",
-    "status": "published",
-    "duration": "2:55",
-    "published_date": "2026-08-23",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "22 Essential Linux Commands for Beginners (Kali Linux) 22 Essential Linux Commands for Beginners (Kali Linux) | Ch. 6 Every Kali tool is launched from a shell, so Chapter 6 builds the command vocabulary the rest of the course depends on. It groups 22 essential commands by task — navigation, file creation and deletion, copying and viewing, searching, permissions, and system information — with examples you can run in your own VM. Navigate the file system with pwd, ls and cd Create and remove directories and files with mkdir, rmdir, touch and rm Copy, move and read files with cp, mv, cat and nano Search file contents and the file system with grep and find Read text with less and more Understand permissions with chmod and chown Inspect the system with whoami, uname, uptime, df and du Commands are small and composable Permissions are part of daily work"
   },
   {
@@ -134,9 +134,9 @@
     ],
     "url": "/lessons/lesson-007/",
     "video_url": "https://www.youtube.com/watch?v=HESJ5fGGXaU",
-    "status": "published",
-    "duration": "6:15",
-    "published_date": "2026-08-25",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Linux ls Command Explained: ls -l, ls -a, ls -lh (Beginners) Linux ls Command Explained: ls -l, ls -a, ls -lh (Beginners) | Ch. 7 Chapter 7 takes the most-used Linux command and explains it properly. You see the basic listing, then the meaning of ls -l, ls -a, ls -la and ls -lh, followed by the everyday companions cd, pwd, clear and history. The lesson finishes with common beginner mistakes and how to avoid them. What ls does and when to use each common flag How to read the long listing produced by ls -l How hidden files work and why ls -a shows them The practical difference between ls -la and ls -lh How cd, pwd, clear and history fit into a daily workflow How to combine flags and avoid common mistakes Reading ls -l Hidden files are a convention"
   },
   {
@@ -154,9 +154,9 @@
     ],
     "url": "/lessons/lesson-008/",
     "video_url": "https://www.youtube.com/watch?v=hHhNXrtmMXw",
-    "status": "published",
-    "duration": "4:03",
-    "published_date": "2026-08-27",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Linux cd Command Explained: cd .., cd ~, cd - (Beginners) Linux cd Command Explained: cd .., cd ~, cd - (Beginners) | Ch. 8 Getting lost in the file system is the classic beginner problem, and cd is the fix. Chapter 8 explains absolute versus relative paths, the shortcuts cd .., cd ~ and cd -, and how to create files instantly with touch. A short recap of mkdir, rmdir and rm connects navigation to file management. How cd moves between directories The difference between absolute and relative paths The shortcuts cd .., cd ~ and cd - How to create empty files with touch How mkdir, rmdir and rm complement navigation Common path mistakes and how to recover from them Absolute versus relative paths Special directory names"
   },
   {
@@ -174,9 +174,9 @@
     ],
     "url": "/lessons/lesson-009/",
     "video_url": "https://www.youtube.com/watch?v=XqMQ-0Ac4KQ",
-    "status": "published",
-    "duration": "3:18",
-    "published_date": "2026-08-29",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Linux rm Command: How to Delete Files Safely (rm -rf Explained) Linux rm Command: How to Delete Files Safely (rm -rf Explained) Chapter 9 is a safety lesson disguised as a file-management lesson. It shows mkdir and rm, explains what the -r, -f and -rf options really do, demonstrates rm -i as a confirmation prompt, and warns about the classic mistake of deleting the wrong directory. clear closes the lesson. How to create single and nested directories with mkdir How to delete files with rm and directories with rmdir What rm -r, rm -f and rm -rf actually do How rm -i adds a confirmation prompt before deletion How to clean the terminal with clear Which mistakes cause irreversible data loss There is no recycle bin Recursive and forced"
   },
   {
@@ -195,9 +195,9 @@
     ],
     "url": "/lessons/lesson-010/",
     "video_url": "https://www.youtube.com/watch?v=2H7RJarIEz0",
-    "status": "published",
-    "duration": "3:27",
-    "published_date": "2026-08-31",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Linux cp Command: How to Copy Files and Folders (cp -r Explained) Linux cp Command: How to Copy Files and Folders (cp -r Explained) Chapter 10 covers copying and reading files. You see cp for single files, cp -r for directories, and cp -v for visible progress, then cat for short files and less, head and tail for longer ones. It also reinforces checking your location with pwd before running a command. How to copy files and directories with cp What the -r and -v options do How to view a whole short file with cat How to page through long files with less How to read the beginning and end of a file with head and tail Why checking pwd first prevents copy mistakes Copying directories requires -r Reading files without an editor"
   },
   {
@@ -215,9 +215,9 @@
     ],
     "url": "/lessons/lesson-011/",
     "video_url": "https://www.youtube.com/watch?v=w4DLetDLEbQ",
-    "status": "published",
-    "duration": "2:18",
-    "published_date": "2026-09-02",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "How to Find Files in Linux Fast: locate, find, updatedb How to Find Files in Linux Fast: locate, find, updatedb | Ch. 11 Chapter 11 solves the lost-file problem. It shows locate for fast name searches, explains why updatedb keeps that database accurate, and introduces find for searches that need more control. The lesson closes with mv, including moving and renaming files and how mv differs from cp. How to find files by name with locate Why the locate database can be stale and how updatedb fixes it How find searches the live file system with more control When to choose locate and when to choose find How to move files and directories with mv How to rename files and why mv differs from cp Database search versus live search mv moves and renames"
   },
   {
@@ -235,9 +235,9 @@
     ],
     "url": "/lessons/lesson-012/",
     "video_url": "https://www.youtube.com/watch?v=SbitksHGNTw",
-    "status": "published",
-    "duration": "1:33",
-    "published_date": "2026-09-04",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Linux sort Command Explained: sort -n, -r, -k, -u (Beginners) Linux sort Command Explained: sort -n, -r, -k, -u (Beginners) | Ch. 12 Why does sort put 10 before 2? Chapter 12 answers that question and turns the confusion into a practical lesson on text processing. It covers alphabetical sorting, numeric sorting with -n, reverse order with -r, column selection with -k, duplicate removal with -u, and combining sort with other commands through pipes. Why default sort is lexicographic rather than numeric How to sort text alphabetically with sort How to sort numbers correctly with sort -n How to reverse output with -r How to sort by a specific column with -k How to remove duplicate lines with -u and combine commands with pipes Lexicographic versus numeric order Pipes make small tools powerful"
   },
   {
@@ -255,9 +255,9 @@
     ],
     "url": "/lessons/lesson-013/",
     "video_url": "https://www.youtube.com/watch?v=rS3XcxS8OX4",
-    "status": "published",
-    "duration": "2:41",
-    "published_date": "2026-09-06",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "How to Zip and Unzip Files in Linux (zip -r, unzip -d) How to Zip and Unzip Files in Linux (zip -r, unzip -d) | Ch. 13 Chapter 13 handles archives entirely from the terminal. It shows how to zip single and multiple files, compress a whole directory with zip -r, inspect an archive with unzip -l, extract into a chosen directory with unzip -d, and install zip or unzip when they are missing. How to compress one or more files with zip How to archive a directory recursively with zip -r How to extract archives with unzip How to list archive contents without extracting How to extract to a specific directory with unzip -d How to install zip and unzip if they are missing Archive versus compression Check before extracting"
   },
   {
@@ -275,9 +275,9 @@
     ],
     "url": "/lessons/lesson-014/",
     "video_url": "https://www.youtube.com/watch?v=p3g_HEZIoQg",
-    "status": "published",
-    "duration": "2:16",
-    "published_date": "2026-09-08",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Linux history Command: View, Reuse and Clear (+ whereis) Linux history Command: View, Reuse and Clear (+ whereis) | Ch. 14 Linux remembers the commands you type, and Chapter 14 shows how to use that record. It covers viewing history, re-running commands with !! and history numbers, clearing the list with history -c, and finding where a program lives with whereis. It also compares whereis, which and locate. How to view your shell command history How to re-run the last command or a specific numbered command What history -c clears and what it does not How whereis locates a program's binary, source and manual files The difference between whereis, which and locate When each of these commands is genuinely useful History is convenience and evidence Three different search tools"
   },
   {
@@ -295,9 +295,9 @@
     ],
     "url": "/lessons/lesson-015/",
     "video_url": "https://www.youtube.com/watch?v=RG2tk_CjAvg",
-    "status": "published",
-    "duration": "4:53",
-    "published_date": "2026-09-10",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "How to Create a User in Linux: adduser, passwd, su Explained How to Create a User in Linux: adduser, passwd, su Explained | Ch. 15 Chapter 15 introduces user accounts, the backbone of Linux access control. It demonstrates creating a user with adduser, contrasts adduser with the lower-level useradd, sets and changes passwords with passwd, switches users with su, and explains when to use su versus sudo. Root access and its risks close the lesson. How to create a user account with adduser The difference between adduser and useradd How to set and change passwords with passwd How su works and how su - differs from su When to use su and when to use sudo Why root access requires care and least privilege adduser versus useradd su versus sudo"
   },
   {
@@ -315,9 +315,9 @@
     ],
     "url": "/lessons/lesson-016/",
     "video_url": "https://www.youtube.com/watch?v=_AEq-fLBN_Q",
-    "status": "published",
-    "duration": "3:27",
-    "published_date": "2026-09-12",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "chmod Explained: Linux File Permissions (755, 777, +x) chmod Explained: Linux File Permissions (755, 777, +x) | Ch. 16 Chapter 16 explains the permission denied error from the ground up. It shows how to read the permission string in ls -l, what read, write and execute mean for files and directories, how numeric modes such as 755 and 644 are calculated, how symbolic modes work, how to make a script executable, and why chmod 777 is a bad habit. exit closes the session. How to read the ten-character permission string What read, write and execute mean for files and directories How octal permissions such as 755 and 644 are built How numeric and symbolic chmod modes differ How to make a script executable Why chmod 777 is dangerous and how exit ends a session The permission triad Octal arithmetic"
   },
   {
@@ -335,9 +335,9 @@
     ],
     "url": "/lessons/lesson-017/",
     "video_url": "https://www.youtube.com/watch?v=YXyQa6XBP-g",
-    "status": "published",
-    "duration": "5:26",
-    "published_date": "2026-09-14",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "chmod u+x, g-w, o=r Explained: Symbolic Permissions in Linux chmod u+x, g-w, o=r Explained: Symbolic Permissions in Linux | Ch. 17 Chapter 17 goes deeper into symbolic permissions. Starting from a string like -rwxr-xr--, it explains the user, group and others triads, then shows how to add, remove and set permissions with +, - and =, including combined changes such as u+x,g-w. Before-and-after ls -l output makes the effect visible. How to read a permission string character by character What u, g, o and a mean in symbolic mode How to add permissions with + How to remove permissions with - How to set exact permissions with = How to combine several changes in one chmod command Symbolic mode is relative Equals replaces the triad"
   },
   {
@@ -355,9 +355,9 @@
     ],
     "url": "/lessons/lesson-018/",
     "video_url": "https://www.youtube.com/watch?v=zwvF5yFNEcQ",
-    "status": "published",
-    "duration": "3:19",
-    "published_date": "2026-09-16",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Permission Denied in Linux? How to Fix File & Folder Permissions Permission Denied in Linux? How to Fix File & Folder Permissions | Ch 18 Chapter 18 turns permission theory into troubleshooting. Four worked examples show how to make a script executable, restrict a sensitive file, change an entire folder with chmod -R, and share a folder with a group. It then walks through diagnosing permission denied errors and verifying every change with ls -l. How to grant read, write and execute permissions on files How to change permissions recursively with chmod -R How to make a script executable and run it How to restrict a sensitive file to its owner How to share a folder with a group using ownership and permissions How to diagnose the cause of a permission denied error Directories need execute Recursive changes propagate"
   },
   {
@@ -375,9 +375,9 @@
     ],
     "url": "/lessons/lesson-019/",
     "video_url": "https://www.youtube.com/watch?v=YYY8cSohOvY",
-    "status": "published",
-    "duration": "4:16",
-    "published_date": "2026-09-18",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Linux Terminal Shortcuts: Ctrl+R, Ctrl+C, Tab and More (Beginners) Linux Terminal Shortcuts: Ctrl+R, Ctrl+C, Tab and More (Beginners) Ch 19 Chapter 19 is a productivity chapter. It covers Tab completion, the arrow keys, Ctrl+R history search, Ctrl+A and Ctrl+E for line navigation, Ctrl+U and Ctrl+K for deleting text, Ctrl+L to clear the screen, Ctrl+C to stop a running command, and !! and !n to repeat commands. How to auto-complete commands and filenames with Tab How to reuse earlier commands with the arrow keys How to search command history with Ctrl+R How to jump to the start or end of a line How to delete text quickly with Ctrl+U and Ctrl+K How to stop a stuck command with Ctrl+C Readline shortcuts are universal Ctrl+C sends an interrupt"
   },
   {
@@ -396,9 +396,9 @@
     ],
     "url": "/lessons/lesson-020/",
     "video_url": "https://www.youtube.com/watch?v=1Ae1TCmry1w",
-    "status": "published",
-    "duration": "1:23",
-    "published_date": "2026-09-20",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Is Kali Linux Anonymous? Tor vs VPN vs Proxy Explained Is Kali Linux Anonymous? Tor vs VPN vs Proxy Explained | Ch. 20 Chapter 20 opens the networking section with a question beginners often get wrong: does Kali Linux make you anonymous? It explains what anonymity actually means, how your IP address, DNS requests and browser fingerprint can expose you, and how anonymity differs from privacy and security. VPNs, proxies and Tor are introduced at a high level. What anonymity means in cybersecurity Why security researchers and penetration testers care about it How IP addresses, DNS requests and browser fingerprints reveal information The difference between anonymity, privacy and security How VPNs, proxies and Tor differ at a high level The legal and ethical boundaries of anonymity tooling Kali is not an anonymity system Anonymity, privacy, security"
   },
   {
@@ -416,9 +416,9 @@
     ],
     "url": "/lessons/lesson-021/",
     "video_url": "https://www.youtube.com/watch?v=5LzgmNjSrJ4",
-    "status": "published",
-    "duration": "3:17",
-    "published_date": "2026-09-22",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Proxy Server Explained: How It Hides Your IP (And What It Can't) Proxy Server Explained: How It Hides Your IP (And What It Can't) ch 21 Chapter 21 explains the proxy server: what it is, how requests flow through it, and why a website sees the proxy's address instead of yours. It covers HTTP, HTTPS and SOCKS proxies, the difference between forward and reverse proxies, common real-world uses, and the limits of using a proxy for anonymity. What a proxy is and how a request travels through it How a proxy server changes the IP address a website sees The difference between HTTP, HTTPS and SOCKS proxies Forward proxy versus reverse proxy Where proxies are used in real networks What a proxy cannot protect you from Forward and reverse proxies A proxy is not anonymity by itself"
   },
   {
@@ -436,9 +436,9 @@
     ],
     "url": "/lessons/lesson-022/",
     "video_url": "https://www.youtube.com/watch?v=J8TvrvYhRV8",
-    "status": "published",
-    "duration": "13:12",
-    "published_date": "2026-09-24",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "AnonSurf on Kali Linux: Route Your Traffic Through Tor (Setup) AnonSurf on Kali Linux: Route Your Traffic Through Tor (Setup) Ch 22 Chapter 22 is the first hands-on anonymity exercise. AnonSurf becomes the vehicle for learning git clone: install Git, download the tool from its GitHub repository, read the README before running an installer, then start, stop and check the service and confirm whether your visible IP changed. What git clone does and how to download a tool from GitHub How to install Git on Kali Linux if it is missing What AnonSurf is and how it routes traffic through Tor How to install, start, stop and check AnonSurf How to verify whether your visible IP address changed What AnonSurf cannot protect you from Read before you run Verify the change"
   },
   {
@@ -456,9 +456,9 @@
     ],
     "url": "/lessons/lesson-023/",
     "video_url": "https://www.youtube.com/watch?v=P-2pcECu1PQ",
-    "status": "published",
-    "duration": "2:31",
-    "published_date": "2026-09-26",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "What Is a VPN? How It Works vs Proxy vs Tor (Beginners) What Is a VPN? How It Works vs Proxy vs Tor (Beginners) | Ch. 23 Chapter 23 explains what a VPN actually does. It covers the encrypted tunnel between your device and the VPN server, why websites see the server's IP, how a VPN compares with a proxy, Tor and AnonSurf, the roles of OpenVPN, WireGuard and IPsec, and the protections a VPN does not provide. What a virtual private network is How a VPN encrypts traffic and changes the IP address destinations see How VPNs compare with proxies, Tor and AnonSurf What OpenVPN, WireGuard and IPsec are at a high level What a VPN does not protect against Why VPN trust depends on the provider The encrypted tunnel Protocol choices"
   },
   {
@@ -476,9 +476,9 @@
     ],
     "url": "/lessons/lesson-024/",
     "video_url": "https://www.youtube.com/watch?v=zVvuqhfmqdg",
-    "status": "published",
-    "duration": "7:46",
-    "published_date": "2026-09-28",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "How to Use OpenVPN on Kali Linux (.ovpn Setup, Step by Step) How to Use OpenVPN on Kali Linux (.ovpn Setup, Step by Step) Ch 24 Chapter 24 connects Kali to a VPN from the terminal. It shows what you need before starting, how to install OpenVPN, how to inspect a .ovpn configuration file, connect, verify your IP and DNS, troubleshoot common errors, and disconnect or switch servers. No VPN provider is recommended. What to check before choosing a VPN service How to install OpenVPN on Kali Linux How a .ovpn configuration file is structured How to connect and disconnect from the terminal How to verify your public IP and check for DNS leaks How to diagnose common OpenVPN connection errors What is inside a .ovpn file Verify the tunnel"
   },
   {
@@ -496,9 +496,9 @@
     ],
     "url": "/lessons/lesson-025/",
     "video_url": "https://www.youtube.com/watch?v=FIyJYpZCX3s",
-    "status": "published",
-    "duration": "6:49",
-    "published_date": "2026-09-30",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Is the Dark Web Illegal? How Tor Really Works (Beginners) Is the Dark Web Illegal? How Tor Really Works (Beginners) | Ch. 25 Chapter 25 separates Tor facts from dark-web myths. It defines the surface web, deep web and dark web, explains what Tor is, how onion routing passes traffic through relays, what .onion services are, and how Tor compares with a VPN or proxy. Legal and safety considerations close the lesson without linking to any hidden site. What Tor is and how traffic passes through several relays The difference between the surface web, deep web and dark web What .onion services are at a high level How Tor compares with a VPN and a proxy Common myths about Tor and the dark web Legal and safety considerations when using Tor Three layers of the web Onion routing in one sentence"
   },
   {
@@ -516,9 +516,9 @@
     ],
     "url": "/lessons/lesson-026/",
     "video_url": "https://www.youtube.com/watch?v=XmYzpTdNgd4",
-    "status": "published",
-    "duration": "7:48",
-    "published_date": "2026-10-02",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "How to Host a .onion Website on Tor (XAMPP + Kali Linux Lab) How to Host a .onion Website on Tor (XAMPP + Kali Linux Lab) Ch 26 Chapter 26 builds a harmless website and then publishes it as a Tor hidden service. It explains domains and servers, installs XAMPP, starts Apache, creates a test page, configures Tor to expose that local site as a .onion address, and tests it in Tor Browser. No real dark-web links are shared. What domains and servers do How to install XAMPP and start Apache on Kali How to host a basic page on localhost How a Tor hidden service maps a local port to a .onion address How to test the service in Tor Browser How to avoid leaking identifying information through the service From localhost to .onion Operational hygiene"
   },
   {
@@ -536,9 +536,9 @@
     ],
     "url": "/lessons/lesson-027/",
     "video_url": "https://www.youtube.com/watch?v=XOTSgWn1BgI",
-    "status": "published",
-    "duration": "3:41",
-    "published_date": "2026-10-04",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "How Tor Works: Why No One Can See Both Who You Are and Where You Go How Tor Works: Why No One Can See Both Who You Are and Where You Go Ch. 27 Chapter 27 explains onion routing step by step. It shows how traffic is wrapped in layers of encryption, what entry, middle and exit relays can each see, how .onion services differ from ordinary Tor browsing, and where Tor's practical and theoretical limits lie. No dark-web links are included. The problem Tor was designed to solve How a request travels through three relays Why each relay knows only its neighbours in the circuit How layered encryption works at a high level What an exit relay can see and why HTTPS still matters How hidden services differ from normal Tor browsing Where Tor's practical limits are Who sees what Limits remain"
   },
   {
@@ -556,9 +556,9 @@
     ],
     "url": "/lessons/lesson-028/",
     "video_url": "https://www.youtube.com/watch?v=WZmyECCsUI8",
-    "status": "published",
-    "duration": "2:01",
-    "published_date": "2026-10-06",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Proxychains in Kali Linux: Route Any Tool Through Tor (Setup) Proxychains in Kali Linux: Route Any Tool Through Tor (Setup) Ch. 28 Chapter 28 routes individual tools through Tor with Proxychains. It explains how the wrapper intercepts connections, where the configuration file lives, how strict, dynamic and random chain modes differ, how to point Proxychains at Tor, how to run Nmap through it, and how to fix common errors. What Proxychains is and how traffic flows through its chain Where the configuration file is and which lines matter How strict, dynamic and random chain modes differ How to point Proxychains at a local Tor SOCKS proxy How to run a tool such as Nmap through the chain How to troubleshoot common Proxychains errors A wrapper, not a tunnel Chain modes"
   },
   {
@@ -576,9 +576,9 @@
     ],
     "url": "/lessons/lesson-029/",
     "video_url": "https://www.youtube.com/watch?v=mnnzd1hLSgs",
-    "status": "published",
-    "duration": "9:03",
-    "published_date": "2026-10-08",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Tor + Proxychains in Kali Linux: Do It Right (Step by Step) Tor + Proxychains in Kali Linux: Do It Right (Step by Step) | Ch. 29 Chapter 29 combines the previous two lessons into a complete Tor plus Proxychains workflow. It demonstrates the correct order to start services, the configuration that keeps tools inside the Tor circuit, how to confirm traffic leaves through an exit node rather than your real address, and the common mistakes that silently break the chain. How Tor and Proxychains fit together in practice The correct order for starting Tor and testing the chain How to verify that traffic really uses a Tor exit node Which configuration mistakes silently bypass Tor How to recover when the chain stops working Why wrapping a tool is not the same as system-wide anonymity Order matters Leak checks"
   },
   {
@@ -596,9 +596,9 @@
     ],
     "url": "/lessons/lesson-030/",
     "video_url": "https://www.youtube.com/watch?v=3X9r_SBoBe8",
-    "status": "published",
-    "duration": "5:18",
-    "published_date": "2026-10-10",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Change Your MAC Address in Kali Linux (macchanger Tutorial) Change Your MAC Address in Kali Linux (macchanger Tutorial) | Ch. 30 Chapter 30 introduces MAC address spoofing with macchanger. It explains what a MAC address is, how it differs from an IP address, why it can be used to track a device on a local network, and demonstrates setting a random or custom address and restoring the original. The privacy and authorized-testing context is made explicit. What a MAC address is and how it differs from an IP address Why MAC addresses can be used for tracking or access control How to change to a random MAC with macchanger How to set a specific MAC address How to restore the original hardware address The legal and ethical limits of MAC spoofing Layer 2 identity Temporary and reversible"
   },
   {
@@ -616,9 +616,9 @@
     ],
     "url": "/lessons/lesson-031/",
     "video_url": "https://www.youtube.com/watch?v=lHyh7-Y_rq4",
-    "status": "published",
-    "duration": "5:24",
-    "published_date": "2026-10-12",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Macchanger Commands Explained: Every Option in Kali Linux Macchanger Commands Explained: Every Option in Kali Linux | Ch. 31 Chapter 31 is the complete macchanger reference. It demonstrates checking the current address, setting a random address, keeping the same vendor, setting a custom value, restoring the original, and fixing the common interface-is-up error. It is designed so you stop copying a single command from memory. How to display the current and permanent MAC address How to set a fully random MAC address How to generate a random address that keeps the same vendor prefix How to set a specific custom MAC address How to restore the permanent hardware address How to fix interface-state errors Vendor prefixes State before change"
   },
   {
@@ -636,9 +636,9 @@
     ],
     "url": "/lessons/lesson-032/",
     "video_url": "https://www.youtube.com/watch?v=25nmzEE0-EQ",
-    "status": "published",
-    "duration": "10:05",
-    "published_date": "2026-10-14",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "What Is Footprinting? First Step of Ethical Hacking Explained What Is Footprinting? First Step of Ethical Hacking Explained | Ch. 32 Chapter 32 begins the ethical hacking methodology with footprinting, the information-gathering phase that happens before any active testing. It separates passive from active footprinting, shows what kinds of information are collected, and explains where that information comes from and why it shapes every later phase. What footprinting is and where it fits in a penetration test The difference between passive and active footprinting What information is collected about an organization Which public sources reveal domain, infrastructure and people data How footprinting feeds scanning, enumeration and exploitation Why scope and authorization must be defined first Passive first Scope is a technical control"
   },
   {
@@ -656,9 +656,9 @@
     ],
     "url": "/lessons/lesson-033/",
     "video_url": "https://www.youtube.com/watch?v=j9-xvVNglAk",
-    "status": "published",
-    "duration": "5:07",
-    "published_date": "2026-10-16",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "DNS Enumeration in Kali Linux: dig, nslookup & dnsenum DNS Enumeration in Kali Linux: dig, nslookup & dnsenum | Ch. 33 Chapter 33 moves from footprinting concepts to DNS reconnaissance. It explains what DNS enumeration is, which records matter during an assessment, and how to query them manually with dig and nslookup before moving to automated Kali tools. Subdomains, mail servers and name servers are the focus. What DNS enumeration is and why it matters in reconnaissance Which DNS record types reveal useful infrastructure details How to query records with dig How to use nslookup for basic lookups How subdomains, MX and NS records expand the attack surface How to stay inside an authorized scope while enumerating DNS is a map of the organization Manual before automated"
   },
   {
@@ -676,9 +676,9 @@
     ],
     "url": "/lessons/lesson-034/",
     "video_url": "https://www.youtube.com/watch?v=RbPKaALMkVw",
-    "status": "published",
-    "duration": "3:29",
-    "published_date": "2026-10-18",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Dnsenum Tutorial: Find Subdomains Automatically in Kali Linux Dnsenum Tutorial: Find Subdomains Automatically in Kali Linux | Ch. 34 Chapter 34 automates the manual DNS work from the previous lesson with Dnsenum. It shows how to run the tool against a domain, how it uses wordlists to find subdomains, how to read the output, and how to combine it with other reconnaissance data. How Dnsenum automates DNS enumeration How to run Dnsenum against an authorized domain How subdomain discovery uses wordlists How to read name server, mail and host records in the output How to combine Dnsenum results with manual dig queries Why noisy enumeration needs rate and scope control Automation accelerates repetition Validate findings"
   },
   {
@@ -696,9 +696,9 @@
     ],
     "url": "/lessons/lesson-035/",
     "video_url": "https://www.youtube.com/watch?v=goZ5Og_4QqY",
-    "status": "published",
-    "duration": "2:53",
-    "published_date": "2026-10-20",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "DNSmap Tutorial: Find Subdomains with Wordlists in Kali Linux DNSmap Tutorial: Find Subdomains with Wordlists in Kali Linux | Ch. 35 Chapter 35 adds DNSmap to the enumeration toolkit. It explains how wordlist-driven subdomain discovery works, runs DNSmap against a test domain, compares it with Dnsenum, and shows how to read the output. The wordlist concept carries forward to password attacks later in the course. How DNSmap uses wordlists to enumerate subdomains How to run DNSmap against an authorized domain How to read discovered hostnames and addresses How DNSmap differs from Dnsenum Why wordlist quality affects results How to confirm discovered hosts Brute force by name Wordlists are reusable assets"
   },
   {
@@ -715,9 +715,9 @@
     ],
     "url": "/lessons/lesson-036/",
     "video_url": "https://www.youtube.com/watch?v=THD5_woIT5w",
-    "status": "published",
-    "duration": "2:25",
-    "published_date": "2026-10-22",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "DNStracer Tutorial: Trace DNS Resolution in Kali Linux DNStracer Tutorial: Trace DNS Resolution in Kali Linux | Ch. 36 Chapter 36 covers DNStracer, which follows a DNS query from the root servers through the TLD to the authoritative name server. It explains how to read that path, why it is useful during reconnaissance, and how it complements the subdomain tools from the previous two chapters. What DNStracer does differently from subdomain discovery tools How a DNS query travels from root to authoritative servers How to run DNStracer against a domain How to read the delegation path in the output When tracing DNS is useful during reconnaissance How DNStracer fits with Dnsenum and DNSmap Delegation is a chain Reconnaissance context"
   },
   {
@@ -735,9 +735,9 @@
     ],
     "url": "/lessons/lesson-037/",
     "video_url": "https://www.youtube.com/watch?v=pUCnYyi3mUk",
-    "status": "published",
-    "duration": "7:19",
-    "published_date": "2026-10-24",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Nmap for Beginners: Check Your Network First (ifconfig, route -n) Nmap for Beginners: Check Your Network First (ifconfig, route -n) Ch. 37 Chapter 37 prepares you to scan by first understanding your own network. It shows how to find your IP and MAC address with ifconfig and the modern ip a command, how to read the routing table and default gateway with route -n, what Nmap is, and how to run a first scan against your own lab network. Why understanding your own network comes before scanning How to find interface addresses with ifconfig and ip a How to read a routing table and identify the default gateway What Nmap does and why it is central to reconnaissance How to run a basic host-discovery scan in a lab Which scanning mistakes cause confusion or scope violations Know your starting point Host discovery before port scanning"
   },
   {
@@ -755,9 +755,9 @@
     ],
     "url": "/lessons/lesson-038/",
     "video_url": "https://www.youtube.com/watch?v=uk3SFjGhjfs",
-    "status": "published",
-    "duration": "4:29",
-    "published_date": "2026-10-26",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Nmap Scan Types Explained: -sS vs -sT vs -sU (Kali Linux Lab) Nmap Scan Types Explained: -sS vs -sT vs -sU (Kali Linux Lab) Ch. 38 Chapter 38 teaches the core Nmap workflow. It covers basic syntax, scanning a single host and a range, the -sS, -sT and -sU scan types, selecting ports, service and version detection with -sV, OS detection with -O, saving output to a file, and reading the results. How to write a basic Nmap command for one host How to scan a network range responsibly The difference between SYN, TCP connect and UDP scans How to scan specific ports versus the full range How service and version detection work with -sV How to use -O and save results to a file Scan types reflect different packets Ports and services"
   },
   {
@@ -775,9 +775,9 @@
     ],
     "url": "/lessons/lesson-039/",
     "video_url": "https://www.youtube.com/watch?v=uXIrK1nSRcg",
-    "status": "published",
-    "duration": "3:35",
-    "published_date": "2026-10-28",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Nmap Scans Explained: ACK, FIN, Xmas, -A and NSE (Kali Lab) Nmap Scans Explained: ACK, FIN, Xmas, -A and NSE (Kali Lab) Ch. 39 Chapter 39 looks under the hood of Nmap. It explains what the tool sends and how port states are decided, then demonstrates ACK, FIN and Xmas scans, timing templates -T0 through -T5, the aggressive -A option, output formats -oN, -oX, -oG and -oA, and the first steps with the Nmap Scripting Engine. What Nmap sends and how it decides a port is open, closed or filtered What ACK, FIN and Xmas scans are used for How timing options -T0 to -T5 affect speed and visibility What the aggressive -A scan combines How to save output in normal, XML, grepable and combined formats How to run a basic NSE script Port states are inferences Timing changes noise"
   },
   {
@@ -795,9 +795,9 @@
     ],
     "url": "/lessons/lesson-040/",
     "video_url": "https://www.youtube.com/watch?v=ZKRKqxHaXcQ",
-    "status": "published",
-    "duration": "4:23",
-    "published_date": "2026-10-30",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Searchsploit Tutorial: Find Exploits for Nmap Results (Kali Lab) Searchsploit Tutorial: Find Exploits for Nmap Results (Kali Lab) Ch. 40 Chapter 40 connects scanning to vulnerability research. After Nmap reveals a service and version, Searchsploit searches the local Exploit-DB archive for documented issues in that software. The lesson covers searching by name and version, reading results, filtering, viewing and copying an entry, updating the database, and where this fits in a penetration test. What Searchsploit and Exploit-DB are How to search by software name and version How to read and filter search results How to view an exploit entry and copy it to a working directory How to update the local Exploit-DB archive Why a public exploit match is not proof of exploitability Offline research Validate before exploiting"
   },
   {
@@ -815,9 +815,9 @@
     ],
     "url": "/lessons/lesson-041/",
     "video_url": "https://www.youtube.com/watch?v=KXsgH_AdMtM",
-    "status": "published",
-    "duration": "5:46",
-    "published_date": "2026-11-01",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "WhatWeb, Whois and Dirb in Kali Linux: Recon a Website (Lab) WhatWeb, Whois and Dirb in Kali Linux: Recon a Website (Lab) Ch. 41 Chapter 41 profiles a website before testing it. It explains website footprinting, then uses WhatWeb to identify technologies, Whois to read domain registration details and Dirb to discover directories and files. The lesson closes by showing how the three tools answer different questions about the same target. What website footprinting is and why it precedes testing How WhatWeb identifies CMS, frameworks and server technologies How Whois reveals registration and ownership details How Dirb performs content discovery with wordlists How to read and cross-check results from each tool Why discovered paths require authorization before access Three layers of website recon Content discovery is noisy"
   },
   {
@@ -835,9 +835,9 @@
     ],
     "url": "/lessons/lesson-042/",
     "video_url": "https://www.youtube.com/watch?v=hDShYE3ItWw",
-    "status": "published",
-    "duration": "10:18",
-    "published_date": "2026-11-03",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Nikto Tutorial: Scan a Web Server for Vulnerabilities (Kali Lab) Nikto Tutorial: Scan a Web Server for Vulnerabilities (Kali Lab) Ch. 42 Chapter 42 introduces vulnerability analysis with Nikto. It explains how scanning differs from exploitation, runs Nikto against an owned test site, demonstrates options for ports, SSL and output files, and then focuses on reading results, recognising false positives and prioritising findings. What a Nikto scan can and cannot tell you How vulnerability analysis differs from exploitation How to run a first Nikto scan against a lab site How to select ports, enable SSL checks and save output How to separate real findings from false positives How to prioritise remediation work Scanning is not exploitation Triage beats volume"
   },
   {
@@ -855,9 +855,9 @@
     ],
     "url": "/lessons/lesson-043/",
     "video_url": "https://www.youtube.com/watch?v=bWGfs1CRx0c",
-    "status": "published",
-    "duration": "3:50",
-    "published_date": "2026-11-05",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Cross-Site Scripting (XSS) for Beginners: How It Works and How to Stop It Cross-Site Scripting (XSS) for Beginners: How It Works and How to Stop It Ch. 43 Chapter 43 explains cross-site scripting without turning the lesson into a payload dump. It covers why the browser trusts the page, the difference between reflected, stored and DOM-based XSS, real impact such as session theft and page defacement, a safe practice-app demonstration, and the defences developers use. What cross-site scripting is and why it happens The difference between reflected, stored and DOM-based XSS What an attacker can achieve with script execution in a browser How to test for XSS safely in an owned lab application How output encoding, input handling and CSP reduce risk Why XSS is a developer problem as much as a tester's finding Three delivery patterns Defence is contextual encoding"
   },
   {
@@ -875,9 +875,9 @@
     ],
     "url": "/lessons/lesson-044/",
     "video_url": "https://www.youtube.com/watch?v=LLeM61KmYgU",
-    "status": "published",
-    "duration": "13:38",
-    "published_date": "2026-11-07",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "RedHawk Tutorial: All-in-One Website Recon Tool (Kali Lab) RedHawk Tutorial: All-in-One Website Recon Tool (Kali Lab) Ch. 44 Chapter 44 introduces RedHawk, a script that bundles several website reconnaissance checks. It shows how to install it with git clone, read the README and script before running it, execute it against an owned test site, interpret the server, Whois, geo-IP and CMS modules, and compare the results with separate tools. What RedHawk bundles into one reconnaissance workflow How to install a GitHub-hosted tool with git clone Why reading the README and source before running matters How to interpret server, Whois, geo-IP and CMS output What the built-in basic vulnerability checks can and cannot confirm When separate tools give better control than an all-in-one script Convenience versus transparency Third-party code risk"
   },
   {
@@ -895,9 +895,9 @@
     ],
     "url": "/lessons/lesson-045/",
     "video_url": "https://www.youtube.com/watch?v=kyLK_BoQTj4",
-    "status": "published",
-    "duration": "8:25",
-    "published_date": "2026-11-09",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "Linux Security Audit with Lynis: Find Weak Spots in Your System Linux Security Audit with Lynis: Find Weak Spots in Your System Ch. 45 Chapter 45 switches to defence with a Linux security audit. It walks through the areas worth checking — users, groups and sudo, file permissions, running services and open ports, packages and updates — shows built-in commands for each, then demonstrates Lynis as an automated auditing tool and how to read its report. What a Linux security audit evaluates How to review users, groups and sudo privileges How to find weak file permissions How to list running services and open ports How to check package and update status How to run Lynis and interpret its findings Attack surface begins locally Automation needs interpretation"
   },
   {
@@ -915,15 +915,15 @@
     ],
     "url": "/lessons/lesson-046/",
     "video_url": "https://www.youtube.com/watch?v=LDEIGs4vxNo",
-    "status": "published",
-    "duration": "9:15",
-    "published_date": "2026-11-11",
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
     "text": "SQLMap Tutorial: Test SQL Injection in a Safe Lab (DVWA + Kali) SQLMap Tutorial: Test SQL Injection in a Safe Lab (DVWA + Kali) Ch. 46 Chapter 46 is a complete SQL injection lab. It explains what SQL injection is, why it happens, sets up DVWA as a practice target, runs a first SQLMap test, shows how to read the results and the real impact, and finishes with the developer defences that actually prevent it. What SQL injection is and why it happens How SQLMap detects an injectable parameter How to set up DVWA as a safe practice target How to read SQLMap's output and enumerate databases What real-world impact SQL injection can have How parameterised queries and least privilege prevent it Data becomes code SQLMap automates confirmation and extraction"
   },
   {
     "number": 47,
     "chapter": 47,
-    "title": "Chapter 47: jSQL Injection Tutorial (GUI-Based SQL Injection Tool)",
+    "title": "Chapter 47: jSQL Injection Tutorial: SQL Injection with a GUI (Safe Lab)",
     "module": "Module 5: Web Application & Vulnerability Analysis",
     "description": "Use jSQL Injection to test SQL injection visually: interface tour, database and table enumeration, data extraction in a lab, and how it compares with SQLMap.",
     "tags": [
@@ -935,15 +935,15 @@
     ],
     "url": "/lessons/lesson-047/",
     "video_url": "https://www.youtube.com/watch?v=DBz53iix1hk",
-    "status": "published",
-    "duration": "6:30",
-    "published_date": "2026-11-13",
-    "text": "jSQL Injection Tutorial (GUI-Based SQL Injection Tool) jSQL Injection Tutorial (GUI-Based SQL Injection Tool) | Kali Linux Course Chapter 47 #kali #linux Chapter 47 continues the SQL injection section with jSQL Injection, a graphical Java-based tool. It compares jSQL with SQLMap, tours the interface, tests a lab URL, enumerates databases, tables and columns visually, extracts data, and discusses when a GUI is more practical than a command-line workflow. What jSQL Injection is and how it differs from SQLMap How to launch and navigate the jSQL interface How to test a lab URL for SQL injection using the GUI How to enumerate databases, tables and columns visually How to extract data through the interface in a lab The trade-offs between GUI and command-line SQL injection tools Same technique, different interface Visual tools still need methodology"
+    "status": "unavailable",
+    "duration": null,
+    "published_date": null,
+    "text": "jSQL Injection Tutorial: SQL Injection with a GUI (Safe Lab) jSQL Injection Tutorial: SQL Injection with a GUI (Safe Lab) Ch. 47 Chapter 47 continues the SQL injection section with jSQL Injection, a graphical Java-based tool. It compares jSQL with SQLMap, tours the interface, tests a lab URL, enumerates databases, tables and columns visually, extracts data, and discusses when a GUI is more practical than a command-line workflow. What jSQL Injection is and how it differs from SQLMap How to launch and navigate the jSQL interface How to test a lab URL for SQL injection using the GUI How to enumerate databases, tables and columns visually How to extract data through the interface in a lab The trade-offs between GUI and command-line SQL injection tools Same technique, different interface Visual tools still need methodology"
   },
   {
     "number": 48,
     "chapter": 48,
-    "title": "Chapter 48: sqlsus Tutorial: MySQL Injection & Exploitation Tool",
+    "title": "Chapter 48: sqlsus Tutorial: MySQL Injection Tool in Kali Linux (Safe Lab)",
     "module": "Module 5: Web Application & Vulnerability Analysis",
     "description": "Explore sqlsus, a MySQL-focused SQL injection tool: configuration, interactive shell, data extraction, and how it compares with SQLMap and jSQL Injection.",
     "tags": [
@@ -955,10 +955,10 @@
     ],
     "url": "/lessons/lesson-048/",
     "video_url": "https://www.youtube.com/watch?v=pIQGwyGizmU",
-    "status": "scheduled",
+    "status": "unavailable",
     "duration": null,
     "published_date": null,
-    "text": "sqlsus Tutorial: MySQL Injection & Exploitation Tool sqlsus Tutorial: MySQL Injection & Exploitation Tool | Kali Linux Course Chapter 48 #kali #linux Chapter 48 completes the SQL injection tool trio with sqlsus, a MySQL-focused interactive tool. It explains how sqlsus differs from SQLMap and jSQL, how to start it with a target configuration, how its interactive shell enumerates and extracts data, and when a MySQL-specific workflow is useful. What sqlsus is and how it differs from SQLMap and jSQL Why sqlsus focuses on MySQL injection scenarios How a sqlsus target configuration is structured How the interactive shell enumerates databases and tables How data extraction works in the tool When to choose sqlsus over the alternatives Three approaches to the same vulnerability class Configuration-driven testing"
+    "text": "sqlsus Tutorial: MySQL Injection Tool in Kali Linux (Safe Lab) sqlsus Tutorial: MySQL Injection Tool in Kali Linux (Safe Lab) Ch. 48 Chapter 48 completes the SQL injection tool trio with sqlsus, a MySQL-focused interactive tool. It explains how sqlsus differs from SQLMap and jSQL, how to start it with a target configuration, how its interactive shell enumerates and extracts data, and when a MySQL-specific workflow is useful. What sqlsus is and how it differs from SQLMap and jSQL Why sqlsus focuses on MySQL injection scenarios How a sqlsus target configuration is structured How the interactive shell enumerates databases and tables How data extraction works in the tool When to choose sqlsus over the alternatives Three approaches to the same vulnerability class Configuration-driven testing"
   },
   {
     "number": 49,
