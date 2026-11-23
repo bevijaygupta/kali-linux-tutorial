@@ -1,8 +1,8 @@
 {
   "total": 76,
-  "published": 47,
-  "scheduled": 29,
-  "last_checked": "2026-11-14",
+  "published": 0,
+  "scheduled": 24,
+  "last_checked": "2026-11-23",
   "modules": [
     {
       "number": 1,
@@ -11,7 +11,7 @@
       "start": 1,
       "end": 4,
       "count": 4,
-      "published": 4,
+      "published": 0,
       "scheduled": 0,
       "first_lesson": 1,
       "url": "/lessons/lesson-001/"
@@ -23,7 +23,7 @@
       "start": 5,
       "end": 19,
       "count": 15,
-      "published": 15,
+      "published": 0,
       "scheduled": 0,
       "first_lesson": 5,
       "url": "/lessons/lesson-005/"
@@ -35,7 +35,7 @@
       "start": 20,
       "end": 31,
       "count": 12,
-      "published": 12,
+      "published": 0,
       "scheduled": 0,
       "first_lesson": 20,
       "url": "/lessons/lesson-020/"
@@ -47,7 +47,7 @@
       "start": 32,
       "end": 41,
       "count": 10,
-      "published": 10,
+      "published": 0,
       "scheduled": 0,
       "first_lesson": 32,
       "url": "/lessons/lesson-032/"
@@ -59,8 +59,8 @@
       "start": 42,
       "end": 48,
       "count": 7,
-      "published": 6,
-      "scheduled": 1,
+      "published": 0,
+      "scheduled": 0,
       "first_lesson": 42,
       "url": "/lessons/lesson-042/"
     },
@@ -72,7 +72,7 @@
       "end": 59,
       "count": 11,
       "published": 0,
-      "scheduled": 11,
+      "scheduled": 7,
       "first_lesson": 49,
       "url": "/lessons/lesson-049/"
     },

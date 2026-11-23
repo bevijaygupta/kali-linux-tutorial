@@ -11,7 +11,7 @@ toc: false
 
 The YouTube playlist is ordered newest-first. This page reorders the same chapters into the order you should learn them: Chapter 1 is the first lesson, Chapter 76 is the last. Every card links to the original video on YouTube and to lesson notes on this site.
 
-**76 chapters** · **47 published** · **29 scheduled** · metadata checked November 14, 2026
+**76 chapters** · **0 published** · **24 scheduled** · metadata checked November 23, 2026
 
 <div class="lesson-search" data-lesson-search>
   <label class="visually-hidden" for="lesson-search-input">Search lessons</label>
@@ -26,81 +26,81 @@ The YouTube playlist is ordered newest-first. This page reorders the same chapte
 
 | Lesson | Topic | Learning Description | Watch |
 | ---: | --- | --- | --- |
-| 1 | Why Use Kali Linux? Kali vs Ubuntu for Ethical Hacking | What Kali Linux is and how it relates to BackTrack Linux and Debian | [Watch]({{ '/lessons/lesson-001/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=vItgAHdJ2x8) |
-| 2 | Linux Is NOT Unix? Unix vs Linux Explained for Beginners | What Unix is and how it started at Bell Labs in 1969 | [Watch]({{ '/lessons/lesson-002/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=vu_88fi41Ic) |
-| 3 | How to Download Kali Linux Safely (Avoid Fake ISOs) | Why unofficial Kali downloads are dangerous | [Watch]({{ '/lessons/lesson-003/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=j-O6TM0ZJ_M) |
-| 4 | How to Install VirtualBox (Windows, Mac, Linux) + Best Settings | Why a virtual machine is the right place to run Kali Linux as a beginner | [Watch]({{ '/lessons/lesson-004/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=eaO-bY_8ShU) |
+| 1 | Why Use Kali Linux? Kali vs Ubuntu for Ethical Hacking | What Kali Linux is and how it relates to BackTrack Linux and Debian | [Notes]({{ '/lessons/lesson-001/' | relative_url }}) · scheduled |
+| 2 | Linux Is NOT Unix? Unix vs Linux Explained for Beginners | What Unix is and how it started at Bell Labs in 1969 | [Notes]({{ '/lessons/lesson-002/' | relative_url }}) · scheduled |
+| 3 | How to Download Kali Linux Safely (Avoid Fake ISOs) | Why unofficial Kali downloads are dangerous | [Notes]({{ '/lessons/lesson-003/' | relative_url }}) · scheduled |
+| 4 | How to Install VirtualBox (Windows, Mac, Linux) + Best Settings | Why a virtual machine is the right place to run Kali Linux as a beginner | [Notes]({{ '/lessons/lesson-004/' | relative_url }}) · scheduled |
 
 ## Module 2: Linux Fundamentals for Ethical Hackers
 
 | Lesson | Topic | Learning Description | Watch |
 | ---: | --- | --- | --- |
-| 5 | Linux Terminal for Beginners: Don't Be Afraid of It | Why ethical hackers work from the terminal | [Watch]({{ '/lessons/lesson-005/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=eQdOi9Uy7fQ) |
-| 6 | 22 Essential Linux Commands for Beginners (Kali Linux) | Navigate the file system with pwd, ls and cd | [Watch]({{ '/lessons/lesson-006/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=65OxGc4ML88) |
-| 7 | Linux ls Command Explained: ls -l, ls -a, ls -lh (Beginners) | What ls does and when to use each common flag | [Watch]({{ '/lessons/lesson-007/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=HESJ5fGGXaU) |
-| 8 | Linux cd Command Explained: cd .., cd ~, cd - (Beginners) | How cd moves between directories | [Watch]({{ '/lessons/lesson-008/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=hHhNXrtmMXw) |
-| 9 | Linux rm Command: How to Delete Files Safely (rm -rf Explained) | How to create single and nested directories with mkdir | [Watch]({{ '/lessons/lesson-009/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=XqMQ-0Ac4KQ) |
-| 10 | Linux cp Command: How to Copy Files and Folders (cp -r Explained) | How to copy files and directories with cp | [Watch]({{ '/lessons/lesson-010/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=2H7RJarIEz0) |
-| 11 | How to Find Files in Linux Fast: locate, find, updatedb | How to find files by name with locate | [Watch]({{ '/lessons/lesson-011/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=w4DLetDLEbQ) |
-| 12 | Linux sort Command Explained: sort -n, -r, -k, -u (Beginners) | Why default sort is lexicographic rather than numeric | [Watch]({{ '/lessons/lesson-012/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=SbitksHGNTw) |
-| 13 | How to Zip and Unzip Files in Linux (zip -r, unzip -d) | How to compress one or more files with zip | [Watch]({{ '/lessons/lesson-013/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=rS3XcxS8OX4) |
-| 14 | Linux history Command: View, Reuse and Clear (+ whereis) | How to view your shell command history | [Watch]({{ '/lessons/lesson-014/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=p3g_HEZIoQg) |
-| 15 | How to Create a User in Linux: adduser, passwd, su Explained | How to create a user account with adduser | [Watch]({{ '/lessons/lesson-015/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=RG2tk_CjAvg) |
-| 16 | chmod Explained: Linux File Permissions (755, 777, +x) | How to read the ten-character permission string | [Watch]({{ '/lessons/lesson-016/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=_AEq-fLBN_Q) |
-| 17 | chmod u+x, g-w, o=r Explained: Symbolic Permissions in Linux | How to read a permission string character by character | [Watch]({{ '/lessons/lesson-017/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=YXyQa6XBP-g) |
-| 18 | Permission Denied in Linux? How to Fix File & Folder Permissions | How to grant read, write and execute permissions on files | [Watch]({{ '/lessons/lesson-018/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=zwvF5yFNEcQ) |
-| 19 | Linux Terminal Shortcuts: Ctrl+R, Ctrl+C, Tab and More (Beginners) | How to auto-complete commands and filenames with Tab | [Watch]({{ '/lessons/lesson-019/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=YYY8cSohOvY) |
+| 5 | Linux Terminal for Beginners: Don't Be Afraid of It | Why ethical hackers work from the terminal | [Notes]({{ '/lessons/lesson-005/' | relative_url }}) · scheduled |
+| 6 | 22 Essential Linux Commands for Beginners (Kali Linux) | Navigate the file system with pwd, ls and cd | [Notes]({{ '/lessons/lesson-006/' | relative_url }}) · scheduled |
+| 7 | Linux ls Command Explained: ls -l, ls -a, ls -lh (Beginners) | What ls does and when to use each common flag | [Notes]({{ '/lessons/lesson-007/' | relative_url }}) · scheduled |
+| 8 | Linux cd Command Explained: cd .., cd ~, cd - (Beginners) | How cd moves between directories | [Notes]({{ '/lessons/lesson-008/' | relative_url }}) · scheduled |
+| 9 | Linux rm Command: How to Delete Files Safely (rm -rf Explained) | How to create single and nested directories with mkdir | [Notes]({{ '/lessons/lesson-009/' | relative_url }}) · scheduled |
+| 10 | Linux cp Command: How to Copy Files and Folders (cp -r Explained) | How to copy files and directories with cp | [Notes]({{ '/lessons/lesson-010/' | relative_url }}) · scheduled |
+| 11 | How to Find Files in Linux Fast: locate, find, updatedb | How to find files by name with locate | [Notes]({{ '/lessons/lesson-011/' | relative_url }}) · scheduled |
+| 12 | Linux sort Command Explained: sort -n, -r, -k, -u (Beginners) | Why default sort is lexicographic rather than numeric | [Notes]({{ '/lessons/lesson-012/' | relative_url }}) · scheduled |
+| 13 | How to Zip and Unzip Files in Linux (zip -r, unzip -d) | How to compress one or more files with zip | [Notes]({{ '/lessons/lesson-013/' | relative_url }}) · scheduled |
+| 14 | Linux history Command: View, Reuse and Clear (+ whereis) | How to view your shell command history | [Notes]({{ '/lessons/lesson-014/' | relative_url }}) · scheduled |
+| 15 | How to Create a User in Linux: adduser, passwd, su Explained | How to create a user account with adduser | [Notes]({{ '/lessons/lesson-015/' | relative_url }}) · scheduled |
+| 16 | chmod Explained: Linux File Permissions (755, 777, +x) | How to read the ten-character permission string | [Notes]({{ '/lessons/lesson-016/' | relative_url }}) · scheduled |
+| 17 | chmod u+x, g-w, o=r Explained: Symbolic Permissions in Linux | How to read a permission string character by character | [Notes]({{ '/lessons/lesson-017/' | relative_url }}) · scheduled |
+| 18 | Permission Denied in Linux? How to Fix File & Folder Permissions | How to grant read, write and execute permissions on files | [Notes]({{ '/lessons/lesson-018/' | relative_url }}) · scheduled |
+| 19 | Linux Terminal Shortcuts: Ctrl+R, Ctrl+C, Tab and More (Beginners) | How to auto-complete commands and filenames with Tab | [Notes]({{ '/lessons/lesson-019/' | relative_url }}) · scheduled |
 
 ## Module 3: Networking, Anonymity & Traffic Routing
 
 | Lesson | Topic | Learning Description | Watch |
 | ---: | --- | --- | --- |
-| 20 | Is Kali Linux Anonymous? Tor vs VPN vs Proxy Explained | What anonymity means in cybersecurity | [Watch]({{ '/lessons/lesson-020/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=1Ae1TCmry1w) |
-| 21 | Proxy Server Explained: How It Hides Your IP (And What It Can't) | What a proxy is and how a request travels through it | [Watch]({{ '/lessons/lesson-021/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=5LzgmNjSrJ4) |
-| 22 | AnonSurf on Kali Linux: Route Your Traffic Through Tor (Setup) | What git clone does and how to download a tool from GitHub | [Watch]({{ '/lessons/lesson-022/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=J8TvrvYhRV8) |
-| 23 | What Is a VPN? How It Works vs Proxy vs Tor (Beginners) | What a virtual private network is | [Watch]({{ '/lessons/lesson-023/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=P-2pcECu1PQ) |
-| 24 | How to Use OpenVPN on Kali Linux (.ovpn Setup, Step by Step) | What to check before choosing a VPN service | [Watch]({{ '/lessons/lesson-024/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=zVvuqhfmqdg) |
-| 25 | Is the Dark Web Illegal? How Tor Really Works (Beginners) | What Tor is and how traffic passes through several relays | [Watch]({{ '/lessons/lesson-025/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=FIyJYpZCX3s) |
-| 26 | How to Host a .onion Website on Tor (XAMPP + Kali Linux Lab) | What domains and servers do | [Watch]({{ '/lessons/lesson-026/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=XmYzpTdNgd4) |
-| 27 | How Tor Works: Why No One Can See Both Who You Are and Where You Go | The problem Tor was designed to solve | [Watch]({{ '/lessons/lesson-027/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=XOTSgWn1BgI) |
-| 28 | Proxychains in Kali Linux: Route Any Tool Through Tor (Setup) | What Proxychains is and how traffic flows through its chain | [Watch]({{ '/lessons/lesson-028/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=WZmyECCsUI8) |
-| 29 | Tor + Proxychains in Kali Linux: Do It Right (Step by Step) | How Tor and Proxychains fit together in practice | [Watch]({{ '/lessons/lesson-029/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=mnnzd1hLSgs) |
-| 30 | Change Your MAC Address in Kali Linux (macchanger Tutorial) | What a MAC address is and how it differs from an IP address | [Watch]({{ '/lessons/lesson-030/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=3X9r_SBoBe8) |
-| 31 | Macchanger Commands Explained: Every Option in Kali Linux | How to display the current and permanent MAC address | [Watch]({{ '/lessons/lesson-031/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=lHyh7-Y_rq4) |
+| 20 | Is Kali Linux Anonymous? Tor vs VPN vs Proxy Explained | What anonymity means in cybersecurity | [Notes]({{ '/lessons/lesson-020/' | relative_url }}) · scheduled |
+| 21 | Proxy Server Explained: How It Hides Your IP (And What It Can't) | What a proxy is and how a request travels through it | [Notes]({{ '/lessons/lesson-021/' | relative_url }}) · scheduled |
+| 22 | AnonSurf on Kali Linux: Route Your Traffic Through Tor (Setup) | What git clone does and how to download a tool from GitHub | [Notes]({{ '/lessons/lesson-022/' | relative_url }}) · scheduled |
+| 23 | What Is a VPN? How It Works vs Proxy vs Tor (Beginners) | What a virtual private network is | [Notes]({{ '/lessons/lesson-023/' | relative_url }}) · scheduled |
+| 24 | How to Use OpenVPN on Kali Linux (.ovpn Setup, Step by Step) | What to check before choosing a VPN service | [Notes]({{ '/lessons/lesson-024/' | relative_url }}) · scheduled |
+| 25 | Is the Dark Web Illegal? How Tor Really Works (Beginners) | What Tor is and how traffic passes through several relays | [Notes]({{ '/lessons/lesson-025/' | relative_url }}) · scheduled |
+| 26 | How to Host a .onion Website on Tor (XAMPP + Kali Linux Lab) | What domains and servers do | [Notes]({{ '/lessons/lesson-026/' | relative_url }}) · scheduled |
+| 27 | How Tor Works: Why No One Can See Both Who You Are and Where You Go | The problem Tor was designed to solve | [Notes]({{ '/lessons/lesson-027/' | relative_url }}) · scheduled |
+| 28 | Proxychains in Kali Linux: Route Any Tool Through Tor (Setup) | What Proxychains is and how traffic flows through its chain | [Notes]({{ '/lessons/lesson-028/' | relative_url }}) · scheduled |
+| 29 | Tor + Proxychains in Kali Linux: Do It Right (Step by Step) | How Tor and Proxychains fit together in practice | [Notes]({{ '/lessons/lesson-029/' | relative_url }}) · scheduled |
+| 30 | Change Your MAC Address in Kali Linux (macchanger Tutorial) | What a MAC address is and how it differs from an IP address | [Notes]({{ '/lessons/lesson-030/' | relative_url }}) · scheduled |
+| 31 | Macchanger Commands Explained: Every Option in Kali Linux | How to display the current and permanent MAC address | [Notes]({{ '/lessons/lesson-031/' | relative_url }}) · scheduled |
 
 ## Module 4: Reconnaissance & Network Scanning
 
 | Lesson | Topic | Learning Description | Watch |
 | ---: | --- | --- | --- |
-| 32 | What Is Footprinting? First Step of Ethical Hacking Explained | What footprinting is and where it fits in a penetration test | [Watch]({{ '/lessons/lesson-032/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=25nmzEE0-EQ) |
-| 33 | DNS Enumeration in Kali Linux: dig, nslookup & dnsenum | What DNS enumeration is and why it matters in reconnaissance | [Watch]({{ '/lessons/lesson-033/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=j9-xvVNglAk) |
-| 34 | Dnsenum Tutorial: Find Subdomains Automatically in Kali Linux | How Dnsenum automates DNS enumeration | [Watch]({{ '/lessons/lesson-034/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=RbPKaALMkVw) |
-| 35 | DNSmap Tutorial: Find Subdomains with Wordlists in Kali Linux | How DNSmap uses wordlists to enumerate subdomains | [Watch]({{ '/lessons/lesson-035/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=goZ5Og_4QqY) |
-| 36 | DNStracer Tutorial: Trace DNS Resolution in Kali Linux | What DNStracer does differently from subdomain discovery tools | [Watch]({{ '/lessons/lesson-036/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=THD5_woIT5w) |
-| 37 | Nmap for Beginners: Check Your Network First (ifconfig, route -n) | Why understanding your own network comes before scanning | [Watch]({{ '/lessons/lesson-037/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=pUCnYyi3mUk) |
-| 38 | Nmap Scan Types Explained: -sS vs -sT vs -sU (Kali Linux Lab) | How to write a basic Nmap command for one host | [Watch]({{ '/lessons/lesson-038/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=uk3SFjGhjfs) |
-| 39 | Nmap Scans Explained: ACK, FIN, Xmas, -A and NSE (Kali Lab) | What Nmap sends and how it decides a port is open, closed or filtered | [Watch]({{ '/lessons/lesson-039/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=uXIrK1nSRcg) |
-| 40 | Searchsploit Tutorial: Find Exploits for Nmap Results (Kali Lab) | What Searchsploit and Exploit-DB are | [Watch]({{ '/lessons/lesson-040/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=ZKRKqxHaXcQ) |
-| 41 | WhatWeb, Whois and Dirb in Kali Linux: Recon a Website (Lab) | What website footprinting is and why it precedes testing | [Watch]({{ '/lessons/lesson-041/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=KXsgH_AdMtM) |
+| 32 | What Is Footprinting? First Step of Ethical Hacking Explained | What footprinting is and where it fits in a penetration test | [Notes]({{ '/lessons/lesson-032/' | relative_url }}) · scheduled |
+| 33 | DNS Enumeration in Kali Linux: dig, nslookup & dnsenum | What DNS enumeration is and why it matters in reconnaissance | [Notes]({{ '/lessons/lesson-033/' | relative_url }}) · scheduled |
+| 34 | Dnsenum Tutorial: Find Subdomains Automatically in Kali Linux | How Dnsenum automates DNS enumeration | [Notes]({{ '/lessons/lesson-034/' | relative_url }}) · scheduled |
+| 35 | DNSmap Tutorial: Find Subdomains with Wordlists in Kali Linux | How DNSmap uses wordlists to enumerate subdomains | [Notes]({{ '/lessons/lesson-035/' | relative_url }}) · scheduled |
+| 36 | DNStracer Tutorial: Trace DNS Resolution in Kali Linux | What DNStracer does differently from subdomain discovery tools | [Notes]({{ '/lessons/lesson-036/' | relative_url }}) · scheduled |
+| 37 | Nmap for Beginners: Check Your Network First (ifconfig, route -n) | Why understanding your own network comes before scanning | [Notes]({{ '/lessons/lesson-037/' | relative_url }}) · scheduled |
+| 38 | Nmap Scan Types Explained: -sS vs -sT vs -sU (Kali Linux Lab) | How to write a basic Nmap command for one host | [Notes]({{ '/lessons/lesson-038/' | relative_url }}) · scheduled |
+| 39 | Nmap Scans Explained: ACK, FIN, Xmas, -A and NSE (Kali Lab) | What Nmap sends and how it decides a port is open, closed or filtered | [Notes]({{ '/lessons/lesson-039/' | relative_url }}) · scheduled |
+| 40 | Searchsploit Tutorial: Find Exploits for Nmap Results (Kali Lab) | What Searchsploit and Exploit-DB are | [Notes]({{ '/lessons/lesson-040/' | relative_url }}) · scheduled |
+| 41 | WhatWeb, Whois and Dirb in Kali Linux: Recon a Website (Lab) | What website footprinting is and why it precedes testing | [Notes]({{ '/lessons/lesson-041/' | relative_url }}) · scheduled |
 
 ## Module 5: Web Application & Vulnerability Analysis
 
 | Lesson | Topic | Learning Description | Watch |
 | ---: | --- | --- | --- |
-| 42 | Nikto Tutorial: Scan a Web Server for Vulnerabilities (Kali Lab) | What a Nikto scan can and cannot tell you | [Watch]({{ '/lessons/lesson-042/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=hDShYE3ItWw) |
-| 43 | Cross-Site Scripting (XSS) for Beginners: How It Works and How to Stop It | What cross-site scripting is and why it happens | [Watch]({{ '/lessons/lesson-043/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=bWGfs1CRx0c) |
-| 44 | RedHawk Tutorial: All-in-One Website Recon Tool (Kali Lab) | What RedHawk bundles into one reconnaissance workflow | [Watch]({{ '/lessons/lesson-044/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=LLeM61KmYgU) |
-| 45 | Linux Security Audit with Lynis: Find Weak Spots in Your System | What a Linux security audit evaluates | [Watch]({{ '/lessons/lesson-045/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=kyLK_BoQTj4) |
-| 46 | SQLMap Tutorial: Test SQL Injection in a Safe Lab (DVWA + Kali) | What SQL injection is and why it happens | [Watch]({{ '/lessons/lesson-046/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=LDEIGs4vxNo) |
-| 47 | jSQL Injection Tutorial (GUI-Based SQL Injection Tool) | What jSQL Injection is and how it differs from SQLMap | [Watch]({{ '/lessons/lesson-047/' | relative_url }}) · [YouTube](https://www.youtube.com/watch?v=DBz53iix1hk) |
-| 48 | sqlsus Tutorial: MySQL Injection & Exploitation Tool | What sqlsus is and how it differs from SQLMap and jSQL | [Notes]({{ '/lessons/lesson-048/' | relative_url }}) · scheduled |
+| 42 | Nikto Tutorial: Scan a Web Server for Vulnerabilities (Kali Lab) | What a Nikto scan can and cannot tell you | [Notes]({{ '/lessons/lesson-042/' | relative_url }}) · scheduled |
+| 43 | Cross-Site Scripting (XSS) for Beginners: How It Works and How to Stop It | What cross-site scripting is and why it happens | [Notes]({{ '/lessons/lesson-043/' | relative_url }}) · scheduled |
+| 44 | RedHawk Tutorial: All-in-One Website Recon Tool (Kali Lab) | What RedHawk bundles into one reconnaissance workflow | [Notes]({{ '/lessons/lesson-044/' | relative_url }}) · scheduled |
+| 45 | Linux Security Audit with Lynis: Find Weak Spots in Your System | What a Linux security audit evaluates | [Notes]({{ '/lessons/lesson-045/' | relative_url }}) · scheduled |
+| 46 | SQLMap Tutorial: Test SQL Injection in a Safe Lab (DVWA + Kali) | What SQL injection is and why it happens | [Notes]({{ '/lessons/lesson-046/' | relative_url }}) · scheduled |
+| 47 | jSQL Injection Tutorial: SQL Injection with a GUI (Safe Lab) | What jSQL Injection is and how it differs from SQLMap | [Notes]({{ '/lessons/lesson-047/' | relative_url }}) · scheduled |
+| 48 | sqlsus Tutorial: MySQL Injection Tool in Kali Linux (Safe Lab) | What sqlsus is and how it differs from SQLMap and jSQL | [Notes]({{ '/lessons/lesson-048/' | relative_url }}) · scheduled |
 
 ## Module 6: Password Attacks & Hash Cracking
 
 | Lesson | Topic | Learning Description | Watch |
 | ---: | --- | --- | --- |
-| 49 | What is a Password Attack? Types Explained | What a password attack is and why credentials remain a common target | [Notes]({{ '/lessons/lesson-049/' | relative_url }}) · scheduled |
-| 50 | What is Hashing? Explained for Beginners | What a hash function is and how hashing works | [Notes]({{ '/lessons/lesson-050/' | relative_url }}) · scheduled |
+| 49 | How Passwords Get Cracked: Brute Force vs Dictionary Attacks | What a password attack is and why credentials remain a common target | [Notes]({{ '/lessons/lesson-049/' | relative_url }}) · scheduled |
+| 50 | Hashing vs Encryption: What's the Difference? (Beginners) | What a hash function is and how hashing works | [Notes]({{ '/lessons/lesson-050/' | relative_url }}) · scheduled |
 | 51 | Hash-Identifier Tutorial: Find Out What Hash Type You Have | Why hash identification comes before cracking | [Notes]({{ '/lessons/lesson-051/' | relative_url }}) · scheduled |
 | 52 | Password & Hash Cracking Tutorial (Hands-On) | The end-to-end password and hash cracking workflow | [Notes]({{ '/lessons/lesson-052/' | relative_url }}) · scheduled |
 | 53 | CEWL Tutorial: Build Custom Wordlists from Websites | Why target-specific wordlists can outperform generic lists | [Notes]({{ '/lessons/lesson-053/' | relative_url }}) · scheduled |
